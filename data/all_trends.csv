@@ -1,0 +1,2326 @@
+date,keyword,interest,category
+2026-03-03,pet insurance,78,dog_products
+2026-03-04,pet insurance,69,dog_products
+2026-03-05,pet insurance,69,dog_products
+2026-03-06,pet insurance,71,dog_products
+2026-03-07,pet insurance,70,dog_products
+2026-03-08,pet insurance,67,dog_products
+2026-03-09,pet insurance,74,dog_products
+2026-03-10,pet insurance,71,dog_products
+2026-03-11,pet insurance,64,dog_products
+2026-03-12,pet insurance,72,dog_products
+2026-03-13,pet insurance,66,dog_products
+2026-03-14,pet insurance,64,dog_products
+2026-03-15,pet insurance,60,dog_products
+2026-03-16,pet insurance,69,dog_products
+2026-03-17,pet insurance,68,dog_products
+2026-03-18,pet insurance,76,dog_products
+2026-03-19,pet insurance,74,dog_products
+2026-03-20,pet insurance,73,dog_products
+2026-03-21,pet insurance,73,dog_products
+2026-03-22,pet insurance,66,dog_products
+2026-03-23,pet insurance,74,dog_products
+2026-03-24,pet insurance,69,dog_products
+2026-03-25,pet insurance,73,dog_products
+2026-03-26,pet insurance,72,dog_products
+2026-03-27,pet insurance,72,dog_products
+2026-03-28,pet insurance,67,dog_products
+2026-03-29,pet insurance,77,dog_products
+2026-03-30,pet insurance,69,dog_products
+2026-03-31,pet insurance,75,dog_products
+2026-04-01,pet insurance,71,dog_products
+2026-04-02,pet insurance,68,dog_products
+2026-04-03,pet insurance,77,dog_products
+2026-04-04,pet insurance,60,dog_products
+2026-04-05,pet insurance,57,dog_products
+2026-04-06,pet insurance,77,dog_products
+2026-04-07,pet insurance,75,dog_products
+2026-04-08,pet insurance,75,dog_products
+2026-04-09,pet insurance,84,dog_products
+2026-04-10,pet insurance,73,dog_products
+2026-04-11,pet insurance,64,dog_products
+2026-04-12,pet insurance,67,dog_products
+2026-04-13,pet insurance,71,dog_products
+2026-04-14,pet insurance,87,dog_products
+2026-04-15,pet insurance,75,dog_products
+2026-04-16,pet insurance,73,dog_products
+2026-04-17,pet insurance,87,dog_products
+2026-04-18,pet insurance,71,dog_products
+2026-04-19,pet insurance,71,dog_products
+2026-04-20,pet insurance,73,dog_products
+2026-04-21,pet insurance,75,dog_products
+2026-04-22,pet insurance,74,dog_products
+2026-04-23,pet insurance,74,dog_products
+2026-04-24,pet insurance,66,dog_products
+2026-04-25,pet insurance,59,dog_products
+2026-04-26,pet insurance,71,dog_products
+2026-04-27,pet insurance,74,dog_products
+2026-04-28,pet insurance,75,dog_products
+2026-04-29,pet insurance,74,dog_products
+2026-04-30,pet insurance,89,dog_products
+2026-05-01,pet insurance,76,dog_products
+2026-05-02,pet insurance,83,dog_products
+2026-05-03,pet insurance,77,dog_products
+2026-05-04,pet insurance,85,dog_products
+2026-05-05,pet insurance,84,dog_products
+2026-05-06,pet insurance,90,dog_products
+2026-05-07,pet insurance,98,dog_products
+2026-05-08,pet insurance,80,dog_products
+2026-05-09,pet insurance,73,dog_products
+2026-05-10,pet insurance,77,dog_products
+2026-05-11,pet insurance,87,dog_products
+2026-05-12,pet insurance,92,dog_products
+2026-05-13,pet insurance,100,dog_products
+2026-05-14,pet insurance,91,dog_products
+2026-05-15,pet insurance,86,dog_products
+2026-05-16,pet insurance,69,dog_products
+2026-05-17,pet insurance,68,dog_products
+2026-05-18,pet insurance,76,dog_products
+2026-05-19,pet insurance,77,dog_products
+2026-05-20,pet insurance,61,dog_products
+2026-05-21,pet insurance,57,dog_products
+2026-05-22,pet insurance,56,dog_products
+2026-05-23,pet insurance,50,dog_products
+2026-05-24,pet insurance,50,dog_products
+2026-05-25,pet insurance,52,dog_products
+2026-05-26,pet insurance,62,dog_products
+2026-05-27,pet insurance,66,dog_products
+2026-05-28,pet insurance,63,dog_products
+2026-05-29,pet insurance,60,dog_products
+2026-05-30,pet insurance,53,dog_products
+2026-05-31,pet insurance,59,dog_products
+2026-06-01,pet insurance,68,dog_products
+2026-06-02,pet insurance,71,dog_products
+2026-06-03,pet insurance,52,dog_products
+2026-03-03,dog food delivery,38,dog_products
+2026-03-04,dog food delivery,41,dog_products
+2026-03-05,dog food delivery,44,dog_products
+2026-03-06,dog food delivery,41,dog_products
+2026-03-07,dog food delivery,46,dog_products
+2026-03-08,dog food delivery,47,dog_products
+2026-03-09,dog food delivery,38,dog_products
+2026-03-10,dog food delivery,21,dog_products
+2026-03-11,dog food delivery,48,dog_products
+2026-03-12,dog food delivery,35,dog_products
+2026-03-13,dog food delivery,35,dog_products
+2026-03-14,dog food delivery,41,dog_products
+2026-03-15,dog food delivery,39,dog_products
+2026-03-16,dog food delivery,29,dog_products
+2026-03-17,dog food delivery,24,dog_products
+2026-03-18,dog food delivery,45,dog_products
+2026-03-19,dog food delivery,39,dog_products
+2026-03-20,dog food delivery,28,dog_products
+2026-03-21,dog food delivery,54,dog_products
+2026-03-22,dog food delivery,37,dog_products
+2026-03-23,dog food delivery,33,dog_products
+2026-03-24,dog food delivery,39,dog_products
+2026-03-25,dog food delivery,45,dog_products
+2026-03-26,dog food delivery,23,dog_products
+2026-03-27,dog food delivery,51,dog_products
+2026-03-28,dog food delivery,44,dog_products
+2026-03-29,dog food delivery,67,dog_products
+2026-03-30,dog food delivery,62,dog_products
+2026-03-31,dog food delivery,54,dog_products
+2026-04-01,dog food delivery,76,dog_products
+2026-04-02,dog food delivery,84,dog_products
+2026-04-03,dog food delivery,74,dog_products
+2026-04-04,dog food delivery,56,dog_products
+2026-04-05,dog food delivery,43,dog_products
+2026-04-06,dog food delivery,68,dog_products
+2026-04-07,dog food delivery,78,dog_products
+2026-04-08,dog food delivery,72,dog_products
+2026-04-09,dog food delivery,83,dog_products
+2026-04-10,dog food delivery,74,dog_products
+2026-04-11,dog food delivery,65,dog_products
+2026-04-12,dog food delivery,61,dog_products
+2026-04-13,dog food delivery,100,dog_products
+2026-04-14,dog food delivery,78,dog_products
+2026-04-15,dog food delivery,67,dog_products
+2026-04-16,dog food delivery,75,dog_products
+2026-04-17,dog food delivery,88,dog_products
+2026-04-18,dog food delivery,91,dog_products
+2026-04-19,dog food delivery,65,dog_products
+2026-04-20,dog food delivery,72,dog_products
+2026-04-21,dog food delivery,66,dog_products
+2026-04-22,dog food delivery,71,dog_products
+2026-04-23,dog food delivery,65,dog_products
+2026-04-24,dog food delivery,61,dog_products
+2026-04-25,dog food delivery,63,dog_products
+2026-04-26,dog food delivery,69,dog_products
+2026-04-27,dog food delivery,55,dog_products
+2026-04-28,dog food delivery,48,dog_products
+2026-04-29,dog food delivery,49,dog_products
+2026-04-30,dog food delivery,50,dog_products
+2026-05-01,dog food delivery,39,dog_products
+2026-05-02,dog food delivery,49,dog_products
+2026-05-03,dog food delivery,49,dog_products
+2026-05-04,dog food delivery,47,dog_products
+2026-05-05,dog food delivery,57,dog_products
+2026-05-06,dog food delivery,54,dog_products
+2026-05-07,dog food delivery,61,dog_products
+2026-05-08,dog food delivery,65,dog_products
+2026-05-09,dog food delivery,55,dog_products
+2026-05-10,dog food delivery,71,dog_products
+2026-05-11,dog food delivery,37,dog_products
+2026-05-12,dog food delivery,47,dog_products
+2026-05-13,dog food delivery,73,dog_products
+2026-05-14,dog food delivery,91,dog_products
+2026-05-15,dog food delivery,80,dog_products
+2026-05-16,dog food delivery,78,dog_products
+2026-05-17,dog food delivery,79,dog_products
+2026-05-18,dog food delivery,53,dog_products
+2026-05-19,dog food delivery,55,dog_products
+2026-05-20,dog food delivery,22,dog_products
+2026-05-21,dog food delivery,17,dog_products
+2026-05-22,dog food delivery,22,dog_products
+2026-05-23,dog food delivery,23,dog_products
+2026-05-24,dog food delivery,24,dog_products
+2026-05-25,dog food delivery,20,dog_products
+2026-05-26,dog food delivery,19,dog_products
+2026-05-27,dog food delivery,26,dog_products
+2026-05-28,dog food delivery,18,dog_products
+2026-05-29,dog food delivery,22,dog_products
+2026-05-30,dog food delivery,22,dog_products
+2026-05-31,dog food delivery,30,dog_products
+2026-06-01,dog food delivery,25,dog_products
+2026-06-02,dog food delivery,17,dog_products
+2026-06-03,dog food delivery,17,dog_products
+2026-03-03,fresh dog food,16,dog_products
+2026-03-04,fresh dog food,14,dog_products
+2026-03-05,fresh dog food,18,dog_products
+2026-03-06,fresh dog food,13,dog_products
+2026-03-07,fresh dog food,17,dog_products
+2026-03-08,fresh dog food,19,dog_products
+2026-03-09,fresh dog food,16,dog_products
+2026-03-10,fresh dog food,18,dog_products
+2026-03-11,fresh dog food,15,dog_products
+2026-03-12,fresh dog food,16,dog_products
+2026-03-13,fresh dog food,14,dog_products
+2026-03-14,fresh dog food,18,dog_products
+2026-03-15,fresh dog food,20,dog_products
+2026-03-16,fresh dog food,14,dog_products
+2026-03-17,fresh dog food,15,dog_products
+2026-03-18,fresh dog food,14,dog_products
+2026-03-19,fresh dog food,17,dog_products
+2026-03-20,fresh dog food,20,dog_products
+2026-03-21,fresh dog food,24,dog_products
+2026-03-22,fresh dog food,28,dog_products
+2026-03-23,fresh dog food,23,dog_products
+2026-03-24,fresh dog food,25,dog_products
+2026-03-25,fresh dog food,25,dog_products
+2026-03-26,fresh dog food,30,dog_products
+2026-03-27,fresh dog food,32,dog_products
+2026-03-28,fresh dog food,51,dog_products
+2026-03-29,fresh dog food,49,dog_products
+2026-03-30,fresh dog food,41,dog_products
+2026-03-31,fresh dog food,51,dog_products
+2026-04-01,fresh dog food,59,dog_products
+2026-04-02,fresh dog food,60,dog_products
+2026-04-03,fresh dog food,60,dog_products
+2026-04-04,fresh dog food,72,dog_products
+2026-04-05,fresh dog food,66,dog_products
+2026-04-06,fresh dog food,79,dog_products
+2026-04-07,fresh dog food,72,dog_products
+2026-04-08,fresh dog food,71,dog_products
+2026-04-09,fresh dog food,63,dog_products
+2026-04-10,fresh dog food,76,dog_products
+2026-04-11,fresh dog food,88,dog_products
+2026-04-12,fresh dog food,91,dog_products
+2026-04-13,fresh dog food,69,dog_products
+2026-04-14,fresh dog food,83,dog_products
+2026-04-15,fresh dog food,76,dog_products
+2026-04-16,fresh dog food,74,dog_products
+2026-04-17,fresh dog food,87,dog_products
+2026-04-18,fresh dog food,96,dog_products
+2026-04-19,fresh dog food,71,dog_products
+2026-04-20,fresh dog food,58,dog_products
+2026-04-21,fresh dog food,56,dog_products
+2026-04-22,fresh dog food,60,dog_products
+2026-04-23,fresh dog food,54,dog_products
+2026-04-24,fresh dog food,52,dog_products
+2026-04-25,fresh dog food,54,dog_products
+2026-04-26,fresh dog food,65,dog_products
+2026-04-27,fresh dog food,47,dog_products
+2026-04-28,fresh dog food,44,dog_products
+2026-04-29,fresh dog food,39,dog_products
+2026-04-30,fresh dog food,46,dog_products
+2026-05-01,fresh dog food,37,dog_products
+2026-05-02,fresh dog food,39,dog_products
+2026-05-03,fresh dog food,47,dog_products
+2026-05-04,fresh dog food,33,dog_products
+2026-05-05,fresh dog food,31,dog_products
+2026-05-06,fresh dog food,50,dog_products
+2026-05-07,fresh dog food,55,dog_products
+2026-05-08,fresh dog food,53,dog_products
+2026-05-09,fresh dog food,55,dog_products
+2026-05-10,fresh dog food,57,dog_products
+2026-05-11,fresh dog food,41,dog_products
+2026-05-12,fresh dog food,41,dog_products
+2026-05-13,fresh dog food,81,dog_products
+2026-05-14,fresh dog food,100,dog_products
+2026-05-15,fresh dog food,80,dog_products
+2026-05-16,fresh dog food,86,dog_products
+2026-05-17,fresh dog food,83,dog_products
+2026-05-18,fresh dog food,59,dog_products
+2026-05-19,fresh dog food,52,dog_products
+2026-05-20,fresh dog food,21,dog_products
+2026-05-21,fresh dog food,23,dog_products
+2026-05-22,fresh dog food,25,dog_products
+2026-05-23,fresh dog food,27,dog_products
+2026-05-24,fresh dog food,29,dog_products
+2026-05-25,fresh dog food,26,dog_products
+2026-05-26,fresh dog food,22,dog_products
+2026-05-27,fresh dog food,23,dog_products
+2026-05-28,fresh dog food,23,dog_products
+2026-05-29,fresh dog food,26,dog_products
+2026-05-30,fresh dog food,26,dog_products
+2026-05-31,fresh dog food,27,dog_products
+2026-06-01,fresh dog food,19,dog_products
+2026-06-02,fresh dog food,17,dog_products
+2026-06-03,fresh dog food,25,dog_products
+2026-03-03,dog DNA test,36,dog_products
+2026-03-04,dog DNA test,30,dog_products
+2026-03-05,dog DNA test,38,dog_products
+2026-03-06,dog DNA test,42,dog_products
+2026-03-07,dog DNA test,53,dog_products
+2026-03-08,dog DNA test,37,dog_products
+2026-03-09,dog DNA test,33,dog_products
+2026-03-10,dog DNA test,39,dog_products
+2026-03-11,dog DNA test,25,dog_products
+2026-03-12,dog DNA test,28,dog_products
+2026-03-13,dog DNA test,30,dog_products
+2026-03-14,dog DNA test,45,dog_products
+2026-03-15,dog DNA test,37,dog_products
+2026-03-16,dog DNA test,38,dog_products
+2026-03-17,dog DNA test,29,dog_products
+2026-03-18,dog DNA test,37,dog_products
+2026-03-19,dog DNA test,30,dog_products
+2026-03-20,dog DNA test,40,dog_products
+2026-03-21,dog DNA test,56,dog_products
+2026-03-22,dog DNA test,69,dog_products
+2026-03-23,dog DNA test,30,dog_products
+2026-03-24,dog DNA test,44,dog_products
+2026-03-25,dog DNA test,29,dog_products
+2026-03-26,dog DNA test,40,dog_products
+2026-03-27,dog DNA test,44,dog_products
+2026-03-28,dog DNA test,41,dog_products
+2026-03-29,dog DNA test,57,dog_products
+2026-03-30,dog DNA test,42,dog_products
+2026-03-31,dog DNA test,51,dog_products
+2026-04-01,dog DNA test,57,dog_products
+2026-04-02,dog DNA test,58,dog_products
+2026-04-03,dog DNA test,57,dog_products
+2026-04-04,dog DNA test,76,dog_products
+2026-04-05,dog DNA test,47,dog_products
+2026-04-06,dog DNA test,55,dog_products
+2026-04-07,dog DNA test,54,dog_products
+2026-04-08,dog DNA test,56,dog_products
+2026-04-09,dog DNA test,59,dog_products
+2026-04-10,dog DNA test,62,dog_products
+2026-04-11,dog DNA test,69,dog_products
+2026-04-12,dog DNA test,69,dog_products
+2026-04-13,dog DNA test,46,dog_products
+2026-04-14,dog DNA test,59,dog_products
+2026-04-15,dog DNA test,71,dog_products
+2026-04-16,dog DNA test,62,dog_products
+2026-04-17,dog DNA test,100,dog_products
+2026-04-18,dog DNA test,64,dog_products
+2026-04-19,dog DNA test,56,dog_products
+2026-04-20,dog DNA test,43,dog_products
+2026-04-21,dog DNA test,51,dog_products
+2026-04-22,dog DNA test,54,dog_products
+2026-04-23,dog DNA test,49,dog_products
+2026-04-24,dog DNA test,55,dog_products
+2026-04-25,dog DNA test,45,dog_products
+2026-04-26,dog DNA test,65,dog_products
+2026-04-27,dog DNA test,45,dog_products
+2026-04-28,dog DNA test,42,dog_products
+2026-04-29,dog DNA test,37,dog_products
+2026-04-30,dog DNA test,31,dog_products
+2026-05-01,dog DNA test,29,dog_products
+2026-05-02,dog DNA test,48,dog_products
+2026-05-03,dog DNA test,46,dog_products
+2026-05-04,dog DNA test,35,dog_products
+2026-05-05,dog DNA test,27,dog_products
+2026-05-06,dog DNA test,32,dog_products
+2026-05-07,dog DNA test,46,dog_products
+2026-05-08,dog DNA test,50,dog_products
+2026-05-09,dog DNA test,50,dog_products
+2026-05-10,dog DNA test,57,dog_products
+2026-05-11,dog DNA test,42,dog_products
+2026-05-12,dog DNA test,49,dog_products
+2026-05-13,dog DNA test,49,dog_products
+2026-05-14,dog DNA test,57,dog_products
+2026-05-15,dog DNA test,61,dog_products
+2026-05-16,dog DNA test,87,dog_products
+2026-05-17,dog DNA test,82,dog_products
+2026-05-18,dog DNA test,53,dog_products
+2026-05-19,dog DNA test,47,dog_products
+2026-05-20,dog DNA test,34,dog_products
+2026-05-21,dog DNA test,35,dog_products
+2026-05-22,dog DNA test,36,dog_products
+2026-05-23,dog DNA test,44,dog_products
+2026-05-24,dog DNA test,45,dog_products
+2026-05-25,dog DNA test,44,dog_products
+2026-05-26,dog DNA test,34,dog_products
+2026-05-27,dog DNA test,34,dog_products
+2026-05-28,dog DNA test,36,dog_products
+2026-05-29,dog DNA test,39,dog_products
+2026-05-30,dog DNA test,41,dog_products
+2026-05-31,dog DNA test,41,dog_products
+2026-06-01,dog DNA test,27,dog_products
+2026-06-02,dog DNA test,31,dog_products
+2026-06-03,dog DNA test,32,dog_products
+2026-03-03,dog subscription box,0,dog_products
+2026-03-04,dog subscription box,0,dog_products
+2026-03-05,dog subscription box,0,dog_products
+2026-03-06,dog subscription box,0,dog_products
+2026-03-07,dog subscription box,0,dog_products
+2026-03-08,dog subscription box,0,dog_products
+2026-03-09,dog subscription box,0,dog_products
+2026-03-10,dog subscription box,0,dog_products
+2026-03-11,dog subscription box,0,dog_products
+2026-03-12,dog subscription box,0,dog_products
+2026-03-13,dog subscription box,0,dog_products
+2026-03-14,dog subscription box,0,dog_products
+2026-03-15,dog subscription box,0,dog_products
+2026-03-16,dog subscription box,0,dog_products
+2026-03-17,dog subscription box,0,dog_products
+2026-03-18,dog subscription box,0,dog_products
+2026-03-19,dog subscription box,0,dog_products
+2026-03-20,dog subscription box,0,dog_products
+2026-03-21,dog subscription box,76,dog_products
+2026-03-22,dog subscription box,0,dog_products
+2026-03-23,dog subscription box,0,dog_products
+2026-03-24,dog subscription box,0,dog_products
+2026-03-25,dog subscription box,0,dog_products
+2026-03-26,dog subscription box,0,dog_products
+2026-03-27,dog subscription box,42,dog_products
+2026-03-28,dog subscription box,73,dog_products
+2026-03-29,dog subscription box,44,dog_products
+2026-03-30,dog subscription box,0,dog_products
+2026-03-31,dog subscription box,66,dog_products
+2026-04-01,dog subscription box,63,dog_products
+2026-04-02,dog subscription box,54,dog_products
+2026-04-03,dog subscription box,51,dog_products
+2026-04-04,dog subscription box,48,dog_products
+2026-04-05,dog subscription box,0,dog_products
+2026-04-06,dog subscription box,77,dog_products
+2026-04-07,dog subscription box,77,dog_products
+2026-04-08,dog subscription box,90,dog_products
+2026-04-09,dog subscription box,64,dog_products
+2026-04-10,dog subscription box,54,dog_products
+2026-04-11,dog subscription box,90,dog_products
+2026-04-12,dog subscription box,66,dog_products
+2026-04-13,dog subscription box,99,dog_products
+2026-04-14,dog subscription box,65,dog_products
+2026-04-15,dog subscription box,100,dog_products
+2026-04-16,dog subscription box,100,dog_products
+2026-04-17,dog subscription box,66,dog_products
+2026-04-18,dog subscription box,59,dog_products
+2026-04-19,dog subscription box,67,dog_products
+2026-04-20,dog subscription box,82,dog_products
+2026-04-21,dog subscription box,91,dog_products
+2026-04-22,dog subscription box,51,dog_products
+2026-04-23,dog subscription box,53,dog_products
+2026-04-24,dog subscription box,46,dog_products
+2026-04-25,dog subscription box,92,dog_products
+2026-04-26,dog subscription box,87,dog_products
+2026-04-27,dog subscription box,61,dog_products
+2026-04-28,dog subscription box,52,dog_products
+2026-04-29,dog subscription box,0,dog_products
+2026-04-30,dog subscription box,0,dog_products
+2026-05-01,dog subscription box,0,dog_products
+2026-05-02,dog subscription box,0,dog_products
+2026-05-03,dog subscription box,57,dog_products
+2026-05-04,dog subscription box,0,dog_products
+2026-05-05,dog subscription box,0,dog_products
+2026-05-06,dog subscription box,48,dog_products
+2026-05-07,dog subscription box,0,dog_products
+2026-05-08,dog subscription box,47,dog_products
+2026-05-09,dog subscription box,44,dog_products
+2026-05-10,dog subscription box,50,dog_products
+2026-05-11,dog subscription box,44,dog_products
+2026-05-12,dog subscription box,50,dog_products
+2026-05-13,dog subscription box,86,dog_products
+2026-05-14,dog subscription box,77,dog_products
+2026-05-15,dog subscription box,66,dog_products
+2026-05-16,dog subscription box,79,dog_products
+2026-05-17,dog subscription box,99,dog_products
+2026-05-18,dog subscription box,78,dog_products
+2026-05-19,dog subscription box,38,dog_products
+2026-05-20,dog subscription box,24,dog_products
+2026-05-21,dog subscription box,19,dog_products
+2026-05-22,dog subscription box,19,dog_products
+2026-05-23,dog subscription box,22,dog_products
+2026-05-24,dog subscription box,27,dog_products
+2026-05-25,dog subscription box,22,dog_products
+2026-05-26,dog subscription box,17,dog_products
+2026-05-27,dog subscription box,21,dog_products
+2026-05-28,dog subscription box,19,dog_products
+2026-05-29,dog subscription box,20,dog_products
+2026-05-30,dog subscription box,16,dog_products
+2026-05-31,dog subscription box,19,dog_products
+2026-06-01,dog subscription box,18,dog_products
+2026-06-02,dog subscription box,10,dog_products
+2026-06-03,dog subscription box,20,dog_products
+2026-03-03,dog supplements,34,dog_products
+2026-03-04,dog supplements,38,dog_products
+2026-03-05,dog supplements,32,dog_products
+2026-03-06,dog supplements,40,dog_products
+2026-03-07,dog supplements,42,dog_products
+2026-03-08,dog supplements,50,dog_products
+2026-03-09,dog supplements,36,dog_products
+2026-03-10,dog supplements,43,dog_products
+2026-03-11,dog supplements,37,dog_products
+2026-03-12,dog supplements,41,dog_products
+2026-03-13,dog supplements,42,dog_products
+2026-03-14,dog supplements,50,dog_products
+2026-03-15,dog supplements,41,dog_products
+2026-03-16,dog supplements,53,dog_products
+2026-03-17,dog supplements,39,dog_products
+2026-03-18,dog supplements,37,dog_products
+2026-03-19,dog supplements,39,dog_products
+2026-03-20,dog supplements,46,dog_products
+2026-03-21,dog supplements,55,dog_products
+2026-03-22,dog supplements,55,dog_products
+2026-03-23,dog supplements,47,dog_products
+2026-03-24,dog supplements,52,dog_products
+2026-03-25,dog supplements,30,dog_products
+2026-03-26,dog supplements,54,dog_products
+2026-03-27,dog supplements,46,dog_products
+2026-03-28,dog supplements,63,dog_products
+2026-03-29,dog supplements,79,dog_products
+2026-03-30,dog supplements,63,dog_products
+2026-03-31,dog supplements,69,dog_products
+2026-04-01,dog supplements,69,dog_products
+2026-04-02,dog supplements,66,dog_products
+2026-04-03,dog supplements,74,dog_products
+2026-04-04,dog supplements,79,dog_products
+2026-04-05,dog supplements,74,dog_products
+2026-04-06,dog supplements,92,dog_products
+2026-04-07,dog supplements,67,dog_products
+2026-04-08,dog supplements,79,dog_products
+2026-04-09,dog supplements,97,dog_products
+2026-04-10,dog supplements,91,dog_products
+2026-04-11,dog supplements,99,dog_products
+2026-04-12,dog supplements,93,dog_products
+2026-04-13,dog supplements,73,dog_products
+2026-04-14,dog supplements,80,dog_products
+2026-04-15,dog supplements,87,dog_products
+2026-04-16,dog supplements,100,dog_products
+2026-04-17,dog supplements,91,dog_products
+2026-04-18,dog supplements,93,dog_products
+2026-04-19,dog supplements,74,dog_products
+2026-04-20,dog supplements,69,dog_products
+2026-04-21,dog supplements,75,dog_products
+2026-04-22,dog supplements,71,dog_products
+2026-04-23,dog supplements,80,dog_products
+2026-04-24,dog supplements,59,dog_products
+2026-04-25,dog supplements,61,dog_products
+2026-04-26,dog supplements,72,dog_products
+2026-04-27,dog supplements,59,dog_products
+2026-04-28,dog supplements,63,dog_products
+2026-04-29,dog supplements,63,dog_products
+2026-04-30,dog supplements,53,dog_products
+2026-05-01,dog supplements,57,dog_products
+2026-05-02,dog supplements,65,dog_products
+2026-05-03,dog supplements,59,dog_products
+2026-05-04,dog supplements,58,dog_products
+2026-05-05,dog supplements,52,dog_products
+2026-05-06,dog supplements,61,dog_products
+2026-05-07,dog supplements,73,dog_products
+2026-05-08,dog supplements,68,dog_products
+2026-05-09,dog supplements,57,dog_products
+2026-05-10,dog supplements,55,dog_products
+2026-05-11,dog supplements,53,dog_products
+2026-05-12,dog supplements,55,dog_products
+2026-05-13,dog supplements,81,dog_products
+2026-05-14,dog supplements,93,dog_products
+2026-05-15,dog supplements,77,dog_products
+2026-05-16,dog supplements,94,dog_products
+2026-05-17,dog supplements,86,dog_products
+2026-05-18,dog supplements,71,dog_products
+2026-05-19,dog supplements,77,dog_products
+2026-05-20,dog supplements,28,dog_products
+2026-05-21,dog supplements,28,dog_products
+2026-05-22,dog supplements,27,dog_products
+2026-05-23,dog supplements,34,dog_products
+2026-05-24,dog supplements,31,dog_products
+2026-05-25,dog supplements,30,dog_products
+2026-05-26,dog supplements,28,dog_products
+2026-05-27,dog supplements,27,dog_products
+2026-05-28,dog supplements,28,dog_products
+2026-05-29,dog supplements,28,dog_products
+2026-05-30,dog supplements,29,dog_products
+2026-05-31,dog supplements,35,dog_products
+2026-06-01,dog supplements,28,dog_products
+2026-06-02,dog supplements,25,dog_products
+2026-06-03,dog supplements,25,dog_products
+2026-03-03,CBD for dogs,64,dog_products
+2026-03-04,CBD for dogs,61,dog_products
+2026-03-05,CBD for dogs,67,dog_products
+2026-03-06,CBD for dogs,59,dog_products
+2026-03-07,CBD for dogs,69,dog_products
+2026-03-08,CBD for dogs,64,dog_products
+2026-03-09,CBD for dogs,49,dog_products
+2026-03-10,CBD for dogs,56,dog_products
+2026-03-11,CBD for dogs,60,dog_products
+2026-03-12,CBD for dogs,48,dog_products
+2026-03-13,CBD for dogs,66,dog_products
+2026-03-14,CBD for dogs,56,dog_products
+2026-03-15,CBD for dogs,64,dog_products
+2026-03-16,CBD for dogs,38,dog_products
+2026-03-17,CBD for dogs,60,dog_products
+2026-03-18,CBD for dogs,51,dog_products
+2026-03-19,CBD for dogs,63,dog_products
+2026-03-20,CBD for dogs,55,dog_products
+2026-03-21,CBD for dogs,97,dog_products
+2026-03-22,CBD for dogs,60,dog_products
+2026-03-23,CBD for dogs,49,dog_products
+2026-03-24,CBD for dogs,64,dog_products
+2026-03-25,CBD for dogs,46,dog_products
+2026-03-26,CBD for dogs,48,dog_products
+2026-03-27,CBD for dogs,45,dog_products
+2026-03-28,CBD for dogs,55,dog_products
+2026-03-29,CBD for dogs,79,dog_products
+2026-03-30,CBD for dogs,41,dog_products
+2026-03-31,CBD for dogs,45,dog_products
+2026-04-01,CBD for dogs,54,dog_products
+2026-04-02,CBD for dogs,54,dog_products
+2026-04-03,CBD for dogs,56,dog_products
+2026-04-04,CBD for dogs,73,dog_products
+2026-04-05,CBD for dogs,65,dog_products
+2026-04-06,CBD for dogs,50,dog_products
+2026-04-07,CBD for dogs,48,dog_products
+2026-04-08,CBD for dogs,46,dog_products
+2026-04-09,CBD for dogs,66,dog_products
+2026-04-10,CBD for dogs,53,dog_products
+2026-04-11,CBD for dogs,61,dog_products
+2026-04-12,CBD for dogs,65,dog_products
+2026-04-13,CBD for dogs,52,dog_products
+2026-04-14,CBD for dogs,65,dog_products
+2026-04-15,CBD for dogs,64,dog_products
+2026-04-16,CBD for dogs,51,dog_products
+2026-04-17,CBD for dogs,52,dog_products
+2026-04-18,CBD for dogs,76,dog_products
+2026-04-19,CBD for dogs,50,dog_products
+2026-04-20,CBD for dogs,56,dog_products
+2026-04-21,CBD for dogs,70,dog_products
+2026-04-22,CBD for dogs,52,dog_products
+2026-04-23,CBD for dogs,36,dog_products
+2026-04-24,CBD for dogs,43,dog_products
+2026-04-25,CBD for dogs,62,dog_products
+2026-04-26,CBD for dogs,84,dog_products
+2026-04-27,CBD for dogs,52,dog_products
+2026-04-28,CBD for dogs,75,dog_products
+2026-04-29,CBD for dogs,65,dog_products
+2026-04-30,CBD for dogs,93,dog_products
+2026-05-01,CBD for dogs,52,dog_products
+2026-05-02,CBD for dogs,99,dog_products
+2026-05-03,CBD for dogs,91,dog_products
+2026-05-04,CBD for dogs,54,dog_products
+2026-05-05,CBD for dogs,64,dog_products
+2026-05-06,CBD for dogs,85,dog_products
+2026-05-07,CBD for dogs,74,dog_products
+2026-05-08,CBD for dogs,99,dog_products
+2026-05-09,CBD for dogs,100,dog_products
+2026-05-10,CBD for dogs,90,dog_products
+2026-05-11,CBD for dogs,93,dog_products
+2026-05-12,CBD for dogs,82,dog_products
+2026-05-13,CBD for dogs,70,dog_products
+2026-05-14,CBD for dogs,90,dog_products
+2026-05-15,CBD for dogs,96,dog_products
+2026-05-16,CBD for dogs,64,dog_products
+2026-05-17,CBD for dogs,59,dog_products
+2026-05-18,CBD for dogs,65,dog_products
+2026-05-19,CBD for dogs,51,dog_products
+2026-05-20,CBD for dogs,47,dog_products
+2026-05-21,CBD for dogs,50,dog_products
+2026-05-22,CBD for dogs,54,dog_products
+2026-05-23,CBD for dogs,64,dog_products
+2026-05-24,CBD for dogs,62,dog_products
+2026-05-25,CBD for dogs,58,dog_products
+2026-05-26,CBD for dogs,49,dog_products
+2026-05-27,CBD for dogs,51,dog_products
+2026-05-28,CBD for dogs,49,dog_products
+2026-05-29,CBD for dogs,55,dog_products
+2026-05-30,CBD for dogs,54,dog_products
+2026-05-31,CBD for dogs,72,dog_products
+2026-06-01,CBD for dogs,45,dog_products
+2026-06-02,CBD for dogs,43,dog_products
+2026-06-03,CBD for dogs,44,dog_products
+2026-03-03,dog toys,44,dog_products
+2026-03-04,dog toys,36,dog_products
+2026-03-05,dog toys,37,dog_products
+2026-03-06,dog toys,40,dog_products
+2026-03-07,dog toys,46,dog_products
+2026-03-08,dog toys,45,dog_products
+2026-03-09,dog toys,41,dog_products
+2026-03-10,dog toys,35,dog_products
+2026-03-11,dog toys,36,dog_products
+2026-03-12,dog toys,35,dog_products
+2026-03-13,dog toys,39,dog_products
+2026-03-14,dog toys,42,dog_products
+2026-03-15,dog toys,46,dog_products
+2026-03-16,dog toys,34,dog_products
+2026-03-17,dog toys,34,dog_products
+2026-03-18,dog toys,44,dog_products
+2026-03-19,dog toys,39,dog_products
+2026-03-20,dog toys,46,dog_products
+2026-03-21,dog toys,42,dog_products
+2026-03-22,dog toys,49,dog_products
+2026-03-23,dog toys,39,dog_products
+2026-03-24,dog toys,43,dog_products
+2026-03-25,dog toys,42,dog_products
+2026-03-26,dog toys,49,dog_products
+2026-03-27,dog toys,50,dog_products
+2026-03-28,dog toys,65,dog_products
+2026-03-29,dog toys,73,dog_products
+2026-03-30,dog toys,54,dog_products
+2026-03-31,dog toys,60,dog_products
+2026-04-01,dog toys,71,dog_products
+2026-04-02,dog toys,77,dog_products
+2026-04-03,dog toys,68,dog_products
+2026-04-04,dog toys,82,dog_products
+2026-04-05,dog toys,82,dog_products
+2026-04-06,dog toys,73,dog_products
+2026-04-07,dog toys,73,dog_products
+2026-04-08,dog toys,79,dog_products
+2026-04-09,dog toys,84,dog_products
+2026-04-10,dog toys,82,dog_products
+2026-04-11,dog toys,100,dog_products
+2026-04-12,dog toys,93,dog_products
+2026-04-13,dog toys,71,dog_products
+2026-04-14,dog toys,78,dog_products
+2026-04-15,dog toys,81,dog_products
+2026-04-16,dog toys,79,dog_products
+2026-04-17,dog toys,79,dog_products
+2026-04-18,dog toys,96,dog_products
+2026-04-19,dog toys,89,dog_products
+2026-04-20,dog toys,71,dog_products
+2026-04-21,dog toys,63,dog_products
+2026-04-22,dog toys,79,dog_products
+2026-04-23,dog toys,66,dog_products
+2026-04-24,dog toys,62,dog_products
+2026-04-25,dog toys,67,dog_products
+2026-04-26,dog toys,73,dog_products
+2026-04-27,dog toys,60,dog_products
+2026-04-28,dog toys,56,dog_products
+2026-04-29,dog toys,60,dog_products
+2026-04-30,dog toys,59,dog_products
+2026-05-01,dog toys,62,dog_products
+2026-05-02,dog toys,71,dog_products
+2026-05-03,dog toys,71,dog_products
+2026-05-04,dog toys,57,dog_products
+2026-05-05,dog toys,57,dog_products
+2026-05-06,dog toys,68,dog_products
+2026-05-07,dog toys,73,dog_products
+2026-05-08,dog toys,61,dog_products
+2026-05-09,dog toys,69,dog_products
+2026-05-10,dog toys,68,dog_products
+2026-05-11,dog toys,60,dog_products
+2026-05-12,dog toys,56,dog_products
+2026-05-13,dog toys,74,dog_products
+2026-05-14,dog toys,87,dog_products
+2026-05-15,dog toys,84,dog_products
+2026-05-16,dog toys,74,dog_products
+2026-05-17,dog toys,72,dog_products
+2026-05-18,dog toys,54,dog_products
+2026-05-19,dog toys,54,dog_products
+2026-05-20,dog toys,33,dog_products
+2026-05-21,dog toys,34,dog_products
+2026-05-22,dog toys,33,dog_products
+2026-05-23,dog toys,40,dog_products
+2026-05-24,dog toys,44,dog_products
+2026-05-25,dog toys,40,dog_products
+2026-05-26,dog toys,34,dog_products
+2026-05-27,dog toys,38,dog_products
+2026-05-28,dog toys,39,dog_products
+2026-05-29,dog toys,36,dog_products
+2026-05-30,dog toys,39,dog_products
+2026-05-31,dog toys,54,dog_products
+2026-06-01,dog toys,42,dog_products
+2026-06-02,dog toys,39,dog_products
+2026-06-03,dog toys,32,dog_products
+2026-03-03,dog daycare,77,dog_services
+2026-03-04,dog daycare,86,dog_services
+2026-03-05,dog daycare,70,dog_services
+2026-03-06,dog daycare,76,dog_services
+2026-03-07,dog daycare,72,dog_services
+2026-03-08,dog daycare,67,dog_services
+2026-03-09,dog daycare,76,dog_services
+2026-03-10,dog daycare,81,dog_services
+2026-03-11,dog daycare,67,dog_services
+2026-03-12,dog daycare,74,dog_services
+2026-03-13,dog daycare,83,dog_services
+2026-03-14,dog daycare,75,dog_services
+2026-03-15,dog daycare,69,dog_services
+2026-03-16,dog daycare,88,dog_services
+2026-03-17,dog daycare,78,dog_services
+2026-03-18,dog daycare,96,dog_services
+2026-03-19,dog daycare,82,dog_services
+2026-03-20,dog daycare,76,dog_services
+2026-03-21,dog daycare,68,dog_services
+2026-03-22,dog daycare,73,dog_services
+2026-03-23,dog daycare,72,dog_services
+2026-03-24,dog daycare,73,dog_services
+2026-03-25,dog daycare,72,dog_services
+2026-03-26,dog daycare,71,dog_services
+2026-03-27,dog daycare,66,dog_services
+2026-03-28,dog daycare,76,dog_services
+2026-03-29,dog daycare,64,dog_services
+2026-03-30,dog daycare,68,dog_services
+2026-03-31,dog daycare,73,dog_services
+2026-04-01,dog daycare,90,dog_services
+2026-04-02,dog daycare,81,dog_services
+2026-04-03,dog daycare,73,dog_services
+2026-04-04,dog daycare,73,dog_services
+2026-04-05,dog daycare,70,dog_services
+2026-04-06,dog daycare,89,dog_services
+2026-04-07,dog daycare,69,dog_services
+2026-04-08,dog daycare,77,dog_services
+2026-04-09,dog daycare,81,dog_services
+2026-04-10,dog daycare,81,dog_services
+2026-04-11,dog daycare,69,dog_services
+2026-04-12,dog daycare,64,dog_services
+2026-04-13,dog daycare,70,dog_services
+2026-04-14,dog daycare,82,dog_services
+2026-04-15,dog daycare,88,dog_services
+2026-04-16,dog daycare,80,dog_services
+2026-04-17,dog daycare,75,dog_services
+2026-04-18,dog daycare,70,dog_services
+2026-04-19,dog daycare,73,dog_services
+2026-04-20,dog daycare,79,dog_services
+2026-04-21,dog daycare,73,dog_services
+2026-04-22,dog daycare,88,dog_services
+2026-04-23,dog daycare,78,dog_services
+2026-04-24,dog daycare,72,dog_services
+2026-04-25,dog daycare,58,dog_services
+2026-04-26,dog daycare,68,dog_services
+2026-04-27,dog daycare,72,dog_services
+2026-04-28,dog daycare,81,dog_services
+2026-04-29,dog daycare,71,dog_services
+2026-04-30,dog daycare,81,dog_services
+2026-05-01,dog daycare,74,dog_services
+2026-05-02,dog daycare,65,dog_services
+2026-05-03,dog daycare,69,dog_services
+2026-05-04,dog daycare,84,dog_services
+2026-05-05,dog daycare,74,dog_services
+2026-05-06,dog daycare,81,dog_services
+2026-05-07,dog daycare,74,dog_services
+2026-05-08,dog daycare,75,dog_services
+2026-05-09,dog daycare,67,dog_services
+2026-05-10,dog daycare,67,dog_services
+2026-05-11,dog daycare,77,dog_services
+2026-05-12,dog daycare,84,dog_services
+2026-05-13,dog daycare,98,dog_services
+2026-05-14,dog daycare,70,dog_services
+2026-05-15,dog daycare,78,dog_services
+2026-05-16,dog daycare,75,dog_services
+2026-05-17,dog daycare,72,dog_services
+2026-05-18,dog daycare,100,dog_services
+2026-05-19,dog daycare,75,dog_services
+2026-05-20,dog daycare,77,dog_services
+2026-05-21,dog daycare,67,dog_services
+2026-05-22,dog daycare,67,dog_services
+2026-05-23,dog daycare,62,dog_services
+2026-05-24,dog daycare,63,dog_services
+2026-05-25,dog daycare,64,dog_services
+2026-05-26,dog daycare,68,dog_services
+2026-05-27,dog daycare,80,dog_services
+2026-05-28,dog daycare,72,dog_services
+2026-05-29,dog daycare,72,dog_services
+2026-05-30,dog daycare,61,dog_services
+2026-05-31,dog daycare,64,dog_services
+2026-06-01,dog daycare,89,dog_services
+2026-06-02,dog daycare,72,dog_services
+2026-06-03,dog daycare,70,dog_services
+2026-03-03,dog boarding,84,dog_services
+2026-03-04,dog boarding,69,dog_services
+2026-03-05,dog boarding,74,dog_services
+2026-03-06,dog boarding,70,dog_services
+2026-03-07,dog boarding,77,dog_services
+2026-03-08,dog boarding,72,dog_services
+2026-03-09,dog boarding,77,dog_services
+2026-03-10,dog boarding,77,dog_services
+2026-03-11,dog boarding,70,dog_services
+2026-03-12,dog boarding,84,dog_services
+2026-03-13,dog boarding,80,dog_services
+2026-03-14,dog boarding,84,dog_services
+2026-03-15,dog boarding,75,dog_services
+2026-03-16,dog boarding,67,dog_services
+2026-03-17,dog boarding,76,dog_services
+2026-03-18,dog boarding,90,dog_services
+2026-03-19,dog boarding,73,dog_services
+2026-03-20,dog boarding,70,dog_services
+2026-03-21,dog boarding,74,dog_services
+2026-03-22,dog boarding,70,dog_services
+2026-03-23,dog boarding,72,dog_services
+2026-03-24,dog boarding,73,dog_services
+2026-03-25,dog boarding,68,dog_services
+2026-03-26,dog boarding,72,dog_services
+2026-03-27,dog boarding,74,dog_services
+2026-03-28,dog boarding,80,dog_services
+2026-03-29,dog boarding,80,dog_services
+2026-03-30,dog boarding,73,dog_services
+2026-03-31,dog boarding,71,dog_services
+2026-04-01,dog boarding,77,dog_services
+2026-04-02,dog boarding,69,dog_services
+2026-04-03,dog boarding,70,dog_services
+2026-04-04,dog boarding,69,dog_services
+2026-04-05,dog boarding,73,dog_services
+2026-04-06,dog boarding,79,dog_services
+2026-04-07,dog boarding,72,dog_services
+2026-04-08,dog boarding,80,dog_services
+2026-04-09,dog boarding,72,dog_services
+2026-04-10,dog boarding,62,dog_services
+2026-04-11,dog boarding,71,dog_services
+2026-04-12,dog boarding,71,dog_services
+2026-04-13,dog boarding,78,dog_services
+2026-04-14,dog boarding,64,dog_services
+2026-04-15,dog boarding,73,dog_services
+2026-04-16,dog boarding,64,dog_services
+2026-04-17,dog boarding,73,dog_services
+2026-04-18,dog boarding,77,dog_services
+2026-04-19,dog boarding,72,dog_services
+2026-04-20,dog boarding,72,dog_services
+2026-04-21,dog boarding,73,dog_services
+2026-04-22,dog boarding,74,dog_services
+2026-04-23,dog boarding,70,dog_services
+2026-04-24,dog boarding,66,dog_services
+2026-04-25,dog boarding,58,dog_services
+2026-04-26,dog boarding,70,dog_services
+2026-04-27,dog boarding,76,dog_services
+2026-04-28,dog boarding,69,dog_services
+2026-04-29,dog boarding,67,dog_services
+2026-04-30,dog boarding,71,dog_services
+2026-05-01,dog boarding,68,dog_services
+2026-05-02,dog boarding,78,dog_services
+2026-05-03,dog boarding,73,dog_services
+2026-05-04,dog boarding,81,dog_services
+2026-05-05,dog boarding,77,dog_services
+2026-05-06,dog boarding,76,dog_services
+2026-05-07,dog boarding,77,dog_services
+2026-05-08,dog boarding,74,dog_services
+2026-05-09,dog boarding,63,dog_services
+2026-05-10,dog boarding,72,dog_services
+2026-05-11,dog boarding,84,dog_services
+2026-05-12,dog boarding,88,dog_services
+2026-05-13,dog boarding,85,dog_services
+2026-05-14,dog boarding,78,dog_services
+2026-05-15,dog boarding,91,dog_services
+2026-05-16,dog boarding,88,dog_services
+2026-05-17,dog boarding,87,dog_services
+2026-05-18,dog boarding,98,dog_services
+2026-05-19,dog boarding,84,dog_services
+2026-05-20,dog boarding,83,dog_services
+2026-05-21,dog boarding,77,dog_services
+2026-05-22,dog boarding,78,dog_services
+2026-05-23,dog boarding,76,dog_services
+2026-05-24,dog boarding,68,dog_services
+2026-05-25,dog boarding,71,dog_services
+2026-05-26,dog boarding,86,dog_services
+2026-05-27,dog boarding,86,dog_services
+2026-05-28,dog boarding,83,dog_services
+2026-05-29,dog boarding,76,dog_services
+2026-05-30,dog boarding,80,dog_services
+2026-05-31,dog boarding,73,dog_services
+2026-06-01,dog boarding,100,dog_services
+2026-06-02,dog boarding,94,dog_services
+2026-06-03,dog boarding,77,dog_services
+2026-03-03,dog training,47,dog_services
+2026-03-04,dog training,47,dog_services
+2026-03-05,dog training,47,dog_services
+2026-03-06,dog training,44,dog_services
+2026-03-07,dog training,44,dog_services
+2026-03-08,dog training,50,dog_services
+2026-03-09,dog training,49,dog_services
+2026-03-10,dog training,46,dog_services
+2026-03-11,dog training,44,dog_services
+2026-03-12,dog training,46,dog_services
+2026-03-13,dog training,40,dog_services
+2026-03-14,dog training,47,dog_services
+2026-03-15,dog training,49,dog_services
+2026-03-16,dog training,45,dog_services
+2026-03-17,dog training,44,dog_services
+2026-03-18,dog training,46,dog_services
+2026-03-19,dog training,48,dog_services
+2026-03-20,dog training,52,dog_services
+2026-03-21,dog training,57,dog_services
+2026-03-22,dog training,58,dog_services
+2026-03-23,dog training,56,dog_services
+2026-03-24,dog training,63,dog_services
+2026-03-25,dog training,50,dog_services
+2026-03-26,dog training,53,dog_services
+2026-03-27,dog training,60,dog_services
+2026-03-28,dog training,64,dog_services
+2026-03-29,dog training,67,dog_services
+2026-03-30,dog training,66,dog_services
+2026-03-31,dog training,73,dog_services
+2026-04-01,dog training,70,dog_services
+2026-04-02,dog training,85,dog_services
+2026-04-03,dog training,75,dog_services
+2026-04-04,dog training,79,dog_services
+2026-04-05,dog training,79,dog_services
+2026-04-06,dog training,91,dog_services
+2026-04-07,dog training,78,dog_services
+2026-04-08,dog training,94,dog_services
+2026-04-09,dog training,89,dog_services
+2026-04-10,dog training,92,dog_services
+2026-04-11,dog training,92,dog_services
+2026-04-12,dog training,93,dog_services
+2026-04-13,dog training,82,dog_services
+2026-04-14,dog training,91,dog_services
+2026-04-15,dog training,90,dog_services
+2026-04-16,dog training,91,dog_services
+2026-04-17,dog training,92,dog_services
+2026-04-18,dog training,100,dog_services
+2026-04-19,dog training,85,dog_services
+2026-04-20,dog training,75,dog_services
+2026-04-21,dog training,80,dog_services
+2026-04-22,dog training,87,dog_services
+2026-04-23,dog training,77,dog_services
+2026-04-24,dog training,71,dog_services
+2026-04-25,dog training,72,dog_services
+2026-04-26,dog training,84,dog_services
+2026-04-27,dog training,71,dog_services
+2026-04-28,dog training,65,dog_services
+2026-04-29,dog training,68,dog_services
+2026-04-30,dog training,69,dog_services
+2026-05-01,dog training,62,dog_services
+2026-05-02,dog training,75,dog_services
+2026-05-03,dog training,74,dog_services
+2026-05-04,dog training,69,dog_services
+2026-05-05,dog training,64,dog_services
+2026-05-06,dog training,80,dog_services
+2026-05-07,dog training,83,dog_services
+2026-05-08,dog training,72,dog_services
+2026-05-09,dog training,75,dog_services
+2026-05-10,dog training,79,dog_services
+2026-05-11,dog training,72,dog_services
+2026-05-12,dog training,65,dog_services
+2026-05-13,dog training,89,dog_services
+2026-05-14,dog training,88,dog_services
+2026-05-15,dog training,73,dog_services
+2026-05-16,dog training,79,dog_services
+2026-05-17,dog training,84,dog_services
+2026-05-18,dog training,73,dog_services
+2026-05-19,dog training,70,dog_services
+2026-05-20,dog training,41,dog_services
+2026-05-21,dog training,41,dog_services
+2026-05-22,dog training,41,dog_services
+2026-05-23,dog training,43,dog_services
+2026-05-24,dog training,46,dog_services
+2026-05-25,dog training,46,dog_services
+2026-05-26,dog training,42,dog_services
+2026-05-27,dog training,43,dog_services
+2026-05-28,dog training,45,dog_services
+2026-05-29,dog training,39,dog_services
+2026-05-30,dog training,45,dog_services
+2026-05-31,dog training,53,dog_services
+2026-06-01,dog training,50,dog_services
+2026-06-02,dog training,43,dog_services
+2026-06-03,dog training,40,dog_services
+2026-03-03,dog photography,27,dog_services
+2026-03-04,dog photography,26,dog_services
+2026-03-05,dog photography,21,dog_services
+2026-03-06,dog photography,27,dog_services
+2026-03-07,dog photography,16,dog_services
+2026-03-08,dog photography,28,dog_services
+2026-03-09,dog photography,30,dog_services
+2026-03-10,dog photography,33,dog_services
+2026-03-11,dog photography,30,dog_services
+2026-03-12,dog photography,17,dog_services
+2026-03-13,dog photography,28,dog_services
+2026-03-14,dog photography,32,dog_services
+2026-03-15,dog photography,17,dog_services
+2026-03-16,dog photography,24,dog_services
+2026-03-17,dog photography,18,dog_services
+2026-03-18,dog photography,28,dog_services
+2026-03-19,dog photography,24,dog_services
+2026-03-20,dog photography,36,dog_services
+2026-03-21,dog photography,37,dog_services
+2026-03-22,dog photography,40,dog_services
+2026-03-23,dog photography,36,dog_services
+2026-03-24,dog photography,40,dog_services
+2026-03-25,dog photography,36,dog_services
+2026-03-26,dog photography,43,dog_services
+2026-03-27,dog photography,39,dog_services
+2026-03-28,dog photography,69,dog_services
+2026-03-29,dog photography,67,dog_services
+2026-03-30,dog photography,43,dog_services
+2026-03-31,dog photography,67,dog_services
+2026-04-01,dog photography,77,dog_services
+2026-04-02,dog photography,74,dog_services
+2026-04-03,dog photography,60,dog_services
+2026-04-04,dog photography,43,dog_services
+2026-04-05,dog photography,76,dog_services
+2026-04-06,dog photography,74,dog_services
+2026-04-07,dog photography,73,dog_services
+2026-04-08,dog photography,95,dog_services
+2026-04-09,dog photography,80,dog_services
+2026-04-10,dog photography,86,dog_services
+2026-04-11,dog photography,84,dog_services
+2026-04-12,dog photography,88,dog_services
+2026-04-13,dog photography,80,dog_services
+2026-04-14,dog photography,81,dog_services
+2026-04-15,dog photography,96,dog_services
+2026-04-16,dog photography,78,dog_services
+2026-04-17,dog photography,100,dog_services
+2026-04-18,dog photography,97,dog_services
+2026-04-19,dog photography,69,dog_services
+2026-04-20,dog photography,83,dog_services
+2026-04-21,dog photography,78,dog_services
+2026-04-22,dog photography,75,dog_services
+2026-04-23,dog photography,71,dog_services
+2026-04-24,dog photography,70,dog_services
+2026-04-25,dog photography,71,dog_services
+2026-04-26,dog photography,100,dog_services
+2026-04-27,dog photography,55,dog_services
+2026-04-28,dog photography,67,dog_services
+2026-04-29,dog photography,56,dog_services
+2026-04-30,dog photography,60,dog_services
+2026-05-01,dog photography,59,dog_services
+2026-05-02,dog photography,78,dog_services
+2026-05-03,dog photography,61,dog_services
+2026-05-04,dog photography,60,dog_services
+2026-05-05,dog photography,64,dog_services
+2026-05-06,dog photography,81,dog_services
+2026-05-07,dog photography,98,dog_services
+2026-05-08,dog photography,81,dog_services
+2026-05-09,dog photography,70,dog_services
+2026-05-10,dog photography,93,dog_services
+2026-05-11,dog photography,75,dog_services
+2026-05-12,dog photography,65,dog_services
+2026-05-13,dog photography,88,dog_services
+2026-05-14,dog photography,81,dog_services
+2026-05-15,dog photography,86,dog_services
+2026-05-16,dog photography,51,dog_services
+2026-05-17,dog photography,63,dog_services
+2026-05-18,dog photography,36,dog_services
+2026-05-19,dog photography,44,dog_services
+2026-05-20,dog photography,16,dog_services
+2026-05-21,dog photography,17,dog_services
+2026-05-22,dog photography,14,dog_services
+2026-05-23,dog photography,14,dog_services
+2026-05-24,dog photography,17,dog_services
+2026-05-25,dog photography,18,dog_services
+2026-05-26,dog photography,15,dog_services
+2026-05-27,dog photography,18,dog_services
+2026-05-28,dog photography,14,dog_services
+2026-05-29,dog photography,16,dog_services
+2026-05-30,dog photography,14,dog_services
+2026-05-31,dog photography,19,dog_services
+2026-06-01,dog photography,15,dog_services
+2026-06-02,dog photography,13,dog_services
+2026-06-03,dog photography,12,dog_services
+2026-03-03,best dog food,59,dog_health
+2026-03-04,best dog food,57,dog_health
+2026-03-05,best dog food,66,dog_health
+2026-03-06,best dog food,59,dog_health
+2026-03-07,best dog food,75,dog_health
+2026-03-08,best dog food,80,dog_health
+2026-03-09,best dog food,62,dog_health
+2026-03-10,best dog food,61,dog_health
+2026-03-11,best dog food,56,dog_health
+2026-03-12,best dog food,62,dog_health
+2026-03-13,best dog food,59,dog_health
+2026-03-14,best dog food,69,dog_health
+2026-03-15,best dog food,69,dog_health
+2026-03-16,best dog food,56,dog_health
+2026-03-17,best dog food,55,dog_health
+2026-03-18,best dog food,58,dog_health
+2026-03-19,best dog food,59,dog_health
+2026-03-20,best dog food,66,dog_health
+2026-03-21,best dog food,78,dog_health
+2026-03-22,best dog food,73,dog_health
+2026-03-23,best dog food,68,dog_health
+2026-03-24,best dog food,57,dog_health
+2026-03-25,best dog food,59,dog_health
+2026-03-26,best dog food,65,dog_health
+2026-03-27,best dog food,68,dog_health
+2026-03-28,best dog food,76,dog_health
+2026-03-29,best dog food,90,dog_health
+2026-03-30,best dog food,69,dog_health
+2026-03-31,best dog food,72,dog_health
+2026-04-01,best dog food,77,dog_health
+2026-04-02,best dog food,85,dog_health
+2026-04-03,best dog food,77,dog_health
+2026-04-04,best dog food,85,dog_health
+2026-04-05,best dog food,90,dog_health
+2026-04-06,best dog food,88,dog_health
+2026-04-07,best dog food,77,dog_health
+2026-04-08,best dog food,84,dog_health
+2026-04-09,best dog food,82,dog_health
+2026-04-10,best dog food,85,dog_health
+2026-04-11,best dog food,90,dog_health
+2026-04-12,best dog food,92,dog_health
+2026-04-13,best dog food,75,dog_health
+2026-04-14,best dog food,79,dog_health
+2026-04-15,best dog food,75,dog_health
+2026-04-16,best dog food,87,dog_health
+2026-04-17,best dog food,100,dog_health
+2026-04-18,best dog food,96,dog_health
+2026-04-19,best dog food,86,dog_health
+2026-04-20,best dog food,73,dog_health
+2026-04-21,best dog food,75,dog_health
+2026-04-22,best dog food,76,dog_health
+2026-04-23,best dog food,73,dog_health
+2026-04-24,best dog food,70,dog_health
+2026-04-25,best dog food,78,dog_health
+2026-04-26,best dog food,95,dog_health
+2026-04-27,best dog food,70,dog_health
+2026-04-28,best dog food,71,dog_health
+2026-04-29,best dog food,70,dog_health
+2026-04-30,best dog food,73,dog_health
+2026-05-01,best dog food,74,dog_health
+2026-05-02,best dog food,82,dog_health
+2026-05-03,best dog food,78,dog_health
+2026-05-04,best dog food,66,dog_health
+2026-05-05,best dog food,71,dog_health
+2026-05-06,best dog food,92,dog_health
+2026-05-07,best dog food,79,dog_health
+2026-05-08,best dog food,78,dog_health
+2026-05-09,best dog food,90,dog_health
+2026-05-10,best dog food,92,dog_health
+2026-05-11,best dog food,74,dog_health
+2026-05-12,best dog food,79,dog_health
+2026-05-13,best dog food,96,dog_health
+2026-05-14,best dog food,91,dog_health
+2026-05-15,best dog food,82,dog_health
+2026-05-16,best dog food,95,dog_health
+2026-05-17,best dog food,95,dog_health
+2026-05-18,best dog food,74,dog_health
+2026-05-19,best dog food,72,dog_health
+2026-05-20,best dog food,37,dog_health
+2026-05-21,best dog food,37,dog_health
+2026-05-22,best dog food,39,dog_health
+2026-05-23,best dog food,48,dog_health
+2026-05-24,best dog food,49,dog_health
+2026-05-25,best dog food,43,dog_health
+2026-05-26,best dog food,40,dog_health
+2026-05-27,best dog food,39,dog_health
+2026-05-28,best dog food,40,dog_health
+2026-05-29,best dog food,41,dog_health
+2026-05-30,best dog food,47,dog_health
+2026-05-31,best dog food,50,dog_health
+2026-06-01,best dog food,44,dog_health
+2026-06-02,best dog food,40,dog_health
+2026-06-03,best dog food,38,dog_health
+2026-03-03,dog allergies,50,dog_health
+2026-03-04,dog allergies,48,dog_health
+2026-03-05,dog allergies,62,dog_health
+2026-03-06,dog allergies,55,dog_health
+2026-03-07,dog allergies,72,dog_health
+2026-03-08,dog allergies,76,dog_health
+2026-03-09,dog allergies,72,dog_health
+2026-03-10,dog allergies,73,dog_health
+2026-03-11,dog allergies,76,dog_health
+2026-03-12,dog allergies,71,dog_health
+2026-03-13,dog allergies,76,dog_health
+2026-03-14,dog allergies,86,dog_health
+2026-03-15,dog allergies,68,dog_health
+2026-03-16,dog allergies,69,dog_health
+2026-03-17,dog allergies,53,dog_health
+2026-03-18,dog allergies,69,dog_health
+2026-03-19,dog allergies,55,dog_health
+2026-03-20,dog allergies,64,dog_health
+2026-03-21,dog allergies,86,dog_health
+2026-03-22,dog allergies,97,dog_health
+2026-03-23,dog allergies,80,dog_health
+2026-03-24,dog allergies,71,dog_health
+2026-03-25,dog allergies,82,dog_health
+2026-03-26,dog allergies,73,dog_health
+2026-03-27,dog allergies,73,dog_health
+2026-03-28,dog allergies,84,dog_health
+2026-03-29,dog allergies,92,dog_health
+2026-03-30,dog allergies,77,dog_health
+2026-03-31,dog allergies,85,dog_health
+2026-04-01,dog allergies,78,dog_health
+2026-04-02,dog allergies,77,dog_health
+2026-04-03,dog allergies,80,dog_health
+2026-04-04,dog allergies,83,dog_health
+2026-04-05,dog allergies,94,dog_health
+2026-04-06,dog allergies,82,dog_health
+2026-04-07,dog allergies,71,dog_health
+2026-04-08,dog allergies,76,dog_health
+2026-04-09,dog allergies,65,dog_health
+2026-04-10,dog allergies,76,dog_health
+2026-04-11,dog allergies,77,dog_health
+2026-04-12,dog allergies,90,dog_health
+2026-04-13,dog allergies,68,dog_health
+2026-04-14,dog allergies,84,dog_health
+2026-04-15,dog allergies,75,dog_health
+2026-04-16,dog allergies,84,dog_health
+2026-04-17,dog allergies,87,dog_health
+2026-04-18,dog allergies,100,dog_health
+2026-04-19,dog allergies,83,dog_health
+2026-04-20,dog allergies,80,dog_health
+2026-04-21,dog allergies,74,dog_health
+2026-04-22,dog allergies,76,dog_health
+2026-04-23,dog allergies,89,dog_health
+2026-04-24,dog allergies,81,dog_health
+2026-04-25,dog allergies,89,dog_health
+2026-04-26,dog allergies,82,dog_health
+2026-04-27,dog allergies,76,dog_health
+2026-04-28,dog allergies,82,dog_health
+2026-04-29,dog allergies,64,dog_health
+2026-04-30,dog allergies,77,dog_health
+2026-05-01,dog allergies,88,dog_health
+2026-05-02,dog allergies,81,dog_health
+2026-05-03,dog allergies,83,dog_health
+2026-05-04,dog allergies,68,dog_health
+2026-05-05,dog allergies,82,dog_health
+2026-05-06,dog allergies,83,dog_health
+2026-05-07,dog allergies,79,dog_health
+2026-05-08,dog allergies,74,dog_health
+2026-05-09,dog allergies,76,dog_health
+2026-05-10,dog allergies,88,dog_health
+2026-05-11,dog allergies,84,dog_health
+2026-05-12,dog allergies,78,dog_health
+2026-05-13,dog allergies,85,dog_health
+2026-05-14,dog allergies,81,dog_health
+2026-05-15,dog allergies,82,dog_health
+2026-05-16,dog allergies,92,dog_health
+2026-05-17,dog allergies,93,dog_health
+2026-05-18,dog allergies,74,dog_health
+2026-05-19,dog allergies,79,dog_health
+2026-05-20,dog allergies,76,dog_health
+2026-05-21,dog allergies,63,dog_health
+2026-05-22,dog allergies,62,dog_health
+2026-05-23,dog allergies,71,dog_health
+2026-05-24,dog allergies,76,dog_health
+2026-05-25,dog allergies,69,dog_health
+2026-05-26,dog allergies,65,dog_health
+2026-05-27,dog allergies,66,dog_health
+2026-05-28,dog allergies,65,dog_health
+2026-05-29,dog allergies,66,dog_health
+2026-05-30,dog allergies,86,dog_health
+2026-05-31,dog allergies,75,dog_health
+2026-06-01,dog allergies,66,dog_health
+2026-06-02,dog allergies,62,dog_health
+2026-06-03,dog allergies,72,dog_health
+2026-03-03,puppy training,52,dog_health
+2026-03-04,puppy training,64,dog_health
+2026-03-05,puppy training,66,dog_health
+2026-03-06,puppy training,59,dog_health
+2026-03-07,puppy training,67,dog_health
+2026-03-08,puppy training,58,dog_health
+2026-03-09,puppy training,54,dog_health
+2026-03-10,puppy training,53,dog_health
+2026-03-11,puppy training,62,dog_health
+2026-03-12,puppy training,61,dog_health
+2026-03-13,puppy training,61,dog_health
+2026-03-14,puppy training,67,dog_health
+2026-03-15,puppy training,55,dog_health
+2026-03-16,puppy training,65,dog_health
+2026-03-17,puppy training,65,dog_health
+2026-03-18,puppy training,59,dog_health
+2026-03-19,puppy training,55,dog_health
+2026-03-20,puppy training,59,dog_health
+2026-03-21,puppy training,64,dog_health
+2026-03-22,puppy training,71,dog_health
+2026-03-23,puppy training,68,dog_health
+2026-03-24,puppy training,63,dog_health
+2026-03-25,puppy training,75,dog_health
+2026-03-26,puppy training,61,dog_health
+2026-03-27,puppy training,60,dog_health
+2026-03-28,puppy training,88,dog_health
+2026-03-29,puppy training,87,dog_health
+2026-03-30,puppy training,65,dog_health
+2026-03-31,puppy training,74,dog_health
+2026-04-01,puppy training,83,dog_health
+2026-04-02,puppy training,85,dog_health
+2026-04-03,puppy training,80,dog_health
+2026-04-04,puppy training,80,dog_health
+2026-04-05,puppy training,78,dog_health
+2026-04-06,puppy training,83,dog_health
+2026-04-07,puppy training,94,dog_health
+2026-04-08,puppy training,94,dog_health
+2026-04-09,puppy training,85,dog_health
+2026-04-10,puppy training,82,dog_health
+2026-04-11,puppy training,80,dog_health
+2026-04-12,puppy training,84,dog_health
+2026-04-13,puppy training,76,dog_health
+2026-04-14,puppy training,80,dog_health
+2026-04-15,puppy training,82,dog_health
+2026-04-16,puppy training,83,dog_health
+2026-04-17,puppy training,81,dog_health
+2026-04-18,puppy training,92,dog_health
+2026-04-19,puppy training,94,dog_health
+2026-04-20,puppy training,75,dog_health
+2026-04-21,puppy training,81,dog_health
+2026-04-22,puppy training,82,dog_health
+2026-04-23,puppy training,63,dog_health
+2026-04-24,puppy training,68,dog_health
+2026-04-25,puppy training,70,dog_health
+2026-04-26,puppy training,70,dog_health
+2026-04-27,puppy training,68,dog_health
+2026-04-28,puppy training,66,dog_health
+2026-04-29,puppy training,61,dog_health
+2026-04-30,puppy training,57,dog_health
+2026-05-01,puppy training,54,dog_health
+2026-05-02,puppy training,65,dog_health
+2026-05-03,puppy training,67,dog_health
+2026-05-04,puppy training,77,dog_health
+2026-05-05,puppy training,62,dog_health
+2026-05-06,puppy training,68,dog_health
+2026-05-07,puppy training,53,dog_health
+2026-05-08,puppy training,59,dog_health
+2026-05-09,puppy training,66,dog_health
+2026-05-10,puppy training,83,dog_health
+2026-05-11,puppy training,64,dog_health
+2026-05-12,puppy training,74,dog_health
+2026-05-13,puppy training,95,dog_health
+2026-05-14,puppy training,72,dog_health
+2026-05-15,puppy training,87,dog_health
+2026-05-16,puppy training,95,dog_health
+2026-05-17,puppy training,100,dog_health
+2026-05-18,puppy training,96,dog_health
+2026-05-19,puppy training,79,dog_health
+2026-05-20,puppy training,50,dog_health
+2026-05-21,puppy training,50,dog_health
+2026-05-22,puppy training,51,dog_health
+2026-05-23,puppy training,55,dog_health
+2026-05-24,puppy training,59,dog_health
+2026-05-25,puppy training,61,dog_health
+2026-05-26,puppy training,54,dog_health
+2026-05-27,puppy training,55,dog_health
+2026-05-28,puppy training,54,dog_health
+2026-05-29,puppy training,51,dog_health
+2026-05-30,puppy training,58,dog_health
+2026-05-31,puppy training,61,dog_health
+2026-06-01,puppy training,59,dog_health
+2026-06-02,puppy training,50,dog_health
+2026-06-03,puppy training,64,dog_health
+2026-03-03,dog separation anxiety,52,dog_health
+2026-03-04,dog separation anxiety,71,dog_health
+2026-03-05,dog separation anxiety,39,dog_health
+2026-03-06,dog separation anxiety,43,dog_health
+2026-03-07,dog separation anxiety,53,dog_health
+2026-03-08,dog separation anxiety,61,dog_health
+2026-03-09,dog separation anxiety,69,dog_health
+2026-03-10,dog separation anxiety,39,dog_health
+2026-03-11,dog separation anxiety,37,dog_health
+2026-03-12,dog separation anxiety,55,dog_health
+2026-03-13,dog separation anxiety,38,dog_health
+2026-03-14,dog separation anxiety,0,dog_health
+2026-03-15,dog separation anxiety,66,dog_health
+2026-03-16,dog separation anxiety,41,dog_health
+2026-03-17,dog separation anxiety,57,dog_health
+2026-03-18,dog separation anxiety,46,dog_health
+2026-03-19,dog separation anxiety,33,dog_health
+2026-03-20,dog separation anxiety,64,dog_health
+2026-03-21,dog separation anxiety,68,dog_health
+2026-03-22,dog separation anxiety,72,dog_health
+2026-03-23,dog separation anxiety,56,dog_health
+2026-03-24,dog separation anxiety,76,dog_health
+2026-03-25,dog separation anxiety,40,dog_health
+2026-03-26,dog separation anxiety,44,dog_health
+2026-03-27,dog separation anxiety,54,dog_health
+2026-03-28,dog separation anxiety,55,dog_health
+2026-03-29,dog separation anxiety,46,dog_health
+2026-03-30,dog separation anxiety,46,dog_health
+2026-03-31,dog separation anxiety,62,dog_health
+2026-04-01,dog separation anxiety,68,dog_health
+2026-04-02,dog separation anxiety,40,dog_health
+2026-04-03,dog separation anxiety,73,dog_health
+2026-04-04,dog separation anxiety,89,dog_health
+2026-04-05,dog separation anxiety,52,dog_health
+2026-04-06,dog separation anxiety,54,dog_health
+2026-04-07,dog separation anxiety,64,dog_health
+2026-04-08,dog separation anxiety,62,dog_health
+2026-04-09,dog separation anxiety,36,dog_health
+2026-04-10,dog separation anxiety,29,dog_health
+2026-04-11,dog separation anxiety,56,dog_health
+2026-04-12,dog separation anxiety,44,dog_health
+2026-04-13,dog separation anxiety,63,dog_health
+2026-04-14,dog separation anxiety,45,dog_health
+2026-04-15,dog separation anxiety,72,dog_health
+2026-04-16,dog separation anxiety,41,dog_health
+2026-04-17,dog separation anxiety,67,dog_health
+2026-04-18,dog separation anxiety,59,dog_health
+2026-04-19,dog separation anxiety,60,dog_health
+2026-04-20,dog separation anxiety,68,dog_health
+2026-04-21,dog separation anxiety,54,dog_health
+2026-04-22,dog separation anxiety,70,dog_health
+2026-04-23,dog separation anxiety,58,dog_health
+2026-04-24,dog separation anxiety,60,dog_health
+2026-04-25,dog separation anxiety,67,dog_health
+2026-04-26,dog separation anxiety,100,dog_health
+2026-04-27,dog separation anxiety,73,dog_health
+2026-04-28,dog separation anxiety,37,dog_health
+2026-04-29,dog separation anxiety,49,dog_health
+2026-04-30,dog separation anxiety,56,dog_health
+2026-05-01,dog separation anxiety,62,dog_health
+2026-05-02,dog separation anxiety,72,dog_health
+2026-05-03,dog separation anxiety,65,dog_health
+2026-05-04,dog separation anxiety,41,dog_health
+2026-05-05,dog separation anxiety,51,dog_health
+2026-05-06,dog separation anxiety,84,dog_health
+2026-05-07,dog separation anxiety,55,dog_health
+2026-05-08,dog separation anxiety,56,dog_health
+2026-05-09,dog separation anxiety,63,dog_health
+2026-05-10,dog separation anxiety,55,dog_health
+2026-05-11,dog separation anxiety,73,dog_health
+2026-05-12,dog separation anxiety,37,dog_health
+2026-05-13,dog separation anxiety,80,dog_health
+2026-05-14,dog separation anxiety,47,dog_health
+2026-05-15,dog separation anxiety,53,dog_health
+2026-05-16,dog separation anxiety,87,dog_health
+2026-05-17,dog separation anxiety,55,dog_health
+2026-05-18,dog separation anxiety,47,dog_health
+2026-05-19,dog separation anxiety,72,dog_health
+2026-05-20,dog separation anxiety,46,dog_health
+2026-05-21,dog separation anxiety,39,dog_health
+2026-05-22,dog separation anxiety,42,dog_health
+2026-05-23,dog separation anxiety,43,dog_health
+2026-05-24,dog separation anxiety,48,dog_health
+2026-05-25,dog separation anxiety,54,dog_health
+2026-05-26,dog separation anxiety,45,dog_health
+2026-05-27,dog separation anxiety,45,dog_health
+2026-05-28,dog separation anxiety,47,dog_health
+2026-05-29,dog separation anxiety,44,dog_health
+2026-05-30,dog separation anxiety,52,dog_health
+2026-05-31,dog separation anxiety,55,dog_health
+2026-06-01,dog separation anxiety,51,dog_health
+2026-06-02,dog separation anxiety,47,dog_health
+2026-06-03,dog separation anxiety,39,dog_health
+2026-03-03,hypoallergenic dogs,60,dog_health
+2026-03-04,hypoallergenic dogs,61,dog_health
+2026-03-05,hypoallergenic dogs,50,dog_health
+2026-03-06,hypoallergenic dogs,63,dog_health
+2026-03-07,hypoallergenic dogs,78,dog_health
+2026-03-08,hypoallergenic dogs,62,dog_health
+2026-03-09,hypoallergenic dogs,62,dog_health
+2026-03-10,hypoallergenic dogs,50,dog_health
+2026-03-11,hypoallergenic dogs,60,dog_health
+2026-03-12,hypoallergenic dogs,46,dog_health
+2026-03-13,hypoallergenic dogs,65,dog_health
+2026-03-14,hypoallergenic dogs,70,dog_health
+2026-03-15,hypoallergenic dogs,71,dog_health
+2026-03-16,hypoallergenic dogs,55,dog_health
+2026-03-17,hypoallergenic dogs,52,dog_health
+2026-03-18,hypoallergenic dogs,59,dog_health
+2026-03-19,hypoallergenic dogs,48,dog_health
+2026-03-20,hypoallergenic dogs,50,dog_health
+2026-03-21,hypoallergenic dogs,78,dog_health
+2026-03-22,hypoallergenic dogs,84,dog_health
+2026-03-23,hypoallergenic dogs,52,dog_health
+2026-03-24,hypoallergenic dogs,50,dog_health
+2026-03-25,hypoallergenic dogs,55,dog_health
+2026-03-26,hypoallergenic dogs,76,dog_health
+2026-03-27,hypoallergenic dogs,40,dog_health
+2026-03-28,hypoallergenic dogs,71,dog_health
+2026-03-29,hypoallergenic dogs,100,dog_health
+2026-03-30,hypoallergenic dogs,61,dog_health
+2026-03-31,hypoallergenic dogs,74,dog_health
+2026-04-01,hypoallergenic dogs,66,dog_health
+2026-04-02,hypoallergenic dogs,69,dog_health
+2026-04-03,hypoallergenic dogs,92,dog_health
+2026-04-04,hypoallergenic dogs,99,dog_health
+2026-04-05,hypoallergenic dogs,97,dog_health
+2026-04-06,hypoallergenic dogs,71,dog_health
+2026-04-07,hypoallergenic dogs,53,dog_health
+2026-04-08,hypoallergenic dogs,58,dog_health
+2026-04-09,hypoallergenic dogs,66,dog_health
+2026-04-10,hypoallergenic dogs,64,dog_health
+2026-04-11,hypoallergenic dogs,73,dog_health
+2026-04-12,hypoallergenic dogs,82,dog_health
+2026-04-13,hypoallergenic dogs,65,dog_health
+2026-04-14,hypoallergenic dogs,52,dog_health
+2026-04-15,hypoallergenic dogs,54,dog_health
+2026-04-16,hypoallergenic dogs,71,dog_health
+2026-04-17,hypoallergenic dogs,70,dog_health
+2026-04-18,hypoallergenic dogs,84,dog_health
+2026-04-19,hypoallergenic dogs,96,dog_health
+2026-04-20,hypoallergenic dogs,66,dog_health
+2026-04-21,hypoallergenic dogs,66,dog_health
+2026-04-22,hypoallergenic dogs,56,dog_health
+2026-04-23,hypoallergenic dogs,59,dog_health
+2026-04-24,hypoallergenic dogs,66,dog_health
+2026-04-25,hypoallergenic dogs,90,dog_health
+2026-04-26,hypoallergenic dogs,90,dog_health
+2026-04-27,hypoallergenic dogs,53,dog_health
+2026-04-28,hypoallergenic dogs,61,dog_health
+2026-04-29,hypoallergenic dogs,55,dog_health
+2026-04-30,hypoallergenic dogs,57,dog_health
+2026-05-01,hypoallergenic dogs,69,dog_health
+2026-05-02,hypoallergenic dogs,69,dog_health
+2026-05-03,hypoallergenic dogs,85,dog_health
+2026-05-04,hypoallergenic dogs,50,dog_health
+2026-05-05,hypoallergenic dogs,58,dog_health
+2026-05-06,hypoallergenic dogs,51,dog_health
+2026-05-07,hypoallergenic dogs,60,dog_health
+2026-05-08,hypoallergenic dogs,44,dog_health
+2026-05-09,hypoallergenic dogs,59,dog_health
+2026-05-10,hypoallergenic dogs,89,dog_health
+2026-05-11,hypoallergenic dogs,60,dog_health
+2026-05-12,hypoallergenic dogs,56,dog_health
+2026-05-13,hypoallergenic dogs,66,dog_health
+2026-05-14,hypoallergenic dogs,57,dog_health
+2026-05-15,hypoallergenic dogs,78,dog_health
+2026-05-16,hypoallergenic dogs,95,dog_health
+2026-05-17,hypoallergenic dogs,91,dog_health
+2026-05-18,hypoallergenic dogs,55,dog_health
+2026-05-19,hypoallergenic dogs,65,dog_health
+2026-05-20,hypoallergenic dogs,50,dog_health
+2026-05-21,hypoallergenic dogs,52,dog_health
+2026-05-22,hypoallergenic dogs,55,dog_health
+2026-05-23,hypoallergenic dogs,73,dog_health
+2026-05-24,hypoallergenic dogs,83,dog_health
+2026-05-25,hypoallergenic dogs,77,dog_health
+2026-05-26,hypoallergenic dogs,51,dog_health
+2026-05-27,hypoallergenic dogs,51,dog_health
+2026-05-28,hypoallergenic dogs,52,dog_health
+2026-05-29,hypoallergenic dogs,52,dog_health
+2026-05-30,hypoallergenic dogs,73,dog_health
+2026-05-31,hypoallergenic dogs,78,dog_health
+2026-06-01,hypoallergenic dogs,55,dog_health
+2026-06-02,hypoallergenic dogs,45,dog_health
+2026-06-03,hypoallergenic dogs,57,dog_health
+2026-03-03,dog probiotic,11,dog_health
+2026-03-04,dog probiotic,13,dog_health
+2026-03-05,dog probiotic,9,dog_health
+2026-03-06,dog probiotic,16,dog_health
+2026-03-07,dog probiotic,17,dog_health
+2026-03-08,dog probiotic,14,dog_health
+2026-03-09,dog probiotic,17,dog_health
+2026-03-10,dog probiotic,18,dog_health
+2026-03-11,dog probiotic,12,dog_health
+2026-03-12,dog probiotic,12,dog_health
+2026-03-13,dog probiotic,14,dog_health
+2026-03-14,dog probiotic,16,dog_health
+2026-03-15,dog probiotic,14,dog_health
+2026-03-16,dog probiotic,16,dog_health
+2026-03-17,dog probiotic,10,dog_health
+2026-03-18,dog probiotic,18,dog_health
+2026-03-19,dog probiotic,17,dog_health
+2026-03-20,dog probiotic,21,dog_health
+2026-03-21,dog probiotic,22,dog_health
+2026-03-22,dog probiotic,26,dog_health
+2026-03-23,dog probiotic,30,dog_health
+2026-03-24,dog probiotic,26,dog_health
+2026-03-25,dog probiotic,25,dog_health
+2026-03-26,dog probiotic,18,dog_health
+2026-03-27,dog probiotic,30,dog_health
+2026-03-28,dog probiotic,48,dog_health
+2026-03-29,dog probiotic,45,dog_health
+2026-03-30,dog probiotic,40,dog_health
+2026-03-31,dog probiotic,49,dog_health
+2026-04-01,dog probiotic,73,dog_health
+2026-04-02,dog probiotic,71,dog_health
+2026-04-03,dog probiotic,73,dog_health
+2026-04-04,dog probiotic,68,dog_health
+2026-04-05,dog probiotic,63,dog_health
+2026-04-06,dog probiotic,69,dog_health
+2026-04-07,dog probiotic,76,dog_health
+2026-04-08,dog probiotic,82,dog_health
+2026-04-09,dog probiotic,78,dog_health
+2026-04-10,dog probiotic,87,dog_health
+2026-04-11,dog probiotic,91,dog_health
+2026-04-12,dog probiotic,83,dog_health
+2026-04-13,dog probiotic,71,dog_health
+2026-04-14,dog probiotic,82,dog_health
+2026-04-15,dog probiotic,85,dog_health
+2026-04-16,dog probiotic,100,dog_health
+2026-04-17,dog probiotic,75,dog_health
+2026-04-18,dog probiotic,78,dog_health
+2026-04-19,dog probiotic,69,dog_health
+2026-04-20,dog probiotic,58,dog_health
+2026-04-21,dog probiotic,67,dog_health
+2026-04-22,dog probiotic,69,dog_health
+2026-04-23,dog probiotic,60,dog_health
+2026-04-24,dog probiotic,51,dog_health
+2026-04-25,dog probiotic,57,dog_health
+2026-04-26,dog probiotic,63,dog_health
+2026-04-27,dog probiotic,42,dog_health
+2026-04-28,dog probiotic,36,dog_health
+2026-04-29,dog probiotic,34,dog_health
+2026-04-30,dog probiotic,39,dog_health
+2026-05-01,dog probiotic,41,dog_health
+2026-05-02,dog probiotic,40,dog_health
+2026-05-03,dog probiotic,29,dog_health
+2026-05-04,dog probiotic,31,dog_health
+2026-05-05,dog probiotic,27,dog_health
+2026-05-06,dog probiotic,41,dog_health
+2026-05-07,dog probiotic,51,dog_health
+2026-05-08,dog probiotic,42,dog_health
+2026-05-09,dog probiotic,46,dog_health
+2026-05-10,dog probiotic,42,dog_health
+2026-05-11,dog probiotic,36,dog_health
+2026-05-12,dog probiotic,21,dog_health
+2026-05-13,dog probiotic,73,dog_health
+2026-05-14,dog probiotic,75,dog_health
+2026-05-15,dog probiotic,79,dog_health
+2026-05-16,dog probiotic,81,dog_health
+2026-05-17,dog probiotic,76,dog_health
+2026-05-18,dog probiotic,61,dog_health
+2026-05-19,dog probiotic,61,dog_health
+2026-05-20,dog probiotic,19,dog_health
+2026-05-21,dog probiotic,22,dog_health
+2026-05-22,dog probiotic,23,dog_health
+2026-05-23,dog probiotic,23,dog_health
+2026-05-24,dog probiotic,23,dog_health
+2026-05-25,dog probiotic,19,dog_health
+2026-05-26,dog probiotic,20,dog_health
+2026-05-27,dog probiotic,22,dog_health
+2026-05-28,dog probiotic,23,dog_health
+2026-05-29,dog probiotic,23,dog_health
+2026-05-30,dog probiotic,22,dog_health
+2026-05-31,dog probiotic,22,dog_health
+2026-06-01,dog probiotic,18,dog_health
+2026-06-02,dog probiotic,14,dog_health
+2026-06-03,dog probiotic,21,dog_health
+2026-03-03,dog skin problems,0,dog_health
+2026-03-04,dog skin problems,0,dog_health
+2026-03-05,dog skin problems,52,dog_health
+2026-03-06,dog skin problems,0,dog_health
+2026-03-07,dog skin problems,0,dog_health
+2026-03-08,dog skin problems,0,dog_health
+2026-03-09,dog skin problems,0,dog_health
+2026-03-10,dog skin problems,0,dog_health
+2026-03-11,dog skin problems,0,dog_health
+2026-03-12,dog skin problems,0,dog_health
+2026-03-13,dog skin problems,0,dog_health
+2026-03-14,dog skin problems,0,dog_health
+2026-03-15,dog skin problems,0,dog_health
+2026-03-16,dog skin problems,0,dog_health
+2026-03-17,dog skin problems,0,dog_health
+2026-03-18,dog skin problems,0,dog_health
+2026-03-19,dog skin problems,0,dog_health
+2026-03-20,dog skin problems,0,dog_health
+2026-03-21,dog skin problems,0,dog_health
+2026-03-22,dog skin problems,0,dog_health
+2026-03-23,dog skin problems,0,dog_health
+2026-03-24,dog skin problems,0,dog_health
+2026-03-25,dog skin problems,0,dog_health
+2026-03-26,dog skin problems,0,dog_health
+2026-03-27,dog skin problems,0,dog_health
+2026-03-28,dog skin problems,0,dog_health
+2026-03-29,dog skin problems,0,dog_health
+2026-03-30,dog skin problems,0,dog_health
+2026-03-31,dog skin problems,0,dog_health
+2026-04-01,dog skin problems,0,dog_health
+2026-04-02,dog skin problems,0,dog_health
+2026-04-03,dog skin problems,100,dog_health
+2026-04-04,dog skin problems,0,dog_health
+2026-04-05,dog skin problems,0,dog_health
+2026-04-06,dog skin problems,0,dog_health
+2026-04-07,dog skin problems,0,dog_health
+2026-04-08,dog skin problems,0,dog_health
+2026-04-09,dog skin problems,0,dog_health
+2026-04-10,dog skin problems,0,dog_health
+2026-04-11,dog skin problems,0,dog_health
+2026-04-12,dog skin problems,0,dog_health
+2026-04-13,dog skin problems,0,dog_health
+2026-04-14,dog skin problems,0,dog_health
+2026-04-15,dog skin problems,0,dog_health
+2026-04-16,dog skin problems,0,dog_health
+2026-04-17,dog skin problems,51,dog_health
+2026-04-18,dog skin problems,0,dog_health
+2026-04-19,dog skin problems,0,dog_health
+2026-04-20,dog skin problems,0,dog_health
+2026-04-21,dog skin problems,0,dog_health
+2026-04-22,dog skin problems,0,dog_health
+2026-04-23,dog skin problems,0,dog_health
+2026-04-24,dog skin problems,0,dog_health
+2026-04-25,dog skin problems,0,dog_health
+2026-04-26,dog skin problems,0,dog_health
+2026-04-27,dog skin problems,0,dog_health
+2026-04-28,dog skin problems,0,dog_health
+2026-04-29,dog skin problems,0,dog_health
+2026-04-30,dog skin problems,0,dog_health
+2026-05-01,dog skin problems,0,dog_health
+2026-05-02,dog skin problems,0,dog_health
+2026-05-03,dog skin problems,0,dog_health
+2026-05-04,dog skin problems,0,dog_health
+2026-05-05,dog skin problems,0,dog_health
+2026-05-06,dog skin problems,0,dog_health
+2026-05-07,dog skin problems,0,dog_health
+2026-05-08,dog skin problems,0,dog_health
+2026-05-09,dog skin problems,0,dog_health
+2026-05-10,dog skin problems,0,dog_health
+2026-05-11,dog skin problems,0,dog_health
+2026-05-12,dog skin problems,0,dog_health
+2026-05-13,dog skin problems,0,dog_health
+2026-05-14,dog skin problems,0,dog_health
+2026-05-15,dog skin problems,0,dog_health
+2026-05-16,dog skin problems,0,dog_health
+2026-05-17,dog skin problems,0,dog_health
+2026-05-18,dog skin problems,0,dog_health
+2026-05-19,dog skin problems,0,dog_health
+2026-05-20,dog skin problems,15,dog_health
+2026-05-21,dog skin problems,10,dog_health
+2026-05-22,dog skin problems,16,dog_health
+2026-05-23,dog skin problems,14,dog_health
+2026-05-24,dog skin problems,14,dog_health
+2026-05-25,dog skin problems,11,dog_health
+2026-05-26,dog skin problems,14,dog_health
+2026-05-27,dog skin problems,12,dog_health
+2026-05-28,dog skin problems,12,dog_health
+2026-05-29,dog skin problems,10,dog_health
+2026-05-30,dog skin problems,14,dog_health
+2026-05-31,dog skin problems,11,dog_health
+2026-06-01,dog skin problems,14,dog_health
+2026-06-02,dog skin problems,9,dog_health
+2026-06-03,dog skin problems,0,dog_health
+2026-03-03,dog anxiety,50,dog_health
+2026-03-04,dog anxiety,64,dog_health
+2026-03-05,dog anxiety,62,dog_health
+2026-03-06,dog anxiety,55,dog_health
+2026-03-07,dog anxiety,66,dog_health
+2026-03-08,dog anxiety,65,dog_health
+2026-03-09,dog anxiety,67,dog_health
+2026-03-10,dog anxiety,65,dog_health
+2026-03-11,dog anxiety,70,dog_health
+2026-03-12,dog anxiety,59,dog_health
+2026-03-13,dog anxiety,54,dog_health
+2026-03-14,dog anxiety,61,dog_health
+2026-03-15,dog anxiety,69,dog_health
+2026-03-16,dog anxiety,68,dog_health
+2026-03-17,dog anxiety,53,dog_health
+2026-03-18,dog anxiety,60,dog_health
+2026-03-19,dog anxiety,64,dog_health
+2026-03-20,dog anxiety,74,dog_health
+2026-03-21,dog anxiety,77,dog_health
+2026-03-22,dog anxiety,71,dog_health
+2026-03-23,dog anxiety,74,dog_health
+2026-03-24,dog anxiety,73,dog_health
+2026-03-25,dog anxiety,63,dog_health
+2026-03-26,dog anxiety,56,dog_health
+2026-03-27,dog anxiety,73,dog_health
+2026-03-28,dog anxiety,74,dog_health
+2026-03-29,dog anxiety,71,dog_health
+2026-03-30,dog anxiety,67,dog_health
+2026-03-31,dog anxiety,77,dog_health
+2026-04-01,dog anxiety,78,dog_health
+2026-04-02,dog anxiety,71,dog_health
+2026-04-03,dog anxiety,68,dog_health
+2026-04-04,dog anxiety,77,dog_health
+2026-04-05,dog anxiety,83,dog_health
+2026-04-06,dog anxiety,89,dog_health
+2026-04-07,dog anxiety,82,dog_health
+2026-04-08,dog anxiety,86,dog_health
+2026-04-09,dog anxiety,81,dog_health
+2026-04-10,dog anxiety,79,dog_health
+2026-04-11,dog anxiety,84,dog_health
+2026-04-12,dog anxiety,85,dog_health
+2026-04-13,dog anxiety,71,dog_health
+2026-04-14,dog anxiety,89,dog_health
+2026-04-15,dog anxiety,91,dog_health
+2026-04-16,dog anxiety,79,dog_health
+2026-04-17,dog anxiety,89,dog_health
+2026-04-18,dog anxiety,91,dog_health
+2026-04-19,dog anxiety,80,dog_health
+2026-04-20,dog anxiety,74,dog_health
+2026-04-21,dog anxiety,90,dog_health
+2026-04-22,dog anxiety,86,dog_health
+2026-04-23,dog anxiety,77,dog_health
+2026-04-24,dog anxiety,82,dog_health
+2026-04-25,dog anxiety,75,dog_health
+2026-04-26,dog anxiety,96,dog_health
+2026-04-27,dog anxiety,76,dog_health
+2026-04-28,dog anxiety,80,dog_health
+2026-04-29,dog anxiety,76,dog_health
+2026-04-30,dog anxiety,74,dog_health
+2026-05-01,dog anxiety,74,dog_health
+2026-05-02,dog anxiety,83,dog_health
+2026-05-03,dog anxiety,73,dog_health
+2026-05-04,dog anxiety,64,dog_health
+2026-05-05,dog anxiety,75,dog_health
+2026-05-06,dog anxiety,100,dog_health
+2026-05-07,dog anxiety,86,dog_health
+2026-05-08,dog anxiety,85,dog_health
+2026-05-09,dog anxiety,79,dog_health
+2026-05-10,dog anxiety,85,dog_health
+2026-05-11,dog anxiety,86,dog_health
+2026-05-12,dog anxiety,73,dog_health
+2026-05-13,dog anxiety,89,dog_health
+2026-05-14,dog anxiety,87,dog_health
+2026-05-15,dog anxiety,84,dog_health
+2026-05-16,dog anxiety,82,dog_health
+2026-05-17,dog anxiety,94,dog_health
+2026-05-18,dog anxiety,71,dog_health
+2026-05-19,dog anxiety,80,dog_health
+2026-05-20,dog anxiety,52,dog_health
+2026-05-21,dog anxiety,46,dog_health
+2026-05-22,dog anxiety,51,dog_health
+2026-05-23,dog anxiety,56,dog_health
+2026-05-24,dog anxiety,57,dog_health
+2026-05-25,dog anxiety,57,dog_health
+2026-05-26,dog anxiety,50,dog_health
+2026-05-27,dog anxiety,55,dog_health
+2026-05-28,dog anxiety,49,dog_health
+2026-05-29,dog anxiety,47,dog_health
+2026-05-30,dog anxiety,50,dog_health
+2026-05-31,dog anxiety,60,dog_health
+2026-06-01,dog anxiety,53,dog_health
+2026-06-02,dog anxiety,49,dog_health
+2026-06-03,dog anxiety,45,dog_health
+2026-03-03,pet tech,36,dog_tech_investment
+2026-03-04,pet tech,28,dog_tech_investment
+2026-03-05,pet tech,27,dog_tech_investment
+2026-03-06,pet tech,22,dog_tech_investment
+2026-03-07,pet tech,14,dog_tech_investment
+2026-03-08,pet tech,20,dog_tech_investment
+2026-03-09,pet tech,20,dog_tech_investment
+2026-03-10,pet tech,20,dog_tech_investment
+2026-03-11,pet tech,13,dog_tech_investment
+2026-03-12,pet tech,22,dog_tech_investment
+2026-03-13,pet tech,18,dog_tech_investment
+2026-03-14,pet tech,19,dog_tech_investment
+2026-03-15,pet tech,22,dog_tech_investment
+2026-03-16,pet tech,24,dog_tech_investment
+2026-03-17,pet tech,23,dog_tech_investment
+2026-03-18,pet tech,27,dog_tech_investment
+2026-03-19,pet tech,27,dog_tech_investment
+2026-03-20,pet tech,34,dog_tech_investment
+2026-03-21,pet tech,34,dog_tech_investment
+2026-03-22,pet tech,37,dog_tech_investment
+2026-03-23,pet tech,34,dog_tech_investment
+2026-03-24,pet tech,36,dog_tech_investment
+2026-03-25,pet tech,28,dog_tech_investment
+2026-03-26,pet tech,48,dog_tech_investment
+2026-03-27,pet tech,42,dog_tech_investment
+2026-03-28,pet tech,52,dog_tech_investment
+2026-03-29,pet tech,68,dog_tech_investment
+2026-03-30,pet tech,51,dog_tech_investment
+2026-03-31,pet tech,63,dog_tech_investment
+2026-04-01,pet tech,73,dog_tech_investment
+2026-04-02,pet tech,69,dog_tech_investment
+2026-04-03,pet tech,68,dog_tech_investment
+2026-04-04,pet tech,81,dog_tech_investment
+2026-04-05,pet tech,70,dog_tech_investment
+2026-04-06,pet tech,73,dog_tech_investment
+2026-04-07,pet tech,83,dog_tech_investment
+2026-04-08,pet tech,73,dog_tech_investment
+2026-04-09,pet tech,81,dog_tech_investment
+2026-04-10,pet tech,94,dog_tech_investment
+2026-04-11,pet tech,96,dog_tech_investment
+2026-04-12,pet tech,96,dog_tech_investment
+2026-04-13,pet tech,79,dog_tech_investment
+2026-04-14,pet tech,83,dog_tech_investment
+2026-04-15,pet tech,82,dog_tech_investment
+2026-04-16,pet tech,88,dog_tech_investment
+2026-04-17,pet tech,96,dog_tech_investment
+2026-04-18,pet tech,100,dog_tech_investment
+2026-04-19,pet tech,83,dog_tech_investment
+2026-04-20,pet tech,80,dog_tech_investment
+2026-04-21,pet tech,69,dog_tech_investment
+2026-04-22,pet tech,79,dog_tech_investment
+2026-04-23,pet tech,59,dog_tech_investment
+2026-04-24,pet tech,59,dog_tech_investment
+2026-04-25,pet tech,59,dog_tech_investment
+2026-04-26,pet tech,68,dog_tech_investment
+2026-04-27,pet tech,53,dog_tech_investment
+2026-04-28,pet tech,50,dog_tech_investment
+2026-04-29,pet tech,51,dog_tech_investment
+2026-04-30,pet tech,60,dog_tech_investment
+2026-05-01,pet tech,55,dog_tech_investment
+2026-05-02,pet tech,57,dog_tech_investment
+2026-05-03,pet tech,51,dog_tech_investment
+2026-05-04,pet tech,52,dog_tech_investment
+2026-05-05,pet tech,43,dog_tech_investment
+2026-05-06,pet tech,71,dog_tech_investment
+2026-05-07,pet tech,74,dog_tech_investment
+2026-05-08,pet tech,75,dog_tech_investment
+2026-05-09,pet tech,70,dog_tech_investment
+2026-05-10,pet tech,85,dog_tech_investment
+2026-05-11,pet tech,57,dog_tech_investment
+2026-05-12,pet tech,51,dog_tech_investment
+2026-05-13,pet tech,85,dog_tech_investment
+2026-05-14,pet tech,92,dog_tech_investment
+2026-05-15,pet tech,86,dog_tech_investment
+2026-05-16,pet tech,72,dog_tech_investment
+2026-05-17,pet tech,68,dog_tech_investment
+2026-05-18,pet tech,58,dog_tech_investment
+2026-05-19,pet tech,64,dog_tech_investment
+2026-05-20,pet tech,14,dog_tech_investment
+2026-05-21,pet tech,15,dog_tech_investment
+2026-05-22,pet tech,17,dog_tech_investment
+2026-05-23,pet tech,16,dog_tech_investment
+2026-05-24,pet tech,15,dog_tech_investment
+2026-05-25,pet tech,16,dog_tech_investment
+2026-05-26,pet tech,15,dog_tech_investment
+2026-05-27,pet tech,15,dog_tech_investment
+2026-05-28,pet tech,14,dog_tech_investment
+2026-05-29,pet tech,15,dog_tech_investment
+2026-05-30,pet tech,15,dog_tech_investment
+2026-05-31,pet tech,16,dog_tech_investment
+2026-06-01,pet tech,13,dog_tech_investment
+2026-06-02,pet tech,11,dog_tech_investment
+2026-06-03,pet tech,13,dog_tech_investment
+2026-03-03,veterinary telehealth,0,dog_tech_investment
+2026-03-04,veterinary telehealth,0,dog_tech_investment
+2026-03-05,veterinary telehealth,0,dog_tech_investment
+2026-03-06,veterinary telehealth,0,dog_tech_investment
+2026-03-07,veterinary telehealth,0,dog_tech_investment
+2026-03-08,veterinary telehealth,0,dog_tech_investment
+2026-03-09,veterinary telehealth,0,dog_tech_investment
+2026-03-10,veterinary telehealth,0,dog_tech_investment
+2026-03-11,veterinary telehealth,0,dog_tech_investment
+2026-03-12,veterinary telehealth,0,dog_tech_investment
+2026-03-13,veterinary telehealth,0,dog_tech_investment
+2026-03-14,veterinary telehealth,0,dog_tech_investment
+2026-03-15,veterinary telehealth,0,dog_tech_investment
+2026-03-16,veterinary telehealth,0,dog_tech_investment
+2026-03-17,veterinary telehealth,0,dog_tech_investment
+2026-03-18,veterinary telehealth,0,dog_tech_investment
+2026-03-19,veterinary telehealth,0,dog_tech_investment
+2026-03-20,veterinary telehealth,0,dog_tech_investment
+2026-03-21,veterinary telehealth,0,dog_tech_investment
+2026-03-22,veterinary telehealth,0,dog_tech_investment
+2026-03-23,veterinary telehealth,0,dog_tech_investment
+2026-03-24,veterinary telehealth,100,dog_tech_investment
+2026-03-25,veterinary telehealth,0,dog_tech_investment
+2026-03-26,veterinary telehealth,0,dog_tech_investment
+2026-03-27,veterinary telehealth,0,dog_tech_investment
+2026-03-28,veterinary telehealth,0,dog_tech_investment
+2026-03-29,veterinary telehealth,0,dog_tech_investment
+2026-03-30,veterinary telehealth,0,dog_tech_investment
+2026-03-31,veterinary telehealth,0,dog_tech_investment
+2026-04-01,veterinary telehealth,0,dog_tech_investment
+2026-04-02,veterinary telehealth,0,dog_tech_investment
+2026-04-03,veterinary telehealth,0,dog_tech_investment
+2026-04-04,veterinary telehealth,0,dog_tech_investment
+2026-04-05,veterinary telehealth,0,dog_tech_investment
+2026-04-06,veterinary telehealth,0,dog_tech_investment
+2026-04-07,veterinary telehealth,0,dog_tech_investment
+2026-04-08,veterinary telehealth,0,dog_tech_investment
+2026-04-09,veterinary telehealth,0,dog_tech_investment
+2026-04-10,veterinary telehealth,0,dog_tech_investment
+2026-04-11,veterinary telehealth,0,dog_tech_investment
+2026-04-12,veterinary telehealth,0,dog_tech_investment
+2026-04-13,veterinary telehealth,0,dog_tech_investment
+2026-04-14,veterinary telehealth,0,dog_tech_investment
+2026-04-15,veterinary telehealth,0,dog_tech_investment
+2026-04-16,veterinary telehealth,0,dog_tech_investment
+2026-04-17,veterinary telehealth,0,dog_tech_investment
+2026-04-18,veterinary telehealth,0,dog_tech_investment
+2026-04-19,veterinary telehealth,0,dog_tech_investment
+2026-04-20,veterinary telehealth,0,dog_tech_investment
+2026-04-21,veterinary telehealth,0,dog_tech_investment
+2026-04-22,veterinary telehealth,97,dog_tech_investment
+2026-04-23,veterinary telehealth,0,dog_tech_investment
+2026-04-24,veterinary telehealth,0,dog_tech_investment
+2026-04-25,veterinary telehealth,0,dog_tech_investment
+2026-04-26,veterinary telehealth,0,dog_tech_investment
+2026-04-27,veterinary telehealth,0,dog_tech_investment
+2026-04-28,veterinary telehealth,0,dog_tech_investment
+2026-04-29,veterinary telehealth,0,dog_tech_investment
+2026-04-30,veterinary telehealth,0,dog_tech_investment
+2026-05-01,veterinary telehealth,0,dog_tech_investment
+2026-05-02,veterinary telehealth,0,dog_tech_investment
+2026-05-03,veterinary telehealth,0,dog_tech_investment
+2026-05-04,veterinary telehealth,0,dog_tech_investment
+2026-05-05,veterinary telehealth,0,dog_tech_investment
+2026-05-06,veterinary telehealth,0,dog_tech_investment
+2026-05-07,veterinary telehealth,0,dog_tech_investment
+2026-05-08,veterinary telehealth,0,dog_tech_investment
+2026-05-09,veterinary telehealth,0,dog_tech_investment
+2026-05-10,veterinary telehealth,0,dog_tech_investment
+2026-05-11,veterinary telehealth,0,dog_tech_investment
+2026-05-12,veterinary telehealth,0,dog_tech_investment
+2026-05-13,veterinary telehealth,0,dog_tech_investment
+2026-05-14,veterinary telehealth,0,dog_tech_investment
+2026-05-15,veterinary telehealth,0,dog_tech_investment
+2026-05-16,veterinary telehealth,0,dog_tech_investment
+2026-05-17,veterinary telehealth,0,dog_tech_investment
+2026-05-18,veterinary telehealth,0,dog_tech_investment
+2026-05-19,veterinary telehealth,0,dog_tech_investment
+2026-05-20,veterinary telehealth,8,dog_tech_investment
+2026-05-21,veterinary telehealth,13,dog_tech_investment
+2026-05-22,veterinary telehealth,9,dog_tech_investment
+2026-05-23,veterinary telehealth,12,dog_tech_investment
+2026-05-24,veterinary telehealth,11,dog_tech_investment
+2026-05-25,veterinary telehealth,14,dog_tech_investment
+2026-05-26,veterinary telehealth,9,dog_tech_investment
+2026-05-27,veterinary telehealth,9,dog_tech_investment
+2026-05-28,veterinary telehealth,12,dog_tech_investment
+2026-05-29,veterinary telehealth,9,dog_tech_investment
+2026-05-30,veterinary telehealth,0,dog_tech_investment
+2026-05-31,veterinary telehealth,17,dog_tech_investment
+2026-06-01,veterinary telehealth,11,dog_tech_investment
+2026-06-02,veterinary telehealth,0,dog_tech_investment
+2026-06-03,veterinary telehealth,0,dog_tech_investment
+2026-03-03,dog health app,58,dog_tech_investment
+2026-03-04,dog health app,59,dog_tech_investment
+2026-03-05,dog health app,51,dog_tech_investment
+2026-03-06,dog health app,36,dog_tech_investment
+2026-03-07,dog health app,51,dog_tech_investment
+2026-03-08,dog health app,52,dog_tech_investment
+2026-03-09,dog health app,41,dog_tech_investment
+2026-03-10,dog health app,58,dog_tech_investment
+2026-03-11,dog health app,27,dog_tech_investment
+2026-03-12,dog health app,42,dog_tech_investment
+2026-03-13,dog health app,36,dog_tech_investment
+2026-03-14,dog health app,40,dog_tech_investment
+2026-03-15,dog health app,49,dog_tech_investment
+2026-03-16,dog health app,0,dog_tech_investment
+2026-03-17,dog health app,50,dog_tech_investment
+2026-03-18,dog health app,41,dog_tech_investment
+2026-03-19,dog health app,41,dog_tech_investment
+2026-03-20,dog health app,64,dog_tech_investment
+2026-03-21,dog health app,52,dog_tech_investment
+2026-03-22,dog health app,51,dog_tech_investment
+2026-03-23,dog health app,30,dog_tech_investment
+2026-03-24,dog health app,27,dog_tech_investment
+2026-03-25,dog health app,65,dog_tech_investment
+2026-03-26,dog health app,37,dog_tech_investment
+2026-03-27,dog health app,44,dog_tech_investment
+2026-03-28,dog health app,47,dog_tech_investment
+2026-03-29,dog health app,81,dog_tech_investment
+2026-03-30,dog health app,38,dog_tech_investment
+2026-03-31,dog health app,71,dog_tech_investment
+2026-04-01,dog health app,25,dog_tech_investment
+2026-04-02,dog health app,53,dog_tech_investment
+2026-04-03,dog health app,57,dog_tech_investment
+2026-04-04,dog health app,67,dog_tech_investment
+2026-04-05,dog health app,48,dog_tech_investment
+2026-04-06,dog health app,59,dog_tech_investment
+2026-04-07,dog health app,54,dog_tech_investment
+2026-04-08,dog health app,58,dog_tech_investment
+2026-04-09,dog health app,46,dog_tech_investment
+2026-04-10,dog health app,67,dog_tech_investment
+2026-04-11,dog health app,80,dog_tech_investment
+2026-04-12,dog health app,61,dog_tech_investment
+2026-04-13,dog health app,65,dog_tech_investment
+2026-04-14,dog health app,64,dog_tech_investment
+2026-04-15,dog health app,43,dog_tech_investment
+2026-04-16,dog health app,63,dog_tech_investment
+2026-04-17,dog health app,86,dog_tech_investment
+2026-04-18,dog health app,76,dog_tech_investment
+2026-04-19,dog health app,52,dog_tech_investment
+2026-04-20,dog health app,56,dog_tech_investment
+2026-04-21,dog health app,55,dog_tech_investment
+2026-04-22,dog health app,68,dog_tech_investment
+2026-04-23,dog health app,61,dog_tech_investment
+2026-04-24,dog health app,60,dog_tech_investment
+2026-04-25,dog health app,37,dog_tech_investment
+2026-04-26,dog health app,63,dog_tech_investment
+2026-04-27,dog health app,46,dog_tech_investment
+2026-04-28,dog health app,38,dog_tech_investment
+2026-04-29,dog health app,66,dog_tech_investment
+2026-04-30,dog health app,23,dog_tech_investment
+2026-05-01,dog health app,35,dog_tech_investment
+2026-05-02,dog health app,39,dog_tech_investment
+2026-05-03,dog health app,51,dog_tech_investment
+2026-05-04,dog health app,47,dog_tech_investment
+2026-05-05,dog health app,58,dog_tech_investment
+2026-05-06,dog health app,67,dog_tech_investment
+2026-05-07,dog health app,64,dog_tech_investment
+2026-05-08,dog health app,61,dog_tech_investment
+2026-05-09,dog health app,62,dog_tech_investment
+2026-05-10,dog health app,65,dog_tech_investment
+2026-05-11,dog health app,48,dog_tech_investment
+2026-05-12,dog health app,48,dog_tech_investment
+2026-05-13,dog health app,100,dog_tech_investment
+2026-05-14,dog health app,89,dog_tech_investment
+2026-05-15,dog health app,40,dog_tech_investment
+2026-05-16,dog health app,54,dog_tech_investment
+2026-05-17,dog health app,80,dog_tech_investment
+2026-05-18,dog health app,40,dog_tech_investment
+2026-05-19,dog health app,51,dog_tech_investment
+2026-05-20,dog health app,8,dog_tech_investment
+2026-05-21,dog health app,10,dog_tech_investment
+2026-05-22,dog health app,11,dog_tech_investment
+2026-05-23,dog health app,14,dog_tech_investment
+2026-05-24,dog health app,12,dog_tech_investment
+2026-05-25,dog health app,12,dog_tech_investment
+2026-05-26,dog health app,11,dog_tech_investment
+2026-05-27,dog health app,8,dog_tech_investment
+2026-05-28,dog health app,11,dog_tech_investment
+2026-05-29,dog health app,9,dog_tech_investment
+2026-05-30,dog health app,11,dog_tech_investment
+2026-05-31,dog health app,13,dog_tech_investment
+2026-06-01,dog health app,10,dog_tech_investment
+2026-06-02,dog health app,7,dog_tech_investment
+2026-06-03,dog health app,10,dog_tech_investment
+2026-03-03,pet wellness,45,dog_tech_investment
+2026-03-04,pet wellness,28,dog_tech_investment
+2026-03-05,pet wellness,44,dog_tech_investment
+2026-03-06,pet wellness,37,dog_tech_investment
+2026-03-07,pet wellness,39,dog_tech_investment
+2026-03-08,pet wellness,43,dog_tech_investment
+2026-03-09,pet wellness,47,dog_tech_investment
+2026-03-10,pet wellness,42,dog_tech_investment
+2026-03-11,pet wellness,33,dog_tech_investment
+2026-03-12,pet wellness,43,dog_tech_investment
+2026-03-13,pet wellness,41,dog_tech_investment
+2026-03-14,pet wellness,31,dog_tech_investment
+2026-03-15,pet wellness,28,dog_tech_investment
+2026-03-16,pet wellness,35,dog_tech_investment
+2026-03-17,pet wellness,37,dog_tech_investment
+2026-03-18,pet wellness,59,dog_tech_investment
+2026-03-19,pet wellness,43,dog_tech_investment
+2026-03-20,pet wellness,43,dog_tech_investment
+2026-03-21,pet wellness,40,dog_tech_investment
+2026-03-22,pet wellness,34,dog_tech_investment
+2026-03-23,pet wellness,48,dog_tech_investment
+2026-03-24,pet wellness,58,dog_tech_investment
+2026-03-25,pet wellness,42,dog_tech_investment
+2026-03-26,pet wellness,50,dog_tech_investment
+2026-03-27,pet wellness,53,dog_tech_investment
+2026-03-28,pet wellness,46,dog_tech_investment
+2026-03-29,pet wellness,49,dog_tech_investment
+2026-03-30,pet wellness,52,dog_tech_investment
+2026-03-31,pet wellness,57,dog_tech_investment
+2026-04-01,pet wellness,70,dog_tech_investment
+2026-04-02,pet wellness,68,dog_tech_investment
+2026-04-03,pet wellness,76,dog_tech_investment
+2026-04-04,pet wellness,55,dog_tech_investment
+2026-04-05,pet wellness,56,dog_tech_investment
+2026-04-06,pet wellness,63,dog_tech_investment
+2026-04-07,pet wellness,81,dog_tech_investment
+2026-04-08,pet wellness,72,dog_tech_investment
+2026-04-09,pet wellness,71,dog_tech_investment
+2026-04-10,pet wellness,77,dog_tech_investment
+2026-04-11,pet wellness,64,dog_tech_investment
+2026-04-12,pet wellness,87,dog_tech_investment
+2026-04-13,pet wellness,87,dog_tech_investment
+2026-04-14,pet wellness,72,dog_tech_investment
+2026-04-15,pet wellness,84,dog_tech_investment
+2026-04-16,pet wellness,72,dog_tech_investment
+2026-04-17,pet wellness,89,dog_tech_investment
+2026-04-18,pet wellness,92,dog_tech_investment
+2026-04-19,pet wellness,72,dog_tech_investment
+2026-04-20,pet wellness,73,dog_tech_investment
+2026-04-21,pet wellness,68,dog_tech_investment
+2026-04-22,pet wellness,63,dog_tech_investment
+2026-04-23,pet wellness,65,dog_tech_investment
+2026-04-24,pet wellness,53,dog_tech_investment
+2026-04-25,pet wellness,56,dog_tech_investment
+2026-04-26,pet wellness,49,dog_tech_investment
+2026-04-27,pet wellness,68,dog_tech_investment
+2026-04-28,pet wellness,60,dog_tech_investment
+2026-04-29,pet wellness,59,dog_tech_investment
+2026-04-30,pet wellness,64,dog_tech_investment
+2026-05-01,pet wellness,54,dog_tech_investment
+2026-05-02,pet wellness,64,dog_tech_investment
+2026-05-03,pet wellness,56,dog_tech_investment
+2026-05-04,pet wellness,47,dog_tech_investment
+2026-05-05,pet wellness,60,dog_tech_investment
+2026-05-06,pet wellness,71,dog_tech_investment
+2026-05-07,pet wellness,80,dog_tech_investment
+2026-05-08,pet wellness,72,dog_tech_investment
+2026-05-09,pet wellness,71,dog_tech_investment
+2026-05-10,pet wellness,62,dog_tech_investment
+2026-05-11,pet wellness,68,dog_tech_investment
+2026-05-12,pet wellness,66,dog_tech_investment
+2026-05-13,pet wellness,86,dog_tech_investment
+2026-05-14,pet wellness,86,dog_tech_investment
+2026-05-15,pet wellness,100,dog_tech_investment
+2026-05-16,pet wellness,71,dog_tech_investment
+2026-05-17,pet wellness,80,dog_tech_investment
+2026-05-18,pet wellness,69,dog_tech_investment
+2026-05-19,pet wellness,70,dog_tech_investment
+2026-05-20,pet wellness,33,dog_tech_investment
+2026-05-21,pet wellness,33,dog_tech_investment
+2026-05-22,pet wellness,36,dog_tech_investment
+2026-05-23,pet wellness,30,dog_tech_investment
+2026-05-24,pet wellness,28,dog_tech_investment
+2026-05-25,pet wellness,31,dog_tech_investment
+2026-05-26,pet wellness,36,dog_tech_investment
+2026-05-27,pet wellness,38,dog_tech_investment
+2026-05-28,pet wellness,35,dog_tech_investment
+2026-05-29,pet wellness,36,dog_tech_investment
+2026-05-30,pet wellness,31,dog_tech_investment
+2026-05-31,pet wellness,31,dog_tech_investment
+2026-06-01,pet wellness,41,dog_tech_investment
+2026-06-02,pet wellness,33,dog_tech_investment
+2026-06-03,pet wellness,39,dog_tech_investment
+2026-03-03,dog breeding business,0,dog_tech_investment
+2026-03-04,dog breeding business,0,dog_tech_investment
+2026-03-05,dog breeding business,0,dog_tech_investment
+2026-03-06,dog breeding business,0,dog_tech_investment
+2026-03-07,dog breeding business,0,dog_tech_investment
+2026-03-08,dog breeding business,0,dog_tech_investment
+2026-03-09,dog breeding business,0,dog_tech_investment
+2026-03-10,dog breeding business,0,dog_tech_investment
+2026-03-11,dog breeding business,0,dog_tech_investment
+2026-03-12,dog breeding business,0,dog_tech_investment
+2026-03-13,dog breeding business,0,dog_tech_investment
+2026-03-14,dog breeding business,0,dog_tech_investment
+2026-03-15,dog breeding business,0,dog_tech_investment
+2026-03-16,dog breeding business,0,dog_tech_investment
+2026-03-17,dog breeding business,0,dog_tech_investment
+2026-03-18,dog breeding business,0,dog_tech_investment
+2026-03-19,dog breeding business,0,dog_tech_investment
+2026-03-20,dog breeding business,0,dog_tech_investment
+2026-03-21,dog breeding business,0,dog_tech_investment
+2026-03-22,dog breeding business,0,dog_tech_investment
+2026-03-23,dog breeding business,0,dog_tech_investment
+2026-03-24,dog breeding business,0,dog_tech_investment
+2026-03-25,dog breeding business,0,dog_tech_investment
+2026-03-26,dog breeding business,0,dog_tech_investment
+2026-03-27,dog breeding business,0,dog_tech_investment
+2026-03-28,dog breeding business,0,dog_tech_investment
+2026-03-29,dog breeding business,0,dog_tech_investment
+2026-03-30,dog breeding business,0,dog_tech_investment
+2026-03-31,dog breeding business,0,dog_tech_investment
+2026-04-01,dog breeding business,0,dog_tech_investment
+2026-04-02,dog breeding business,0,dog_tech_investment
+2026-04-03,dog breeding business,0,dog_tech_investment
+2026-04-04,dog breeding business,0,dog_tech_investment
+2026-04-05,dog breeding business,0,dog_tech_investment
+2026-04-06,dog breeding business,0,dog_tech_investment
+2026-04-07,dog breeding business,0,dog_tech_investment
+2026-04-08,dog breeding business,0,dog_tech_investment
+2026-04-09,dog breeding business,0,dog_tech_investment
+2026-04-10,dog breeding business,0,dog_tech_investment
+2026-04-11,dog breeding business,0,dog_tech_investment
+2026-04-12,dog breeding business,0,dog_tech_investment
+2026-04-13,dog breeding business,0,dog_tech_investment
+2026-04-14,dog breeding business,0,dog_tech_investment
+2026-04-15,dog breeding business,0,dog_tech_investment
+2026-04-16,dog breeding business,0,dog_tech_investment
+2026-04-17,dog breeding business,0,dog_tech_investment
+2026-04-18,dog breeding business,0,dog_tech_investment
+2026-04-19,dog breeding business,0,dog_tech_investment
+2026-04-20,dog breeding business,0,dog_tech_investment
+2026-04-21,dog breeding business,0,dog_tech_investment
+2026-04-22,dog breeding business,0,dog_tech_investment
+2026-04-23,dog breeding business,0,dog_tech_investment
+2026-04-24,dog breeding business,0,dog_tech_investment
+2026-04-25,dog breeding business,0,dog_tech_investment
+2026-04-26,dog breeding business,0,dog_tech_investment
+2026-04-27,dog breeding business,0,dog_tech_investment
+2026-04-28,dog breeding business,0,dog_tech_investment
+2026-04-29,dog breeding business,0,dog_tech_investment
+2026-04-30,dog breeding business,0,dog_tech_investment
+2026-05-01,dog breeding business,0,dog_tech_investment
+2026-05-02,dog breeding business,0,dog_tech_investment
+2026-05-03,dog breeding business,0,dog_tech_investment
+2026-05-04,dog breeding business,0,dog_tech_investment
+2026-05-05,dog breeding business,0,dog_tech_investment
+2026-05-06,dog breeding business,0,dog_tech_investment
+2026-05-07,dog breeding business,0,dog_tech_investment
+2026-05-08,dog breeding business,0,dog_tech_investment
+2026-05-09,dog breeding business,0,dog_tech_investment
+2026-05-10,dog breeding business,0,dog_tech_investment
+2026-05-11,dog breeding business,0,dog_tech_investment
+2026-05-12,dog breeding business,0,dog_tech_investment
+2026-05-13,dog breeding business,0,dog_tech_investment
+2026-05-14,dog breeding business,0,dog_tech_investment
+2026-05-15,dog breeding business,0,dog_tech_investment
+2026-05-16,dog breeding business,0,dog_tech_investment
+2026-05-17,dog breeding business,0,dog_tech_investment
+2026-05-18,dog breeding business,0,dog_tech_investment
+2026-05-19,dog breeding business,0,dog_tech_investment
+2026-05-20,dog breeding business,0,dog_tech_investment
+2026-05-21,dog breeding business,0,dog_tech_investment
+2026-05-22,dog breeding business,0,dog_tech_investment
+2026-05-23,dog breeding business,0,dog_tech_investment
+2026-05-24,dog breeding business,0,dog_tech_investment
+2026-05-25,dog breeding business,0,dog_tech_investment
+2026-05-26,dog breeding business,75,dog_tech_investment
+2026-05-27,dog breeding business,0,dog_tech_investment
+2026-05-28,dog breeding business,0,dog_tech_investment
+2026-05-29,dog breeding business,0,dog_tech_investment
+2026-05-30,dog breeding business,0,dog_tech_investment
+2026-05-31,dog breeding business,100,dog_tech_investment
+2026-06-01,dog breeding business,62,dog_tech_investment
+2026-06-02,dog breeding business,0,dog_tech_investment
+2026-06-03,dog breeding business,0,dog_tech_investment

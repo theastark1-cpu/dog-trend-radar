@@ -1,0 +1,5 @@
+urllib3<2
+requests==2.31.0
+pytrends
+pandas
+numpy
