@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-04T07:32:51.091251+00:00",
+  "scraped_at": "2026-06-04T15:24:52.119154+00:00",
   "crunchbase": {
     "funding_rounds": [
       {
@@ -7,97 +7,67 @@
         "amount": "$50M",
         "round_type": "Series B",
         "date": "2025",
-        "headline": "Bond Vet raises $50M for tech-enabled veterinary clinics expansion"
+        "source_url": "https://techcrunch.com/tag/pet-tech/",
+        "headline": "Bond Vet raises $50M for tech-enabled veterinary clinics"
       },
       {
         "company": "Small Door Veterinary",
         "amount": "$40M",
         "round_type": "Series B",
         "date": "2025",
-        "headline": "Small Door Veterinary raises $40M Series B for membership-based vet care"
+        "source_url": "https://techcrunch.com/tag/pet-tech/",
+        "headline": "Small Door Veterinary raises $40M Series B"
       },
       {
         "company": "The Farmer's Dog",
         "amount": "$200M",
         "round_type": "Series E",
         "date": "2024",
-        "headline": "The Farmer's Dog raises $200M at $2B+ valuation for fresh dog food delivery"
+        "source_url": "https://www.crunchbase.com/hub/pet-startups",
+        "headline": "The Farmer's Dog raises $200M at $2B+ valuation"
       },
       {
         "company": "Jinx",
         "amount": "$28M",
         "round_type": "Series B",
         "date": "2024",
-        "headline": "Jinx raises $28M for premium dog food targeting millennial owners"
+        "source_url": "https://www.crunchbase.com/hub/pet-startups",
+        "headline": "Jinx raises $28M for premium dog food"
       },
       {
         "company": "Fi",
         "amount": "$30M",
         "round_type": "Series C",
         "date": "2025",
-        "headline": "Fi raises $30M for smart dog collar and GPS tracking platform"
+        "source_url": "https://techcrunch.com/tag/pet-tech/",
+        "headline": "Fi raises $30M for smart dog collars"
       },
       {
         "company": "Veterinary Emergency Group",
         "amount": "$100M",
         "round_type": "Growth",
         "date": "2025",
-        "headline": "VEG raises $100M to expand emergency vet clinics nationwide"
+        "source_url": "https://www.crunchbase.com/hub/pet-startups",
+        "headline": "VEG raises $100M for emergency vet expansion"
       },
       {
         "company": "Spot & Tango",
         "amount": "$52M",
         "round_type": "Series C",
         "date": "2024",
-        "headline": "Spot & Tango raises $52M for human-grade fresh dog food"
+        "source_url": "https://www.crunchbase.com/hub/pet-startups",
+        "headline": "Spot & Tango raises $52M for fresh dog food"
       },
       {
         "company": "Metamorphosis Partners",
         "amount": "$75M",
         "round_type": "Venture",
         "date": "2025",
-        "headline": "Pet tech rollup raises $75M to acquire independent vet clinics"
-      },
-      {
-        "company": "Dogdrop",
-        "amount": "$1.7M",
-        "round_type": "Seed",
-        "date": "2025",
-        "headline": "Dogdrop raises $1.7M for on-demand dog daycare membership model"
-      },
-      {
-        "company": "Pawp",
-        "amount": "$13M",
-        "round_type": "Series B",
-        "date": "2024",
-        "headline": "Pawp raises $13M for digital pet telehealth and emergency fund platform"
-      },
-      {
-        "company": "",
-        "amount": "",
-        "round_type": "",
-        "date": "",
-        "headline": "500+ Funded Pet Startups 2026 | Verified Contacts & Data",
-        "source_url": "https://growthlist.co/pet-startups/"
-      },
-      {
-        "company": "",
-        "amount": "",
-        "round_type": "",
-        "date": "",
-        "headline": "Top Pet Tech Startups by Fundraising (2026) - New Market Pitch",
-        "source_url": "https://newmarketpitch.com/blogs/news/pet-tech-top-startups-fundraising"
-      },
-      {
-        "company": "",
-        "amount": "",
-        "round_type": "",
-        "date": "",
-        "headline": "Investors Unleash Millions Into Pet-Tech Startups - Crunchbase News",
-        "source_url": "https://news.crunchbase.com/business/investors-unleash-millions-into-pet-tech-startups/"
+        "source_url": "https://techcrunch.com/tag/pet-tech/",
+        "headline": "Pet tech rollup raises $75M to acquire vet clinics"
       }
     ],
-    "total": 13
+    "total": 8
   },
   "uspto": {
     "patents": [],
@@ -106,83 +76,36 @@
   "vet_conferences": {
     "conferences": [
       {
-        "name": "VMX 2026 (Veterinary Meeting & Expo)",
-        "organization": "NAVC",
-        "dates": "January 17-21, 2026",
-        "location": "Orlando, FL",
-        "hot_topics": [
-          "telehealth regulation updates",
-          "AI diagnostic tools",
-          "canine cognitive dysfunction",
-          "microbiome therapeutics",
-          "veterinary cannabis guidelines",
-          "precision medicine"
+        "conference": "VMX (Veterinary Meeting & Expo)",
+        "url": "https://navc.com/vmx/schedule/",
+        "sessions": [
+          "January 16-20, 2027 \u2022 Orlando, FL \u2022 Orange County Convention Center"
         ],
-        "url": "https://navc.com/vmx/"
+        "topics": [
+          {
+            "keyword": "AI",
+            "mentions": 5
+          }
+        ],
+        "session_count_found": 1
       },
       {
-        "name": "WVC 2026 Annual Conference",
-        "organization": "Western Veterinary Conference",
-        "dates": "March 1-4, 2026",
-        "location": "Las Vegas, NV",
-        "hot_topics": [
-          "dermatology breakthroughs",
-          "canine osteoarthritis management",
-          "telemedicine legislation",
-          "practice management AI",
-          "wellness plan models"
-        ],
-        "url": "https://wvc.org/"
+        "conference": "WVC Annual Conference",
+        "url": "https://wvc.org/education/schedule/",
+        "sessions": [],
+        "topics": [],
+        "error": "404 Client Error: Not Found for url: https://www.viticusgroup.org/education/schedule/"
       },
       {
-        "name": "AVMA Convention 2026",
-        "organization": "American Veterinary Medical Association",
-        "dates": "June 19-23, 2026",
-        "location": "Chicago, IL",
-        "hot_topics": [
-          "mental health in veterinary profession",
-          "canine cancer immunotherapy",
-          "AI radiology interpretation",
-          "sustainable veterinary practice",
-          "One Health initiatives"
-        ],
-        "url": "https://avma.org/"
-      },
-      {
-        "name": "Fetch dvm360 Conference 2026",
-        "organization": "dvm360",
-        "dates": "August 2026",
-        "location": "Kansas City, MO",
-        "hot_topics": [
-          "cytopoint vs apoquel updates",
-          "geriatric canine care",
-          "telehealth platforms comparison",
-          "staff retention strategies"
-        ],
-        "url": "https://fetchdvm360.com/"
-      },
-      {
-        "name": "AAHA Con 2026",
-        "organization": "American Animal Hospital Association",
-        "dates": "September 2026",
-        "location": "TBD",
-        "hot_topics": [
-          "fear free certification updates",
-          "practice accreditation standards",
-          "canine pain management protocols",
-          "client communication technology"
-        ],
-        "url": "https://aaha.org/"
+        "conference": "AVMA Convention",
+        "url": "https://www.avma.org/events/avma-convention",
+        "sessions": [],
+        "topics": [],
+        "session_count_found": 0
       }
     ],
-    "total": 5,
-    "emerging_themes": [
-      "AI + diagnostics (radiology, pathology)",
-      "Telehealth legislation + platform adoption",
-      "Microbiome + probiotic therapeutics",
-      "Canine cognitive dysfunction (dog dementia)",
-      "Cannabis/CBD clinical guidelines"
-    ]
+    "total": 0,
+    "emerging_themes": []
   },
   "tiktok": {
     "hashtags": [

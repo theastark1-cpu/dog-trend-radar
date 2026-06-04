@@ -1,83 +1,121 @@
 {
-  "scraped_at": "2026-06-04T05:43:14.221549+00:00",
+  "scraped_at": "2026-06-04T15:14:11.729863+00:00",
   "conferences": [
     {
-      "name": "VMX 2026 (Veterinary Meeting & Expo)",
-      "organization": "NAVC",
-      "dates": "January 17-21, 2026",
-      "location": "Orlando, FL",
-      "hot_topics": [
-        "telehealth regulation updates",
-        "AI diagnostic tools",
-        "canine cognitive dysfunction",
-        "microbiome therapeutics",
-        "veterinary cannabis guidelines",
-        "precision medicine"
+      "conference": "VMX (Veterinary Meeting & Expo)",
+      "url": "https://navc.com/vmx/schedule/",
+      "sessions": [
+        "January 16-20, 2027 • Orlando, FL • Orange County Convention Center"
       ],
-      "url": "https://navc.com/vmx/"
+      "topics": [
+        {
+          "keyword": "AI",
+          "mentions": 5
+        }
+      ],
+      "session_count_found": 1
     },
     {
-      "name": "WVC 2026 Annual Conference",
-      "organization": "Western Veterinary Conference",
+      "conference": "WVC Annual Conference",
+      "url": "https://wvc.org/education/schedule/",
+      "sessions": [],
+      "topics": [],
+      "error": "404 Client Error: Not Found for url: https://www.viticusgroup.org/education/schedule/"
+    },
+    {
+      "conference": "AVMA Convention",
+      "url": "https://www.avma.org/events/avma-convention",
+      "sessions": [],
+      "topics": [],
+      "session_count_found": 0
+    }
+  ],
+  "known_upcoming_conferences": [
+    {
+      "name": "VMX 2026",
+      "organizer": "NAVC",
+      "dates": "January 17-21, 2026",
+      "location": "Orlando, FL",
+      "url": "https://navc.com/vmx/",
+      "focus_areas": [
+        "Small animal",
+        "Exotics",
+        "Practice management",
+        "Technician",
+        "Wellness"
+      ]
+    },
+    {
+      "name": "WVC 97th Annual Conference",
+      "organizer": "WVC",
       "dates": "March 1-4, 2026",
       "location": "Las Vegas, NV",
-      "hot_topics": [
-        "dermatology breakthroughs",
-        "canine osteoarthritis management",
-        "telemedicine legislation",
-        "practice management AI",
-        "wellness plan models"
-      ],
-      "url": "https://wvc.org/"
+      "url": "https://wvc.org/",
+      "focus_areas": [
+        "Clinical CE",
+        "Hands-on labs",
+        "Practice management",
+        "Technician tracks"
+      ]
     },
     {
       "name": "AVMA Convention 2026",
-      "organization": "American Veterinary Medical Association",
-      "dates": "June 19-23, 2026",
-      "location": "Chicago, IL",
-      "hot_topics": [
-        "mental health in veterinary profession",
-        "canine cancer immunotherapy",
-        "AI radiology interpretation",
-        "sustainable veterinary practice",
-        "One Health initiatives"
-      ],
-      "url": "https://avma.org/"
+      "organizer": "AVMA",
+      "dates": "July 9-14, 2026",
+      "location": "San Diego, CA",
+      "url": "https://www.avma.org/events/avma-convention",
+      "focus_areas": [
+        "Continuing education",
+        "Exhibit hall",
+        "Networking",
+        "Wellness"
+      ]
     },
     {
-      "name": "Fetch dvm360 Conference 2026",
-      "organization": "dvm360",
+      "name": "ACVIM Forum 2026",
+      "organizer": "ACVIM",
+      "dates": "June 10-13, 2026",
+      "location": "Montreal, Canada",
+      "url": "https://www.acvim.org/",
+      "focus_areas": [
+        "Internal medicine",
+        "Cardiology",
+        "Neurology",
+        "Oncology",
+        "Nutrition"
+      ]
+    },
+    {
+      "name": "Fetch dvm360 Conference",
+      "organizer": "dvm360",
       "dates": "August 2026",
       "location": "Kansas City, MO",
-      "hot_topics": [
-        "cytopoint vs apoquel updates",
-        "geriatric canine care",
-        "telehealth platforms comparison",
-        "staff retention strategies"
-      ],
-      "url": "https://fetchdvm360.com/"
+      "url": "https://www.fetchdvm360.com/",
+      "focus_areas": [
+        "Clinical",
+        "Practice management",
+        "Technician",
+        "Wellness"
+      ]
     },
     {
       "name": "AAHA Con 2026",
-      "organization": "American Animal Hospital Association",
+      "organizer": "AAHA",
       "dates": "September 2026",
-      "location": "TBD",
-      "hot_topics": [
-        "fear free certification updates",
-        "practice accreditation standards",
-        "canine pain management protocols",
-        "client communication technology"
-      ],
-      "url": "https://aaha.org/"
+      "location": "National Harbor, MD",
+      "url": "https://www.aaha.org/",
+      "focus_areas": [
+        "AAHA standards",
+        "Practice accreditation",
+        "Team training",
+        "Clinical updates"
+      ]
     }
   ],
-  "total": 5,
-  "emerging_themes": [
-    "AI + diagnostics (radiology, pathology)",
-    "Telehealth legislation + platform adoption",
-    "Microbiome + probiotic therapeutics",
-    "Canine cognitive dysfunction (dog dementia)",
-    "Cannabis/CBD clinical guidelines"
-  ],
-  "source": "web_search + conference agendas"
+  "aggregated_emerging_topics": [
+    {
+      "keyword": "AI",
+      "total_mentions": 5
+    }
+  ]
 }

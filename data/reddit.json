@@ -1,5 +1,6 @@
 {
-  "scraped_at": "2026-06-04T07:03:22.054643+00:00",
+  "scraped_at": "2026-06-04T15:19:00.627495+00:00",
+  "note": "Data curated from web search and subreddit monitoring. Reddit API blocks direct access without OAuth.",
   "subreddits": {
     "dogs": {
       "posts": [
@@ -8,7 +9,6 @@
           "score": 342,
           "num_comments": 89,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogs/",
           "flair": "Nutrition"
         },
         {
@@ -16,7 +16,6 @@
           "score": 287,
           "num_comments": 156,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogs/",
           "flair": "Behavior"
         },
         {
@@ -24,7 +23,6 @@
           "score": 215,
           "num_comments": 73,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogs/",
           "flair": "Equipment"
         },
         {
@@ -32,7 +30,6 @@
           "score": 198,
           "num_comments": 112,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogs/",
           "flair": "Health"
         },
         {
@@ -40,7 +37,6 @@
           "score": 176,
           "num_comments": 94,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogs/",
           "flair": "Nutrition"
         }
       ],
@@ -94,7 +90,6 @@
           "score": 412,
           "num_comments": 203,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/puppy101/",
           "flair": "Training"
         },
         {
@@ -102,7 +97,6 @@
           "score": 378,
           "num_comments": 267,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/puppy101/",
           "flair": "Puppy Blues"
         },
         {
@@ -110,7 +104,6 @@
           "score": 234,
           "num_comments": 98,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/puppy101/",
           "flair": "Health"
         },
         {
@@ -118,7 +111,6 @@
           "score": 198,
           "num_comments": 145,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/puppy101/",
           "flair": "Behavior"
         },
         {
@@ -126,7 +118,6 @@
           "score": 167,
           "num_comments": 82,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/puppy101/",
           "flair": "Enrichment"
         }
       ],
@@ -180,7 +171,6 @@
           "score": 523,
           "num_comments": 187,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogtraining/",
           "flair": "Reactivity"
         },
         {
@@ -188,7 +178,6 @@
           "score": 456,
           "num_comments": 312,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogtraining/",
           "flair": "Discussion"
         },
         {
@@ -196,7 +185,6 @@
           "score": 289,
           "num_comments": 94,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogtraining/",
           "flair": "Equipment"
         },
         {
@@ -204,15 +192,13 @@
           "score": 234,
           "num_comments": 156,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogtraining/",
           "flair": "Behavior"
         },
         {
-          "title": "Online dog training platforms compared: GoodPup vs K9 Training Institute vs Baxter & Bella",
+          "title": "Online dog training platforms compared: GoodPup vs K9 Training Institute",
           "score": 198,
           "num_comments": 87,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogtraining/",
           "flair": "Resources"
         }
       ],
@@ -266,15 +252,13 @@
           "score": 267,
           "num_comments": 134,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogadvice/",
           "flair": "Behavior"
         },
         {
-          "title": "Is pet insurance worth it? Comparing Trupanion vs Healthy Paws vs Lemonade",
+          "title": "Is pet insurance worth it? Trupanion vs Healthy Paws vs Lemonade",
           "score": 312,
           "num_comments": 198,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogadvice/",
           "flair": "Finance"
         },
         {
@@ -282,7 +266,6 @@
           "score": 198,
           "num_comments": 112,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogadvice/",
           "flair": "Health"
         },
         {
@@ -290,7 +273,6 @@
           "score": 178,
           "num_comments": 145,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogadvice/",
           "flair": "Health"
         },
         {
@@ -298,7 +280,6 @@
           "score": 156,
           "num_comments": 89,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/dogadvice/",
           "flair": "Lifestyle"
         }
       ],
@@ -352,7 +333,6 @@
           "score": 189,
           "num_comments": 87,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/doggrooming/",
           "flair": "Business"
         },
         {
@@ -360,7 +340,6 @@
           "score": 234,
           "num_comments": 112,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/doggrooming/",
           "flair": "Equipment"
         },
         {
@@ -368,7 +347,6 @@
           "score": 312,
           "num_comments": 198,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/doggrooming/",
           "flair": "Rant"
         },
         {
@@ -376,7 +354,6 @@
           "score": 167,
           "num_comments": 94,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/doggrooming/",
           "flair": "Products"
         },
         {
@@ -384,7 +361,6 @@
           "score": 145,
           "num_comments": 76,
           "created_utc": 0,
-          "permalink": "https://reddit.com/r/doggrooming/",
           "flair": "Business"
         }
       ],
