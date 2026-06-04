@@ -1,60 +1,22 @@
 {
-  "pipeline_run_at": "2026-06-04T15:24:52.116541+00:00",
+  "pipeline_run_at": "2026-06-04T19:14:10.428703+00:00",
   "stages": {
-    "scrapers": {
-      "scrapers/reddit_scraper.py": {
-        "ok": true,
-        "elapsed": 0.0
-      },
-      "scrapers/amazon_scraper.py": {
-        "ok": false,
-        "elapsed": 0.1
-      },
-      "scrapers/kickstarter_scraper.py": {
-        "ok": true,
-        "elapsed": 9.0
-      },
-      "scrapers/uspto_scraper.py": {
-        "ok": true,
-        "elapsed": 17.4
-      },
-      "scrapers/crunchbase_scraper.py": {
-        "ok": false,
-        "elapsed": 0.1
-      },
-      "scrapers/vet_conference_scraper.py": {
-        "ok": false,
-        "elapsed": 0.1
-      },
-      "scrapers/retail_scraper.py": {
-        "ok": false,
-        "elapsed": 0.1
-      },
-      "scrapers/tiktok_scraper.py": {
-        "ok": true,
-        "elapsed": 23.4
-      }
-    },
-    "google_trends": {
-      "ok": false,
-      "elapsed": 300.0
-    },
     "analytics": {
       "analytics/lead_lag.py": {
         "ok": false,
-        "elapsed": 0.4
+        "elapsed": 0.1
       },
       "analytics/seasonal_forecaster.py": {
         "ok": false,
-        "elapsed": 0.3
+        "elapsed": 1.6
       },
       "analytics/anomaly_detection.py": {
         "ok": false,
-        "elapsed": 0.3
+        "elapsed": 0.1
       },
       "analytics/correlation_matrix.py": {
         "ok": false,
-        "elapsed": 0.3
+        "elapsed": 0.1
       }
     }
   },
@@ -65,12 +27,13 @@
     "crunchbase_signals.json": 2207,
     "kickstarter_signals.json": 93,
     "lead_lag_pairs.json": 13086,
-    "products.json": 5857,
-    "reddit.json": 11039,
+    "pipeline_summary.json": 1855,
+    "products.json": 223,
+    "reddit.json": 9686,
     "reddit_signals.json": 9686,
     "retail_signals.json": 1139,
     "seasonal_forecasts.json": 22516,
-    "signals.json": 8124,
+    "signals.json": 5561,
     "summary.json": 10362,
     "tiktok_signals.json": 2166,
     "uspto_signals.json": 92,
