@@ -106,7 +106,7 @@ def run_seasonal():
     print("=" * 60)
 
     df = pd.read_csv(ALL_TRENDS)
-    df["date"] = pd.to_datetime(df["date"])
+    df["date"] = pd.to_datetime(df["date"], format='mixed')
 
     pivot = df.pivot_table(
         index="date", columns="keyword", values="interest", aggfunc="mean"

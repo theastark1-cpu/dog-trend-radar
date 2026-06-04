@@ -1,38 +1,38 @@
 {
-  "pipeline_run_at": "2026-06-04T19:14:10.428703+00:00",
+  "pipeline_run_at": "2026-06-04T19:17:16.192599+00:00",
   "stages": {
     "analytics": {
       "analytics/lead_lag.py": {
-        "ok": false,
-        "elapsed": 0.1
+        "ok": true,
+        "elapsed": 2.2
       },
       "analytics/seasonal_forecaster.py": {
-        "ok": false,
-        "elapsed": 1.6
+        "ok": true,
+        "elapsed": 0.6
       },
       "analytics/anomaly_detection.py": {
-        "ok": false,
+        "ok": true,
         "elapsed": 0.1
       },
       "analytics/correlation_matrix.py": {
-        "ok": false,
-        "elapsed": 0.1
+        "ok": true,
+        "elapsed": 0.2
       }
     }
   },
   "data_files": {
     "amazon_signals.json": 150,
-    "anomalies.json": 5749,
-    "correlation_matrix.json": 13228,
+    "anomalies.json": 9172,
+    "correlation_matrix.json": 32083,
     "crunchbase_signals.json": 2207,
     "kickstarter_signals.json": 93,
-    "lead_lag_pairs.json": 13086,
-    "pipeline_summary.json": 1855,
+    "lead_lag_pairs.json": 12996,
+    "pipeline_summary.json": 1050,
     "products.json": 223,
     "reddit.json": 9686,
     "reddit_signals.json": 9686,
     "retail_signals.json": 1139,
-    "seasonal_forecasts.json": 22516,
+    "seasonal_forecasts.json": 38658,
     "signals.json": 5561,
     "summary.json": 10362,
     "tiktok_signals.json": 2166,

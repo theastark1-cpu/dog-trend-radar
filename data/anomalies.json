@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-03T23:34:11.860052",
+  "generated_at": "2026-06-04T13:17:15.996661",
   "parameters": {
     "recent_window_days": 14,
     "rolling_baseline_days": 90,
     "z_threshold": 2.5
   },
-  "total_anomalies": 10,
+  "total_anomalies": 15,
   "anomalies": [
     {
       "keyword": "dog breeding business",
@@ -28,6 +28,36 @@
       "threshold": 34.52
     },
     {
+      "keyword": "dog heartworm",
+      "date": "2026-06-02",
+      "value": 39.0,
+      "z_score": 3.921,
+      "direction": "spike",
+      "baseline_mean": 20.69,
+      "baseline_std": 4.67,
+      "threshold": 32.37
+    },
+    {
+      "keyword": "dog heartworm",
+      "date": "2026-06-04",
+      "value": 42.0,
+      "z_score": 3.847,
+      "direction": "spike",
+      "baseline_mean": 21.14,
+      "baseline_std": 5.42,
+      "threshold": 34.7
+    },
+    {
+      "keyword": "dog heartworm",
+      "date": "2026-06-03",
+      "value": 40.0,
+      "z_score": 3.785,
+      "direction": "spike",
+      "baseline_mean": 20.92,
+      "baseline_std": 5.04,
+      "threshold": 33.52
+    },
+    {
       "keyword": "dog boarding",
       "date": "2026-06-01",
       "value": 100.0,
@@ -38,14 +68,24 @@
       "threshold": 92.52
     },
     {
-      "keyword": "best dog food",
-      "date": "2026-05-21",
-      "value": 37.0,
-      "z_score": -3.115,
-      "direction": "dip",
-      "baseline_mean": 75.11,
-      "baseline_std": 12.23,
-      "threshold": 44.53
+      "keyword": "dog UTI",
+      "date": "2026-06-04",
+      "value": 54.0,
+      "z_score": 3.208,
+      "direction": "spike",
+      "baseline_mean": 25.74,
+      "baseline_std": 8.81,
+      "threshold": 47.76
+    },
+    {
+      "keyword": "dog kennel cough",
+      "date": "2026-05-24",
+      "value": 53.0,
+      "z_score": 2.974,
+      "direction": "spike",
+      "baseline_mean": 31.83,
+      "baseline_std": 7.12,
+      "threshold": 49.63
     },
     {
       "keyword": "best dog food",
@@ -68,14 +108,24 @@
       "threshold": 51.86
     },
     {
-      "keyword": "dog anxiety",
-      "date": "2026-05-21",
-      "value": 46.0,
-      "z_score": -2.685,
+      "keyword": "dog cancer",
+      "date": "2026-05-27",
+      "value": 3.0,
+      "z_score": -2.664,
       "direction": "dip",
-      "baseline_mean": 75.23,
-      "baseline_std": 10.88,
-      "threshold": 48.02
+      "baseline_mean": 44.38,
+      "baseline_std": 15.53,
+      "threshold": 5.54
+    },
+    {
+      "keyword": "dog cancer",
+      "date": "2026-05-28",
+      "value": 2.0,
+      "z_score": -2.608,
+      "direction": "dip",
+      "baseline_mean": 43.9,
+      "baseline_std": 16.07,
+      "threshold": 3.73
     },
     {
       "keyword": "pet insurance",
@@ -98,139 +148,229 @@
       "threshold": 93.74
     },
     {
-      "keyword": "dog health app",
-      "date": "2026-05-21",
-      "value": 10.0,
-      "z_score": -2.534,
-      "direction": "dip",
-      "baseline_mean": 52.44,
-      "baseline_std": 16.75,
-      "threshold": 10.57
+      "keyword": "dog UTI",
+      "date": "2026-06-02",
+      "value": 46.0,
+      "z_score": 2.511,
+      "direction": "spike",
+      "baseline_mean": 25.18,
+      "baseline_std": 8.29,
+      "threshold": 45.91
     }
   ],
   "keyword_volatility": {
     "CBD for dogs": {
-      "recent_avg_abs_z": 0.693,
+      "recent_avg_abs_z": 0.714,
       "recent_max_abs_z": 1.261,
       "recent_volatile": false
     },
     "best dog food": {
-      "recent_avg_abs_z": 2.109,
-      "recent_max_abs_z": 3.115,
+      "recent_avg_abs_z": 2.027,
+      "recent_max_abs_z": 2.768,
       "recent_volatile": true
     },
     "dog DNA test": {
-      "recent_avg_abs_z": 0.752,
+      "recent_avg_abs_z": 0.762,
       "recent_max_abs_z": 1.452,
       "recent_volatile": false
     },
+    "dog UTI": {
+      "recent_avg_abs_z": 1.293,
+      "recent_max_abs_z": 3.208,
+      "recent_volatile": true
+    },
     "dog allergies": {
-      "recent_avg_abs_z": 0.932,
+      "recent_avg_abs_z": 0.867,
       "recent_max_abs_z": 1.51,
       "recent_volatile": false
     },
     "dog anxiety": {
-      "recent_avg_abs_z": 1.815,
-      "recent_max_abs_z": 2.685,
+      "recent_avg_abs_z": 1.77,
+      "recent_max_abs_z": 2.124,
+      "recent_volatile": true
+    },
+    "dog arthritis": {
+      "recent_avg_abs_z": 0.723,
+      "recent_max_abs_z": 1.375,
+      "recent_volatile": false
+    },
+    "dog bloating": {
+      "recent_avg_abs_z": 1.77,
+      "recent_max_abs_z": 2.245,
       "recent_volatile": true
     },
     "dog boarding": {
-      "recent_avg_abs_z": 1.017,
+      "recent_avg_abs_z": 1.008,
       "recent_max_abs_z": 3.579,
       "recent_volatile": true
     },
     "dog breeding business": {
-      "recent_avg_abs_z": 2.243,
+      "recent_avg_abs_z": 2.014,
       "recent_max_abs_z": 12.543,
       "recent_volatile": true
     },
+    "dog cancer": {
+      "recent_avg_abs_z": 1.256,
+      "recent_max_abs_z": 2.664,
+      "recent_volatile": true
+    },
     "dog daycare": {
-      "recent_avg_abs_z": 1.074,
+      "recent_avg_abs_z": 1.035,
       "recent_max_abs_z": 1.788,
       "recent_volatile": true
     },
+    "dog diarrhea": {
+      "recent_avg_abs_z": 0.738,
+      "recent_max_abs_z": 1.745,
+      "recent_volatile": false
+    },
+    "dog ear infection": {
+      "recent_avg_abs_z": 1.179,
+      "recent_max_abs_z": 2.212,
+      "recent_volatile": true
+    },
+    "dog eye infection": {
+      "recent_avg_abs_z": 0.287,
+      "recent_max_abs_z": 0.602,
+      "recent_volatile": false
+    },
     "dog food delivery": {
-      "recent_avg_abs_z": 1.647,
-      "recent_max_abs_z": 2.174,
+      "recent_avg_abs_z": 1.608,
+      "recent_max_abs_z": 1.826,
       "recent_volatile": true
     },
     "dog health app": {
-      "recent_avg_abs_z": 2.022,
-      "recent_max_abs_z": 2.534,
+      "recent_avg_abs_z": 1.958,
+      "recent_max_abs_z": 2.365,
       "recent_volatile": true
     },
+    "dog heartworm": {
+      "recent_avg_abs_z": 1.51,
+      "recent_max_abs_z": 3.921,
+      "recent_volatile": true
+    },
+    "dog hip dysplasia": {
+      "recent_avg_abs_z": 0.366,
+      "recent_max_abs_z": 1.111,
+      "recent_volatile": false
+    },
+    "dog hot spots": {
+      "recent_avg_abs_z": 1.01,
+      "recent_max_abs_z": 2.22,
+      "recent_volatile": true
+    },
+    "dog kennel cough": {
+      "recent_avg_abs_z": 1.239,
+      "recent_max_abs_z": 2.974,
+      "recent_volatile": true
+    },
+    "dog licking paws": {
+      "recent_avg_abs_z": 0.734,
+      "recent_max_abs_z": 1.915,
+      "recent_volatile": false
+    },
+    "dog limping": {
+      "recent_avg_abs_z": 1.002,
+      "recent_max_abs_z": 1.994,
+      "recent_volatile": true
+    },
+    "dog pancreatitis": {
+      "recent_avg_abs_z": 0.584,
+      "recent_max_abs_z": 1.405,
+      "recent_volatile": false
+    },
     "dog photography": {
-      "recent_avg_abs_z": 1.536,
+      "recent_avg_abs_z": 1.522,
       "recent_max_abs_z": 1.769,
       "recent_volatile": true
     },
     "dog probiotic": {
-      "recent_avg_abs_z": 0.925,
+      "recent_avg_abs_z": 0.922,
       "recent_max_abs_z": 1.17,
       "recent_volatile": false
     },
+    "dog seizures": {
+      "recent_avg_abs_z": 0.416,
+      "recent_max_abs_z": 1.081,
+      "recent_volatile": false
+    },
     "dog separation anxiety": {
-      "recent_avg_abs_z": 0.595,
-      "recent_max_abs_z": 1.126,
+      "recent_avg_abs_z": 0.591,
+      "recent_max_abs_z": 1.073,
+      "recent_volatile": false
+    },
+    "dog skin allergies": {
+      "recent_avg_abs_z": 0.668,
+      "recent_max_abs_z": 1.119,
       "recent_volatile": false
     },
     "dog skin problems": {
-      "recent_avg_abs_z": 0.636,
+      "recent_avg_abs_z": 0.619,
       "recent_max_abs_z": 0.961,
       "recent_volatile": false
     },
     "dog subscription box": {
-      "recent_avg_abs_z": 0.542,
+      "recent_avg_abs_z": 0.538,
       "recent_max_abs_z": 0.804,
       "recent_volatile": false
     },
     "dog supplements": {
-      "recent_avg_abs_z": 1.606,
+      "recent_avg_abs_z": 1.586,
       "recent_max_abs_z": 1.89,
       "recent_volatile": true
     },
+    "dog thyroid problems": {
+      "recent_avg_abs_z": 0.926,
+      "recent_max_abs_z": 2.162,
+      "recent_volatile": false
+    },
     "dog toys": {
-      "recent_avg_abs_z": 1.185,
+      "recent_avg_abs_z": 1.178,
       "recent_max_abs_z": 1.62,
       "recent_volatile": true
     },
     "dog training": {
-      "recent_avg_abs_z": 1.352,
-      "recent_max_abs_z": 1.709,
+      "recent_avg_abs_z": 1.335,
+      "recent_max_abs_z": 1.668,
       "recent_volatile": true
     },
+    "dog vomiting": {
+      "recent_avg_abs_z": 0.406,
+      "recent_max_abs_z": 0.91,
+      "recent_volatile": false
+    },
     "fresh dog food": {
-      "recent_avg_abs_z": 0.905,
+      "recent_avg_abs_z": 0.893,
       "recent_max_abs_z": 1.165,
       "recent_volatile": false
     },
     "hypoallergenic dogs": {
-      "recent_avg_abs_z": 0.893,
+      "recent_avg_abs_z": 0.866,
       "recent_max_abs_z": 1.457,
       "recent_volatile": false
     },
     "pet insurance": {
-      "recent_avg_abs_z": 1.555,
+      "recent_avg_abs_z": 1.55,
       "recent_max_abs_z": 2.712,
       "recent_volatile": true
     },
     "pet tech": {
-      "recent_avg_abs_z": 1.496,
-      "recent_max_abs_z": 1.686,
+      "recent_avg_abs_z": 1.475,
+      "recent_max_abs_z": 1.58,
       "recent_volatile": true
     },
     "pet wellness": {
-      "recent_avg_abs_z": 1.343,
+      "recent_avg_abs_z": 1.299,
       "recent_max_abs_z": 1.776,
       "recent_volatile": true
     },
     "puppy training": {
-      "recent_avg_abs_z": 1.154,
-      "recent_max_abs_z": 1.751,
+      "recent_avg_abs_z": 1.061,
+      "recent_max_abs_z": 1.628,
       "recent_volatile": true
     },
     "veterinary telehealth": {
-      "recent_avg_abs_z": 0.486,
+      "recent_avg_abs_z": 0.456,
       "recent_max_abs_z": 0.918,
       "recent_volatile": false
     }

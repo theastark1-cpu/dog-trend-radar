@@ -159,7 +159,7 @@ def generate_summary(all_trends):
             continue
         # Ensure datetime index
         if not isinstance(df.index, pd.DatetimeIndex):
-            df.index = pd.to_datetime(df.index)
+            df.index = pd.to_datetime(df.index, format='mixed')
         # Localize if tz-naive
         if df.index.tz is None:
             df.index = df.index.tz_localize("UTC")
@@ -224,6 +224,8 @@ def main():
 
     if combined_parts:
         combined = pd.concat(combined_parts, ignore_index=True)
+        # Normalize dates to YYYY-MM-DD (strip timestamps)
+        combined["date"] = pd.to_datetime(combined["date"], format='mixed').dt.strftime('%Y-%m-%d')
         combined.to_csv(DATA_DIR / "all_trends.csv", index=False)
         print(f"\n✓ Combined CSV: {len(combined)} rows")
 

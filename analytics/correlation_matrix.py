@@ -65,7 +65,7 @@ def run_correlation_matrix():
     print("=" * 60)
 
     df = pd.read_csv(ALL_TRENDS)
-    df["date"] = pd.to_datetime(df["date"])
+    df["date"] = pd.to_datetime(df["date"], format='mixed')
 
     # Build keyword → category mapping
     kw_to_cat = {}

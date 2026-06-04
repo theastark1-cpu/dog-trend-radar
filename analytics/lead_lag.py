@@ -34,7 +34,7 @@ def load_pivot(df_long):
     pivot = df_long.pivot_table(
         index="date", columns="keyword", values="interest", aggfunc="mean"
     )
-    pivot.index = pd.to_datetime(pivot.index)
+    pivot.index = pd.to_datetime(pivot.index, format='mixed')
     pivot = pivot.sort_index()
     pivot = pivot.ffill().dropna(axis=1, how="all")
     return pivot
