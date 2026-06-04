@@ -1,0 +1,227 @@
+{
+  "scraped_at": "2026-06-04T05:44:02.314684+00:00",
+  "amazon": {
+    "movers": [
+      {
+        "name": "Burt's Bees for Dogs Natural Tearless Shampoo",
+        "change_pct": 2340,
+        "direction": "up",
+        "category": "Dog Grooming"
+      },
+      {
+        "name": "Greenies Original Dental Dog Treats",
+        "change_pct": 1520,
+        "direction": "up",
+        "category": "Dog Treats"
+      },
+      {
+        "name": "Furbo 360\u00b0 Dog Camera with Treat Tossing",
+        "change_pct": 980,
+        "direction": "up",
+        "category": "Pet Tech"
+      },
+      {
+        "name": "Kong Classic Dog Toy",
+        "change_pct": 750,
+        "direction": "up",
+        "category": "Dog Toys"
+      },
+      {
+        "name": "Native Pet Probiotic for Dogs",
+        "change_pct": 640,
+        "direction": "up",
+        "category": "Dog Supplements"
+      },
+      {
+        "name": "Fi Series 3 Smart Dog Collar",
+        "change_pct": 520,
+        "direction": "up",
+        "category": "Pet Tech"
+      },
+      {
+        "name": "Purina Pro Plan Sensitive Skin & Stomach",
+        "change_pct": 480,
+        "direction": "up",
+        "category": "Dog Food"
+      },
+      {
+        "name": "Embark Breed & Health Dog DNA Test Kit",
+        "change_pct": 410,
+        "direction": "up",
+        "category": "Dog Health"
+      },
+      {
+        "name": "PetSafe Easy Walk Dog Harness",
+        "change_pct": 350,
+        "direction": "up",
+        "category": "Dog Walking"
+      },
+      {
+        "name": "Zesty Paws Allergy Immune Bites",
+        "change_pct": 310,
+        "direction": "up",
+        "category": "Dog Supplements"
+      },
+      {
+        "name": "Blue Buffalo Life Protection Formula",
+        "change_pct": 280,
+        "direction": "up",
+        "category": "Dog Food"
+      },
+      {
+        "name": "Chuckit! Ultra Ball",
+        "change_pct": 240,
+        "direction": "up",
+        "category": "Dog Toys"
+      },
+      {
+        "name": "Vet's Best Allergy Itch Relief Shampoo",
+        "change_pct": 220,
+        "direction": "up",
+        "category": "Dog Grooming"
+      },
+      {
+        "name": "Outward Hound Hide-A-Squirrel Puzzle Toy",
+        "change_pct": 190,
+        "direction": "up",
+        "category": "Dog Toys"
+      },
+      {
+        "name": "Hill's Science Diet Adult Sensitive Stomach",
+        "change_pct": 170,
+        "direction": "up",
+        "category": "Dog Food"
+      },
+      {
+        "name": "Tractive GPS Dog Tracker",
+        "change_pct": 150,
+        "direction": "up",
+        "category": "Pet Tech"
+      },
+      {
+        "name": "Outward Hound Life Jacket",
+        "change_pct": 130,
+        "direction": "up",
+        "category": "Dog Safety"
+      },
+      {
+        "name": "Kurgo Tru-Fit Smart Dog Harness",
+        "change_pct": 110,
+        "direction": "up",
+        "category": "Dog Walking"
+      },
+      {
+        "name": "Pedigree Dentastix",
+        "change_pct": -62,
+        "direction": "down",
+        "category": "Dog Treats"
+      },
+      {
+        "name": "Milk-Bone Original Dog Treats",
+        "change_pct": -45,
+        "direction": "down",
+        "category": "Dog Treats"
+      }
+    ],
+    "total": 20
+  },
+  "retail": {
+    "new_products": [
+      {
+        "name": "Ollie Fresh Dog Food \u2014 Beef Recipe",
+        "retailer": "Chewy",
+        "category": "Fresh Food",
+        "price": "$4/day"
+      },
+      {
+        "name": "Jinx Premium Dog Food \u2014 Chicken & Sweet Potato",
+        "retailer": "Chewy",
+        "category": "Premium Kibble",
+        "price": "$28.99"
+      },
+      {
+        "name": "Pet Honesty Calming Hemp Chews",
+        "retailer": "Chewy",
+        "category": "Supplements",
+        "price": "$26.99"
+      },
+      {
+        "name": "Wild One Stainless Steel Dog Bowl Set",
+        "retailer": "Chewy",
+        "category": "Bowls & Feeders",
+        "price": "$42.00"
+      },
+      {
+        "name": "Fable Pets The Game Dog Puzzle Toy",
+        "retailer": "Chewy",
+        "category": "Interactive Toys",
+        "price": "$38.00"
+      },
+      {
+        "name": "Native Pet Omega Oil for Dogs",
+        "retailer": "Chewy",
+        "category": "Supplements",
+        "price": "$24.99"
+      },
+      {
+        "name": "Earth Rated Dog Wipes \u2014 Lavender Scent",
+        "retailer": "Chewy",
+        "category": "Grooming",
+        "price": "$9.99"
+      },
+      {
+        "name": "The Honest Kitchen Whole Food Clusters",
+        "retailer": "Petco",
+        "category": "Dehydrated Food",
+        "price": "$39.99"
+      },
+      {
+        "name": "Kanine Organic Dog Shampoo Bar",
+        "retailer": "Petco",
+        "category": "Sustainable Grooming",
+        "price": "$14.99"
+      },
+      {
+        "name": "Diggs Revol Dog Crate \u2014 Collapsible",
+        "retailer": "Petco",
+        "category": "Crates & Kennels",
+        "price": "$225.00"
+      },
+      {
+        "name": "Bark Potty \u2014 Real Grass Pee Pad",
+        "retailer": "Petco",
+        "category": "Potty Solutions",
+        "price": "$39.00"
+      },
+      {
+        "name": "ZippyPaws Skinny Peltz \u2014 No Stuffing Squeaky Toy",
+        "retailer": "Petco",
+        "category": "Plush Toys",
+        "price": "$7.99"
+      },
+      {
+        "name": "Whistle Switch Smart Collar",
+        "retailer": "Petco",
+        "category": "Pet Tech",
+        "price": "$79.95"
+      },
+      {
+        "name": "Redbarn Bully Slices Dog Treats",
+        "retailer": "Petco",
+        "category": "Natural Treats",
+        "price": "$14.99"
+      },
+      {
+        "name": "Frisco Fold & Carry Double Door Dog Crate",
+        "retailer": "Chewy",
+        "category": "Crates & Kennels",
+        "price": "$59.99"
+      }
+    ],
+    "total": 15
+  },
+  "kickstarter": {
+    "projects": [],
+    "total": 0
+  }
+}

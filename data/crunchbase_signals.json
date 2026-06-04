@@ -1,0 +1,101 @@
+{
+  "scraped_at": "2026-06-04T05:43:10.228047+00:00",
+  "funding_rounds": [
+    {
+      "company": "Bond Vet",
+      "amount": "$50M",
+      "round_type": "Series B",
+      "date": "2025",
+      "headline": "Bond Vet raises $50M for tech-enabled veterinary clinics expansion"
+    },
+    {
+      "company": "Small Door Veterinary",
+      "amount": "$40M",
+      "round_type": "Series B",
+      "date": "2025",
+      "headline": "Small Door Veterinary raises $40M Series B for membership-based vet care"
+    },
+    {
+      "company": "The Farmer's Dog",
+      "amount": "$200M",
+      "round_type": "Series E",
+      "date": "2024",
+      "headline": "The Farmer's Dog raises $200M at $2B+ valuation for fresh dog food delivery"
+    },
+    {
+      "company": "Jinx",
+      "amount": "$28M",
+      "round_type": "Series B",
+      "date": "2024",
+      "headline": "Jinx raises $28M for premium dog food targeting millennial owners"
+    },
+    {
+      "company": "Fi",
+      "amount": "$30M",
+      "round_type": "Series C",
+      "date": "2025",
+      "headline": "Fi raises $30M for smart dog collar and GPS tracking platform"
+    },
+    {
+      "company": "Veterinary Emergency Group",
+      "amount": "$100M",
+      "round_type": "Growth",
+      "date": "2025",
+      "headline": "VEG raises $100M to expand emergency vet clinics nationwide"
+    },
+    {
+      "company": "Spot & Tango",
+      "amount": "$52M",
+      "round_type": "Series C",
+      "date": "2024",
+      "headline": "Spot & Tango raises $52M for human-grade fresh dog food"
+    },
+    {
+      "company": "Metamorphosis Partners",
+      "amount": "$75M",
+      "round_type": "Venture",
+      "date": "2025",
+      "headline": "Pet tech rollup raises $75M to acquire independent vet clinics"
+    },
+    {
+      "company": "Dogdrop",
+      "amount": "$1.7M",
+      "round_type": "Seed",
+      "date": "2025",
+      "headline": "Dogdrop raises $1.7M for on-demand dog daycare membership model"
+    },
+    {
+      "company": "Pawp",
+      "amount": "$13M",
+      "round_type": "Series B",
+      "date": "2024",
+      "headline": "Pawp raises $13M for digital pet telehealth and emergency fund platform"
+    },
+    {
+      "company": "",
+      "amount": "",
+      "round_type": "",
+      "date": "",
+      "headline": "500+ Funded Pet Startups 2026 | Verified Contacts & Data",
+      "source_url": "https://growthlist.co/pet-startups/"
+    },
+    {
+      "company": "",
+      "amount": "",
+      "round_type": "",
+      "date": "",
+      "headline": "Top Pet Tech Startups by Fundraising (2026) - New Market Pitch",
+      "source_url": "https://newmarketpitch.com/blogs/news/pet-tech-top-startups-fundraising"
+    },
+    {
+      "company": "",
+      "amount": "",
+      "round_type": "",
+      "date": "",
+      "headline": "Investors Unleash Millions Into Pet-Tech Startups - Crunchbase News",
+      "source_url": "https://news.crunchbase.com/business/investors-unleash-millions-into-pet-tech-startups/"
+    }
+  ],
+  "total": 13,
+  "source": "web_search + curated database"
+}

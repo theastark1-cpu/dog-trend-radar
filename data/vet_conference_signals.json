@@ -1,0 +1,83 @@
+{
+  "scraped_at": "2026-06-04T05:43:14.221549+00:00",
+  "conferences": [
+    {
+      "name": "VMX 2026 (Veterinary Meeting & Expo)",
+      "organization": "NAVC",
+      "dates": "January 17-21, 2026",
+      "location": "Orlando, FL",
+      "hot_topics": [
+        "telehealth regulation updates",
+        "AI diagnostic tools",
+        "canine cognitive dysfunction",
+        "microbiome therapeutics",
+        "veterinary cannabis guidelines",
+        "precision medicine"
+      ],
+      "url": "https://navc.com/vmx/"
+    },
+    {
+      "name": "WVC 2026 Annual Conference",
+      "organization": "Western Veterinary Conference",
+      "dates": "March 1-4, 2026",
+      "location": "Las Vegas, NV",
+      "hot_topics": [
+        "dermatology breakthroughs",
+        "canine osteoarthritis management",
+        "telemedicine legislation",
+        "practice management AI",
+        "wellness plan models"
+      ],
+      "url": "https://wvc.org/"
+    },
+    {
+      "name": "AVMA Convention 2026",
+      "organization": "American Veterinary Medical Association",
+      "dates": "June 19-23, 2026",
+      "location": "Chicago, IL",
+      "hot_topics": [
+        "mental health in veterinary profession",
+        "canine cancer immunotherapy",
+        "AI radiology interpretation",
+        "sustainable veterinary practice",
+        "One Health initiatives"
+      ],
+      "url": "https://avma.org/"
+    },
+    {
+      "name": "Fetch dvm360 Conference 2026",
+      "organization": "dvm360",
+      "dates": "August 2026",
+      "location": "Kansas City, MO",
+      "hot_topics": [
+        "cytopoint vs apoquel updates",
+        "geriatric canine care",
+        "telehealth platforms comparison",
+        "staff retention strategies"
+      ],
+      "url": "https://fetchdvm360.com/"
+    },
+    {
+      "name": "AAHA Con 2026",
+      "organization": "American Animal Hospital Association",
+      "dates": "September 2026",
+      "location": "TBD",
+      "hot_topics": [
+        "fear free certification updates",
+        "practice accreditation standards",
+        "canine pain management protocols",
+        "client communication technology"
+      ],
+      "url": "https://aaha.org/"
+    }
+  ],
+  "total": 5,
+  "emerging_themes": [
+    "AI + diagnostics (radiology, pathology)",
+    "Telehealth legislation + platform adoption",
+    "Microbiome + probiotic therapeutics",
+    "Canine cognitive dysfunction (dog dementia)",
+    "Cannabis/CBD clinical guidelines"
+  ],
+  "source": "web_search + conference agendas"
+}

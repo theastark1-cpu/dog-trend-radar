@@ -1,0 +1,101 @@
+{
+  "scraped_at": "2026-06-04T05:43:18.215178+00:00",
+  "new_products": [
+    {
+      "name": "Ollie Fresh Dog Food — Beef Recipe",
+      "retailer": "Chewy",
+      "category": "Fresh Food",
+      "price": "$4/day"
+    },
+    {
+      "name": "Jinx Premium Dog Food — Chicken & Sweet Potato",
+      "retailer": "Chewy",
+      "category": "Premium Kibble",
+      "price": "$28.99"
+    },
+    {
+      "name": "Pet Honesty Calming Hemp Chews",
+      "retailer": "Chewy",
+      "category": "Supplements",
+      "price": "$26.99"
+    },
+    {
+      "name": "Wild One Stainless Steel Dog Bowl Set",
+      "retailer": "Chewy",
+      "category": "Bowls & Feeders",
+      "price": "$42.00"
+    },
+    {
+      "name": "Fable Pets The Game Dog Puzzle Toy",
+      "retailer": "Chewy",
+      "category": "Interactive Toys",
+      "price": "$38.00"
+    },
+    {
+      "name": "Native Pet Omega Oil for Dogs",
+      "retailer": "Chewy",
+      "category": "Supplements",
+      "price": "$24.99"
+    },
+    {
+      "name": "Earth Rated Dog Wipes — Lavender Scent",
+      "retailer": "Chewy",
+      "category": "Grooming",
+      "price": "$9.99"
+    },
+    {
+      "name": "The Honest Kitchen Whole Food Clusters",
+      "retailer": "Petco",
+      "category": "Dehydrated Food",
+      "price": "$39.99"
+    },
+    {
+      "name": "Kanine Organic Dog Shampoo Bar",
+      "retailer": "Petco",
+      "category": "Sustainable Grooming",
+      "price": "$14.99"
+    },
+    {
+      "name": "Diggs Revol Dog Crate — Collapsible",
+      "retailer": "Petco",
+      "category": "Crates & Kennels",
+      "price": "$225.00"
+    },
+    {
+      "name": "Bark Potty — Real Grass Pee Pad",
+      "retailer": "Petco",
+      "category": "Potty Solutions",
+      "price": "$39.00"
+    },
+    {
+      "name": "ZippyPaws Skinny Peltz — No Stuffing Squeaky Toy",
+      "retailer": "Petco",
+      "category": "Plush Toys",
+      "price": "$7.99"
+    },
+    {
+      "name": "Whistle Switch Smart Collar",
+      "retailer": "Petco",
+      "category": "Pet Tech",
+      "price": "$79.95"
+    },
+    {
+      "name": "Redbarn Bully Slices Dog Treats",
+      "retailer": "Petco",
+      "category": "Natural Treats",
+      "price": "$14.99"
+    },
+    {
+      "name": "Frisco Fold & Carry Double Door Dog Crate",
+      "retailer": "Chewy",
+      "category": "Crates & Kennels",
+      "price": "$59.99"
+    }
+  ],
+  "total": 15,
+  "retailers": [
+    "Chewy",
+    "Petco"
+  ],
+  "source": "web_search + retail monitoring"
+}

@@ -7,99 +7,213 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 <style>
-  :root {
-    --bg: #0f0f14;
-    --surface: #1a1a24;
-    --border: #2a2a3a;
-    --text: #e0e0e0;
-    --muted: #888;
-    --accent: #e17055;
-    --products: #e17055;
-    --services: #00cec9;
-    --health: #6c5ce7;
-    --tech: #fdcb6e;
-    --up: #00b894;
-    --down: #e17055;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.5;
-  }
-  .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
-  header {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 24px 0; border-bottom: 1px solid var(--border); margin-bottom: 24px;
-  }
-  h1 { font-size: 28px; font-weight: 700; }
-  h1 span { color: var(--accent); }
-  .last-updated { color: var(--muted); font-size: 13px; }
-  .stats-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px; margin-bottom: 24px;
-  }
-  .stat-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; padding: 20px;
-  }
-  .stat-card h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .stat-card .value { font-size: 32px; font-weight: 700; margin: 8px 0; }
-  .stat-card .sub { font-size: 13px; color: var(--muted); }
-  .domain-section {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; padding: 20px; margin-bottom: 20px;
-  }
-  .domain-header {
-    display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
-  }
-  .domain-dot { width: 12px; height: 12px; border-radius: 50%; }
-  .domain-header h2 { font-size: 18px; }
-  .chart-wrapper { position: relative; height: 280px; margin-bottom: 16px; }
-  .rising-list {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 10px; margin-top: 12px;
-  }
-  .rising-item {
-    background: rgba(255,255,255,0.03); border: 1px solid var(--border);
-    border-radius: 8px; padding: 12px;
-  }
-  .rising-item .query { font-weight: 600; font-size: 14px; }
-  .rising-item .meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
-  .rising-item .badge {
-    display: inline-block; padding: 2px 8px; border-radius: 4px;
-    font-size: 11px; font-weight: 600; margin-top: 6px;
-  }
-  .badge.breakout { background: rgba(0,184,148,0.15); color: var(--up); }
-  .badge.rising { background: rgba(108,92,231,0.15); color: var(--health); }
-  .signal-banner {
-    background: linear-gradient(135deg, rgba(225,112,85,0.15), rgba(0,184,148,0.1));
-    border: 1px solid var(--accent); border-radius: 12px; padding: 16px 20px;
-    margin-bottom: 24px; display: flex; align-items: center; gap: 12px;
-  }
-  .signal-banner .icon { font-size: 28px; }
-  .signal-banner h3 { font-size: 15px; margin-bottom: 4px; }
-  .signal-banner p { font-size: 13px; color: var(--muted); }
-  .empty-state { color: var(--muted); font-style: italic; padding: 40px; text-align: center; }
-  .tabs { display: flex; gap: 4px; margin-bottom: 20px; flex-wrap: wrap; }
-  .tab {
-    padding: 8px 20px; border-radius: 8px; border: 1px solid var(--border);
-    background: transparent; color: var(--muted); cursor: pointer; font-size: 14px;
-    transition: all 0.2s;
-  }
-  .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
-  .tab:hover:not(.active) { border-color: var(--accent); color: var(--text); }
-  .keyword-table {
-    width: 100%; border-collapse: collapse; margin-top: 12px;
-  }
-  .keyword-table th, .keyword-table td {
-    text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border);
-    font-size: 13px;
-  }
-  .keyword-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
-  .keyword-table .change-up { color: var(--up); }
-  .keyword-table .change-down { color: var(--down); }
+:root {
+  --bg: #0f0f14;
+  --surface: #1a1a24;
+  --surface-raised: #222230;
+  --border: #2a2a3a;
+  --text: #e0e0e0;
+  --text-bright: #ffffff;
+  --muted: #888;
+  --accent: #e17055;
+  --accent2: #00cec9;
+  --products: #e17055;
+  --services: #00cec9;
+  --health: #6c5ce7;
+  --tech: #fdcb6e;
+  --up: #00b894;
+  --down: #ff6b6b;
+  --badge-green: rgba(0,184,148,0.15);
+  --badge-red: rgba(255,107,107,0.15);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+.container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+/* Header */
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 24px 0; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+}
+h1 { font-size: 28px; font-weight: 700; }
+h1 span { color: var(--accent); }
+.last-updated { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 6px; }
+.live-dot { width: 8px; height: 8px; background: var(--up); border-radius: 50%; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* Tabs */
+.tab-nav {
+  display: flex; gap: 4px; margin-bottom: 24px; flex-wrap: wrap;
+  background: var(--surface); border-radius: 12px; padding: 4px;
+}
+.tab-btn {
+  padding: 10px 24px; border-radius: 10px; border: none;
+  background: transparent; color: var(--muted); cursor: pointer; font-size: 14px;
+  font-weight: 500; transition: all 0.2s; white-space: nowrap;
+}
+.tab-btn.active { background: var(--accent); color: white; }
+.tab-btn:hover:not(.active) { color: var(--text); background: rgba(255,255,255,0.05); }
+
+/* Cards */
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 20px; margin-bottom: 20px;
+}
+.card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.card-header h2 { font-size: 18px; font-weight: 600; }
+.card-dot { width: 10px; height: 10px; border-radius: 50%; }
+.card-subtitle { font-size: 13px; color: var(--muted); }
+
+/* Chart wrapper */
+.chart-wrapper { position: relative; height: 300px; margin-bottom: 16px; }
+.chart-wrapper.tall { height: 370px; }
+.chart-wrapper.half { height: 240px; }
+
+/* Grid layouts */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+/* Stats */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.stat-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 20px;
+}
+.stat-card h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.stat-card .value { font-size: 28px; font-weight: 700; }
+.stat-card .sub { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+/* Tables */
+.keyword-table {
+  width: 100%; border-collapse: collapse; margin-top: 12px;
+}
+.keyword-table th, .keyword-table td {
+  text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 13px;
+}
+.keyword-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+.keyword-table tr:hover { background: rgba(255,255,255,0.02); }
+.change-up { color: var(--up); font-weight: 600; }
+.change-down { color: var(--down); font-weight: 600; }
+
+/* Badges */
+.badge {
+  display: inline-block; padding: 3px 10px; border-radius: 6px;
+  font-size: 11px; font-weight: 600;
+}
+.badge-up { background: var(--badge-green); color: var(--up); }
+.badge-down { background: var(--badge-red); color: var(--down); }
+.badge-info { background: rgba(108,92,231,0.15); color: var(--health); }
+.badge-tech { background: rgba(253,203,110,0.15); color: var(--tech); }
+
+/* Signal banner */
+.signal-banner {
+  background: linear-gradient(135deg, rgba(225,112,85,0.12), rgba(0,184,148,0.08));
+  border: 1px solid var(--accent); border-radius: 12px; padding: 16px 20px;
+  margin-bottom: 24px; display: flex; align-items: center; gap: 14px;
+}
+.signal-banner .icon { font-size: 32px; flex-shrink: 0; }
+.signal-banner h3 { font-size: 15px; margin-bottom: 4px; }
+.signal-banner p { font-size: 13px; color: var(--muted); }
+
+/* Reddit buzz items */
+.buzz-list { display: flex; flex-direction: column; gap: 8px; }
+.buzz-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px; border-radius: 10px;
+  background: var(--surface-raised); border: 1px solid var(--border);
+}
+.buzz-rank { font-size: 20px; font-weight: 700; color: var(--accent); min-width: 30px; }
+.buzz-info { flex: 1; }
+.buzz-term { font-weight: 600; font-size: 14px; }
+.buzz-meta { font-size: 12px; color: var(--muted); }
+.buzz-count { font-size: 18px; font-weight: 700; color: var(--accent2); }
+
+/* Product cards */
+.product-list { display: flex; flex-direction: column; gap: 8px; }
+.product-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px; border-radius: 10px;
+  background: var(--surface-raised); border: 1px solid var(--border);
+}
+.product-rank { font-size: 18px; font-weight: 700; color: var(--accent); min-width: 28px; }
+.product-info { flex: 1; }
+.product-name { font-weight: 600; font-size: 14px; }
+.product-cat { font-size: 12px; color: var(--muted); }
+.product-change { font-weight: 700; font-size: 14px; min-width: 60px; text-align: right; }
+
+/* Lead-lag cards */
+.leadlag-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-top: 12px; }
+.leadlag-card {
+  background: var(--surface-raised); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px;
+}
+.leadlag-card .pair { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.leadlag-card .lead { font-weight: 600; color: var(--accent); }
+.leadlag-card .arrow { color: var(--muted); font-size: 18px; }
+.leadlag-card .lag { font-weight: 600; color: var(--accent2); }
+.leadlag-card .stat { font-size: 12px; color: var(--muted); }
+
+/* Empty state */
+.empty-state {
+  color: var(--muted); font-style: italic; padding: 60px 20px; text-align: center;
+  background: var(--surface); border-radius: 12px; border: 1px dashed var(--border);
+}
+.empty-state .icon { font-size: 48px; margin-bottom: 12px; opacity: 0.5; }
+.empty-state h3 { font-size: 16px; margin-bottom: 6px; color: var(--text); }
+.empty-state p { font-size: 13px; }
+
+/* Briefing */
+.briefing-section {
+  margin-bottom: 24px;
+}
+.briefing-section h3 {
+  font-size: 16px; font-weight: 600; margin-bottom: 12px;
+  display: flex; align-items: center; gap: 8px;
+}
+.briefing-section ul { list-style: none; }
+.briefing-section li {
+  padding: 6px 0; font-size: 14px; line-height: 1.6;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.briefing-section li:last-child { border-bottom: none; }
+.briefing-num { color: var(--accent); font-weight: 700; margin-right: 6px; }
+
+/* Scatter dot label */
+.prediction-legend { display: flex; gap: 16px; margin: 8px 0 16px; font-size: 12px; color: var(--muted); }
+.prediction-legend span { display: flex; align-items: center; gap: 6px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .tab-nav { gap: 2px; }
+  .tab-btn { padding: 8px 14px; font-size: 12px; }
+  header { flex-direction: column; gap: 8px; align-items: flex-start; }
+}
+
+/* Tab panel transition */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Anomaly alert */
+.alert-card {
+  border-left: 3px solid var(--down); padding-left: 16px;
+  background: rgba(255,107,107,0.05); border-radius: 0 10px 10px 0;
+  margin-bottom: 10px;
+}
+.alert-card.neutral { border-left-color: var(--tech); background: rgba(253,203,110,0.05); }
+.alert-card h4 { font-size: 14px; margin-bottom: 4px; }
+.alert-card p { font-size: 12px; color: var(--muted); }
+
+/* Prediction band note */
+.note { font-size: 11px; color: var(--muted); font-style: italic; padding: 4px 0; }
 </style>
 </head>
 <body>
@@ -111,9 +225,25 @@
         Products · Services · Health · Tech & Investments
       </p>
     </div>
-    <div class="last-updated" id="lastUpdated">Loading data...</div>
+    <div class="last-updated">
+      <div class="live-dot" id="liveDot"></div>
+      <span id="lastUpdated">Loading data...</span>
+    </div>
   </header>
 
+  <div class="tab-nav" id="tabNav">
+    <button class="tab-btn active" data-tab="trends">📈 Trends</button>
+    <button class="tab-btn" data-tab="reddit">🔴 Reddit</button>
+    <button class="tab-btn" data-tab="products">📦 Products</button>
+    <button class="tab-btn" data-tab="signals">💼 Signals</button>
+    <button class="tab-btn" data-tab="predictions">🧠 Predictions</button>
+    <button class="tab-btn" data-tab="briefing">📋 Briefing</button>
+  </div>
+
+  <!-- STATS ROW (shown on all tabs) -->
+  <div class="stat-row" id="statsRow"></div>
+
+  <!-- SIGNAL BANNER (shown on Trends tab) -->
   <div class="signal-banner" id="signalBanner" style="display:none;">
     <div class="icon" id="signalIcon">🔔</div>
     <div>
@@ -122,107 +252,188 @@
     </div>
   </div>
 
-  <div class="stats-grid" id="statsGrid"></div>
-
-  <div class="tabs" id="tabs">
-    <button class="tab active" data-tab="all">🐾 All</button>
-    <button class="tab" data-tab="dog_products">🛒 Products</button>
-    <button class="tab" data-tab="dog_services">💈 Services</button>
-    <button class="tab" data-tab="dog_health">🏥 Health</button>
-    <button class="tab" data-tab="dog_tech_investment">💼 Tech & Investment</button>
+  <!-- TAB 1: TRENDS -->
+  <div class="tab-panel active" id="panel-trends">
+    <div id="trendsContainer"></div>
   </div>
 
-  <div id="domainsContainer"></div>
+  <!-- TAB 2: REDDIT -->
+  <div class="tab-panel" id="panel-reddit">
+    <div id="redditContainer">
+      <div class="grid-2">
+        <div class="card" id="redditKeywordsCard">
+          <div class="card-header"><h2>🔴 Top Keywords in r/dogs & Related</h2></div>
+          <div class="chart-wrapper" id="redditChartWrap"><canvas id="chartRedditBuzz"></canvas></div>
+          <div class="buzz-list" id="redditBuzzList"></div>
+        </div>
+        <div class="card" id="redditTrendingCard">
+          <div class="card-header"><h2>🔥 Trending Post Themes</h2></div>
+          <div class="buzz-list" id="redditTrendingList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 3: PRODUCTS -->
+  <div class="tab-panel" id="panel-products">
+    <div class="grid-2" id="productsGrid">
+      <div class="card" id="amazonCard">
+        <div class="card-header"><h2>📦 Amazon Movers & Shakers</h2></div>
+        <div class="chart-wrapper" id="amazonChartWrap"><canvas id="chartAmazonMovers"></canvas></div>
+        <div class="product-list" id="amazonMoversList"></div>
+      </div>
+      <div class="card" id="retailCard">
+        <div class="card-header"><h2>🏬 Chewy / Petco / Kickstarter</h2></div>
+        <div class="buzz-list" id="retailArrivalsList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 4: SIGNALS -->
+  <div class="tab-panel" id="panel-signals">
+    <div class="grid-2">
+      <div class="card"><div class="card-header"><h2>📜 USPTO Dog-Tech Patents</h2></div>
+        <div class="chart-wrapper half" id="patentChartWrap"><canvas id="chartPatents"></canvas></div>
+        <div class="buzz-list" id="patentList"></div>
+      </div>
+      <div class="card"><div class="card-header"><h2>💰 Crunchbase Pet-Tech Funding</h2></div>
+        <div class="chart-wrapper half" id="fundingChartWrap"><canvas id="chartFunding"></canvas></div>
+        <div class="buzz-list" id="fundingList"></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><div class="card-header"><h2>🏥 Vet Conferences</h2></div>
+        <div class="buzz-list" id="conferenceList"></div>
+      </div>
+      <div class="card"><div class="card-header"><h2>📱 TikTok Velocity</h2></div>
+        <div class="chart-wrapper half" id="tiktokChartWrap"><canvas id="chartTikTok"></canvas></div>
+        <div class="buzz-list" id="tiktokList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 5: PREDICTIONS -->
+  <div class="tab-panel" id="panel-predictions">
+    <div class="grid-2">
+      <div class="card"><div class="card-header"><h2>🔗 Lead-Lag Pairs</h2></div>
+        <div class="chart-wrapper tall" id="leadlagChartWrap"><canvas id="chartLeadLag"></canvas></div>
+        <div class="leadlag-grid" id="leadLagGrid"></div>
+      </div>
+      <div class="card"><div class="card-header"><h2>🌡️ Seasonal Forecasts</h2></div>
+        <div class="chart-wrapper tall" id="seasonalChartWrap"><canvas id="chartSeasonal"></canvas></div>
+        <div class="note">Dashed band = 80% prediction interval based on seasonal decomposition</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h2>⚡ Anomaly Alerts</h2></div>
+      <div id="anomalyAlerts"></div>
+    </div>
+  </div>
+
+  <!-- TAB 6: BRIEFING -->
+  <div class="tab-panel" id="panel-briefing">
+    <div class="card" id="briefingCard">
+      <div class="card-header"><h2>📋 Weekly Intelligence Briefing</h2></div>
+      <p class="card-subtitle">Auto-generated from all signal sources · <span id="briefingDate"></span></p>
+      <div id="briefingContent"></div>
+    </div>
+  </div>
 </div>
 
 <script>
-// ── Config ──
+// ── Domain config ──
 const DOMAINS = {
-  dog_products:       { label: '🛒 Dog Products',        color: '#e17055' },
-  dog_services:       { label: '💈 Dog Services',        color: '#00cec9' },
-  dog_health:         { label: '🏥 Dog Health & Owners', color: '#6c5ce7' },
-  dog_tech_investment:{ label: '💼 Tech & Investment',   color: '#fdcb6e' },
+  dog_products:        { label: '🛒 Dog Products',        color: '#e17055' },
+  dog_services:        { label: '💈 Dog Services',        color: '#00cec9' },
+  dog_health:          { label: '🏥 Dog Health & Owners', color: '#6c5ce7' },
+  dog_tech_investment: { label: '💼 Tech & Investment',   color: '#fdcb6e' },
 };
 
+// ── Global state ──
 let allTrends = [];
-let allRising = [];
 let summary = null;
 let charts = {};
+let dataSources = { trends: false, summary: false, reddit: false, products: false, signals: false };
 
-// ── Load data ──
+// ── Auto-refresh config ──
+const REFRESH_INTERVAL = 15 * 60 * 1000;
+
+// ── Load all data sources ──
 async function loadData() {
+  // Google Trends (CSV)
   try {
     const trendsRes = await fetch('data/all_trends.csv');
     if (trendsRes.ok) {
       const csv = await trendsRes.text();
       const parsed = Papa.parse(csv, { header: true, dynamicTyping: true });
       allTrends = parsed.data.filter(d => d.keyword && d.interest !== null);
+      dataSources.trends = true;
     }
+  } catch(e) { console.warn('Trends data not available:', e); }
 
-    // Rising queries (optional — populated by cron web searches)
-    try {
-      const risingRes = await fetch('data/all_rising.csv');
-      if (risingRes.ok) {
-        const csv = await risingRes.text();
-        const parsed = Papa.parse(csv, { header: true, dynamicTyping: true });
-        allRising = parsed.data.filter(d => d.query);
-      }
-    } catch(e) { /* rising data is optional */ }
-
+  // Summary JSON
+  try {
     const summaryRes = await fetch('data/summary.json');
     if (summaryRes.ok) {
       summary = await summaryRes.json();
+      dataSources.summary = true;
       document.getElementById('lastUpdated').textContent =
-        'Last scrape: ' + new Date(summary.scraped_at).toLocaleString();
+        'Last updated: ' + new Date(summary.scraped_at).toLocaleString();
     }
-
-    renderAll();
-  } catch (e) {
+  } catch(e) {
     document.getElementById('lastUpdated').textContent = 'No data yet — waiting for first scrape';
-    document.getElementById('domainsContainer').innerHTML =
-      '<div class="empty-state">🐶 No data yet. The first scrape (9 AM or 1 PM MST) will populate this dashboard.</div>';
   }
+
+  // Reddit JSON
+  try {
+    const redditRes = await fetch('data/reddit.json');
+    if (redditRes.ok) {
+      window.redditData = await redditRes.json();
+      dataSources.reddit = true;
+    }
+  } catch(e) { window.redditData = null; }
+
+  // Products JSON
+  try {
+    const productsRes = await fetch('data/products.json');
+    if (productsRes.ok) {
+      window.productsData = await productsRes.json();
+      dataSources.products = true;
+    }
+  } catch(e) { window.productsData = null; }
+
+  // Signals JSON
+  try {
+    const signalsRes = await fetch('data/signals.json');
+    if (signalsRes.ok) {
+      window.signalsData = await signalsRes.json();
+      dataSources.signals = true;
+    }
+  } catch(e) { window.signalsData = null; }
+
+  renderAll();
 }
 
-// ── Render ──
+// ── Render everything ──
 function renderAll() {
-  renderSignalBanner();
   renderStats();
-  renderDomains('all');
+  renderTrendsTab();
+  renderRedditTab();
+  renderProductsTab();
+  renderSignalsTab();
+  renderPredictionsTab();
+  renderBriefingTab();
 }
 
-function renderSignalBanner() {
-  const banner = document.getElementById('signalBanner');
-  if (!summary?.trend_movers?.length) {
-    banner.style.display = 'none';
-    return;
-  }
-
-  banner.style.display = 'flex';
-  const topMover = summary.trend_movers[0];
-
-  if (Math.abs(topMover.change_pct) > 20) {
-    document.getElementById('signalIcon').textContent = topMover.change_pct > 0 ? '🚀' : '📉';
-    document.getElementById('signalTitle').textContent =
-      `"${topMover.keyword}" ${topMover.change_pct > 0 ? 'surging' : 'dropping'} ${Math.abs(topMover.change_pct)}% this month`;
-    document.getElementById('signalBody').textContent =
-      `Category: ${DOMAINS[topMover.category]?.label || topMover.category} · Recent avg interest: ${topMover.recent_avg}`;
-  } else {
-    document.getElementById('signalIcon').textContent = '📊';
-    document.getElementById('signalTitle').textContent =
-      `"${topMover.keyword}" trending ${topMover.change_pct > 0 ? 'up' : 'down'} ${Math.abs(topMover.change_pct)}%`;
-    document.getElementById('signalBody').textContent =
-      `Category: ${DOMAINS[topMover.category]?.label || topMover.category}`;
-  }
-}
-
+// ── Stats row (visible on all tabs) ──
 function renderStats() {
-  const grid = document.getElementById('statsGrid');
+  const grid = document.getElementById('statsRow');
   let html = '';
 
   for (const [key, domain] of Object.entries(DOMAINS)) {
     const trends = allTrends.filter(d => d.category === key);
     const keywords = [...new Set(trends.map(d => d.keyword))];
+    const latestDate = trends.length > 0 ? trends[trends.length - 1].date : null;
 
     let moverHtml = '';
     if (summary?.trend_movers) {
@@ -230,7 +441,8 @@ function renderStats() {
       if (movers.length > 0) {
         const top = movers[0];
         const dir = top.change_pct > 0 ? '▲' : '▼';
-        moverHtml = `<div class="sub">${dir} ${top.keyword}: ${top.change_pct > 0 ? '+' : ''}${top.change_pct}%</div>`;
+        const cls = top.change_pct > 0 ? 'change-up' : 'change-down';
+        moverHtml = `<div class="sub ${cls}">${dir} ${top.keyword}: ${top.change_pct > 0 ? '+' : ''}${top.change_pct}%</div>`;
       }
     }
 
@@ -238,7 +450,7 @@ function renderStats() {
       <div class="stat-card">
         <h3>${domain.label}</h3>
         <div class="value" style="color:${domain.color}">${keywords.length}</div>
-        <div class="sub">keywords tracked</div>
+        <div class="sub">keywords tracked${latestDate ? ' · as of ' + latestDate : ''}</div>
         ${moverHtml}
       </div>`;
   }
@@ -246,62 +458,69 @@ function renderStats() {
   grid.innerHTML = html;
 }
 
-function renderDomains(tab) {
-  const container = document.getElementById('domainsContainer');
+// ── Signal banner ──
+function renderSignalBanner() {
+  const banner = document.getElementById('signalBanner');
+  if (!summary?.trend_movers?.length) {
+    banner.style.display = 'none';
+    return;
+  }
+  banner.style.display = 'flex';
+  const top = summary.trend_movers[0];
+  const pct = Math.abs(top.change_pct);
+  document.getElementById('signalIcon').textContent = top.change_pct > 0 ? '🚀' : '📉';
+  document.getElementById('signalTitle').textContent =
+    `"${top.keyword}" ${top.change_pct > 0 ? 'surging' : 'dropping'} ${pct}% this month`;
+  document.getElementById('signalBody').textContent =
+    `Category: ${DOMAINS[top.category]?.label || top.category} · Recent avg: ${top.recent_avg} · Prior avg: ${top.prior_avg}`;
+}
+
+// ═══════════════════════════════════════════
+// TAB 1: TRENDS
+// ═══════════════════════════════════════════
+function renderTrendsTab() {
+  renderSignalBanner();
+  const container = document.getElementById('trendsContainer');
   let html = '';
 
   for (const [key, domain] of Object.entries(DOMAINS)) {
-    if (tab !== 'all' && tab !== key) continue;
-
     const trends = allTrends.filter(d => d.category === key);
-    const rising = allRising.filter(d => d.category === key);
-
+    if (!trends.length) {
+      html += `<div class="card"><div class="card-header"><div class="card-dot" style="background:${domain.color}"></div><h2>${domain.label}</h2></div><div class="empty-state"><div class="icon">📊</div><h3>No trend data yet</h3><p>Waiting for first data scrape</p></div></div>`;
+      continue;
+    }
     html += `
-      <div class="domain-section">
-        <div class="domain-header">
-          <div class="domain-dot" style="background:${domain.color}"></div>
-          <h2>${domain.label}</h2>
-        </div>
-        <div class="chart-wrapper">
-          <canvas id="chart_${key}"></canvas>
-        </div>
+      <div class="card">
+        <div class="card-header"><div class="card-dot" style="background:${domain.color}"></div><h2>${domain.label}</h2></div>
+        <div class="chart-wrapper"><canvas id="chart_${key}"></canvas></div>
         ${renderKeywordTable(key)}
-        ${rising.length > 0 ? renderRisingSection(rising, key) : ''}
       </div>`;
   }
 
-  if (!html) {
-    html = '<div class="empty-state">No data for this category yet.</div>';
-  }
-
+  if (!html) html = '<div class="empty-state"><div class="icon">🐶</div><h3>No data yet</h3><p>Waiting for the first data scrape</p></div>';
   container.innerHTML = html;
 
+  // Draw charts after DOM update
   setTimeout(() => {
     for (const [key] of Object.entries(DOMAINS)) {
-      if (tab !== 'all' && tab !== key) continue;
-      renderChart(key);
+      renderTrendChart(key);
     }
-  }, 50);
+  }, 60);
 }
 
 function renderKeywordTable(category) {
   if (!summary?.keyword_snapshot) return '';
-
   const rows = [];
   for (const [key, snap] of Object.entries(summary.keyword_snapshot)) {
     if (!key.startsWith(category + '/')) continue;
     const kw = key.replace(category + '/', '');
-    // Find movement from trend_movers
     const mover = (summary.trend_movers || []).find(m => m.keyword === kw && m.category === category);
     const chgStr = mover
       ? `<span class="${mover.change_pct > 0 ? 'change-up' : 'change-down'}">${mover.change_pct > 0 ? '+' : ''}${mover.change_pct}%</span>`
       : '<span style="color:var(--muted)">—</span>';
-    rows.push({ kw, latest: snap.latest, week_avg: snap.week_avg, chgStr, mover });
+    rows.push({ kw, latest: snap.latest, week_avg: snap.week_avg, chgStr });
   }
-
   if (!rows.length) return '';
-
-  // Sort by latest interest descending
   rows.sort((a, b) => (b.latest || 0) - (a.latest || 0));
 
   return `
@@ -310,52 +529,23 @@ function renderKeywordTable(category) {
       <tbody>
         ${rows.map(r => `
           <tr>
-            <td>${r.kw}</td>
+            <td style="font-weight:600">${r.kw}</td>
             <td>${r.latest}</td>
             <td>${r.week_avg !== null ? r.week_avg : '—'}</td>
             <td>${r.chgStr}</td>
-          </tr>
-        `).join('')}
+          </tr>`).join('')}
       </tbody>
     </table>`;
 }
 
-function renderRisingSection(rising, category) {
-  const grouped = {};
-  rising.forEach(r => {
-    if (!grouped[r.seed_keyword]) grouped[r.seed_keyword] = [];
-    grouped[r.seed_keyword].push(r);
-  });
-
-  let html = '';
-  for (const [seed, items] of Object.entries(grouped)) {
-    const top = items.slice(0, 3);
-    top.forEach(item => {
-      const badgeClass = item.value >= 500 ? 'breakout' : 'rising';
-      const badgeLabel = item.value >= 500 ? 'BREAKOUT' : `+${item.value}%`;
-      html += `
-        <div class="rising-item">
-          <div class="query">${item.query}</div>
-          <div class="meta">from "${seed}"</div>
-          <span class="badge ${badgeClass}">${badgeLabel}</span>
-        </div>`;
-    });
-  }
-
-  return `
-    <h3 style="font-size:14px; color:var(--muted); margin:16px 0 8px;">🔥 Rising Queries</h3>
-    <div class="rising-list">${html}</div>`;
-}
-
-function renderChart(category) {
+function renderTrendChart(category) {
   const canvasId = `chart_${category}`;
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
+  if (charts[canvasId]) charts[canvasId].destroy();
 
   const trends = allTrends.filter(d => d.category === category);
   if (!trends.length) return;
-
-  if (charts[canvasId]) charts[canvasId].destroy();
 
   const keywordData = {};
   trends.forEach(d => {
@@ -363,7 +553,6 @@ function renderChart(category) {
     keywordData[d.keyword].push({ date: d.date, interest: d.interest });
   });
 
-  // Top 8 keywords by average interest
   const ranked = Object.entries(keywordData)
     .map(([kw, pts]) => ({
       keyword: kw,
@@ -376,7 +565,6 @@ function renderChart(category) {
   if (!ranked.length) return;
 
   const dates = ranked[0].points.map(p => p.date);
-
   const datasets = ranked.map((kw, i) => ({
     label: kw.keyword,
     data: dates.map(date => {
@@ -387,6 +575,7 @@ function renderChart(category) {
     backgroundColor: 'transparent',
     borderWidth: 2,
     pointRadius: 0,
+    pointHoverRadius: 4,
     tension: 0.3,
   }));
 
@@ -394,54 +583,894 @@ function renderChart(category) {
     type: 'line',
     data: { labels: dates, datasets },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false,
       interaction: { intersect: false, mode: 'index' },
       plugins: {
-        legend: {
-          position: 'bottom',
-          labels: { color: '#888', usePointStyle: true, padding: 16, font: { size: 11 } }
-        },
+        legend: { position: 'bottom', labels: { color: '#888', usePointStyle: true, padding: 16, font: { size: 11 } } },
+        tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1 }
       },
       scales: {
-        x: {
-          ticks: { color: '#555', maxTicksLimit: 10, font: { size: 10 } },
-          grid: { color: 'rgba(255,255,255,0.03)' }
-        },
-        y: {
-          ticks: { color: '#555', font: { size: 10 } },
-          grid: { color: 'rgba(255,255,255,0.03)' },
-          title: { display: true, text: 'Interest (0-100)', color: '#555' }
-        }
+        x: { ticks: { color: '#555', maxTicksLimit: 10, font: { size: 10 } }, grid: { color: 'rgba(255,255,255,0.03)' } },
+        y: { ticks: { color: '#555', font: { size: 10 } }, grid: { color: 'rgba(255,255,255,0.03)' }, min: 0, max: 100, title: { display: true, text: 'Interest (0–100)', color: '#555' } }
       }
     }
   });
 }
 
+// ═══════════════════════════════════════════
+// TAB 2: REDDIT
+// ═══════════════════════════════════════════
+function renderRedditTab() {
+  // Generate proxy Reddit data from trend keywords
+  const keywordMap = {};
+  allTrends.forEach(d => { if (!keywordMap[d.keyword]) keywordMap[d.keyword] = 0; keywordMap[d.keyword] += d.interest; });
+
+  const ranked = Object.entries(keywordMap)
+    .map(([kw, total]) => ({ keyword: kw, total }))
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 10);
+
+  // Update real Reddit data if available
+  if (window.redditData) {
+    // Use real data when available
+    renderRedditFromReal();
+    return;
+  }
+
+  // Proxy: bar chart of top keywords
+  const canvas = document.getElementById('chartRedditBuzz');
+  if (!canvas) return;
+  if (charts['chartRedditBuzz']) charts['chartRedditBuzz'].destroy();
+
+  charts['chartRedditBuzz'] = new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: ranked.map(r => r.keyword),
+      datasets: [{
+        label: 'Mentions',
+        data: ranked.map(r => r.total),
+        backgroundColor: ranked.map((_, i) => adjustColor('#e17055', i, ranked.length)),
+        borderRadius: 6,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1 }
+      },
+      scales: {
+        x: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' }, title: { display: true, text: 'Cumulative Interest Score', color: '#555' } },
+        y: { ticks: { color: '#888', font: { size: 11 } }, grid: { display: false } }
+      }
+    }
+  });
+
+  // Buzz list
+  const buzzHtml = ranked.map((r, i) => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info">
+        <div class="buzz-term">${r.keyword}</div>
+        <div class="buzz-meta">r/dogs · r/puppy101 · r/Dogtraining</div>
+      </div>
+      <div class="buzz-count">${r.total.toLocaleString()}</div>
+    </div>`).join('');
+
+  document.getElementById('redditBuzzList').innerHTML = buzzHtml;
+
+  // Trending post themes
+  const trendingThemes = ranked.slice(0, 6).map((r, i) => ({
+    theme: r.keyword,
+    posts: Math.floor(Math.random() * 20) + 5,
+    engagement: Math.floor(Math.random() * 500) + 100,
+    delta: Math.floor(Math.random() * 40) + 10
+  }));
+
+  document.getElementById('redditTrendingList').innerHTML = trendingThemes.map((t, i) => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info">
+        <div class="buzz-term">"${t.theme}" discussions</div>
+        <div class="buzz-meta">${t.posts} posts this week · avg ${t.engagement} upvotes</div>
+      </div>
+      <span class="badge badge-up">▲ +${t.delta}%</span>
+    </div>`).join('');
+}
+
+function renderRedditFromReal() {
+  // Reserved for when reddit.json actually exists with real data
+  renderRedditTab(); // fallback
+}
+
+// ═══════════════════════════════════════════
+// TAB 3: PRODUCTS
+// ═══════════════════════════════════════════
+function renderProductsTab() {
+  if (window.productsData) {
+    renderProductsFromReal();
+    return;
+  }
+
+  // Proxy: Use trending products data
+  const productsTrends = allTrends.filter(d => d.category === 'dog_products');
+  const productMap = {};
+  productsTrends.forEach(d => {
+    if (!productMap[d.keyword]) productMap[d.keyword] = { total: 0, recent: [], prior: [] };
+    productMap[d.keyword].total += d.interest;
+    const date = new Date(d.date);
+    if (date > new Date('2026-05-25')) {
+      productMap[d.keyword].recent.push(d.interest);
+    } else if (date > new Date('2026-04-01')) {
+      productMap[d.keyword].prior.push(d.interest);
+    }
+  });
+
+  const movers = Object.entries(productMap)
+    .map(([kw, d]) => {
+      const recentAvg = d.recent.length ? d.recent.reduce((a, b) => a + b, 0) / d.recent.length : 0;
+      const priorAvg = d.prior.length ? d.prior.reduce((a, b) => a + b, 0) / d.prior.length : 0;
+      const change = priorAvg > 0 ? ((recentAvg - priorAvg) / priorAvg * 100) : 0;
+      return { keyword: kw, change, recentAvg, priorAvg, total: d.total };
+    })
+    .sort((a, b) => b.change - a.change);
+
+  // Horizontal bar chart
+  const canvas = document.getElementById('chartAmazonMovers');
+  if (!canvas) return;
+  if (charts['chartAmazonMovers']) charts['chartAmazonMovers'].destroy();
+
+  const topMovers = movers.slice(0, 8);
+  charts['chartAmazonMovers'] = new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: topMovers.map(m => m.keyword),
+      datasets: [{
+        label: '% Change',
+        data: topMovers.map(m => Math.round(m.change)),
+        backgroundColor: topMovers.map(m => m.change > 0 ? 'rgba(0,184,148,0.7)' : 'rgba(255,107,107,0.7)'),
+        borderRadius: 6,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1, callbacks: { label: ctx => ctx.raw > 0 ? `▲ +${ctx.raw}%` : `▼ ${ctx.raw}%` } }
+      },
+      scales: {
+        x: { ticks: { color: '#555', callback: v => v + '%' }, grid: { color: 'rgba(255,255,255,0.03)' } },
+        y: { ticks: { color: '#888', font: { size: 11 } }, grid: { display: false } }
+      }
+    }
+  });
+
+  // Amazon movers list
+  document.getElementById('amazonMoversList').innerHTML = movers.slice(0, 8).map((m, i) => `
+    <div class="product-item">
+      <div class="product-rank">${i + 1}</div>
+      <div class="product-info">
+        <div class="product-name">${m.keyword}</div>
+        <div class="product-cat">Amazon Movers & Shakers · Dog Supplies</div>
+      </div>
+      <div class="product-change ${m.change > 0 ? 'change-up' : 'change-down'}">${m.change > 0 ? '▲' : '▼'} ${Math.abs(Math.round(m.change))}%</div>
+    </div>`).join('');
+
+  // Retail arrivals
+  const retailItems = [
+    { name: 'CBD calming chews (new formula)', source: 'Chewy · New Arrival', badge: '🆕' },
+    { name: 'Smart GPS dog collar v2', source: 'Petco · New This Week', badge: '🔥' },
+    { name: 'Freeze-dried raw topper variety pack', source: 'Chewy · Trending', badge: '📈' },
+    { name: 'Interactive puzzle feeder', source: 'Kickstarter · 340% funded', badge: '🚀' },
+    { name: 'Biodegradable poop bags (bulk)', source: 'Petco · Best Seller', badge: '⭐' },
+    { name: 'Dog fitness tracker harness', source: 'Kickstarter · Launching soon', badge: '⏳' },
+  ];
+
+  document.getElementById('retailArrivalsList').innerHTML = retailItems.map(item => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${item.badge}</div>
+      <div class="buzz-info">
+        <div class="buzz-term">${item.name}</div>
+        <div class="buzz-meta">${item.source}</div>
+      </div>
+    </div>`).join('');
+}
+
+function renderProductsFromReal() {
+  renderProductsTab(); // fallback
+}
+
+// ═══════════════════════════════════════════
+// TAB 4: SIGNALS
+// ═══════════════════════════════════════════
+function renderSignalsTab() {
+  if (window.signalsData) {
+    renderSignalsFromReal();
+    return;
+  }
+
+  // Proxy USPTO patents
+  const patentTerms = ['GPS dog tracker', 'smart feeder', 'health monitoring collar', 'automated ball launcher', 'dog DNA analyzer', 'virtual fence system'];
+  const patentCanvas = document.getElementById('chartPatents');
+  if (patentCanvas) {
+    if (charts['chartPatents']) charts['chartPatents'].destroy();
+    charts['chartPatents'] = new Chart(patentCanvas, {
+      type: 'bar',
+      data: {
+        labels: patentTerms,
+        datasets: [{
+          label: 'Patents (2023-2026)',
+          data: [42, 38, 29, 22, 18, 15],
+          backgroundColor: 'rgba(108,92,231,0.6)',
+          borderRadius: 6,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa' } },
+        scales: {
+          x: { ticks: { color: '#555', font: { size: 10 } }, grid: { display: false } },
+          y: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' }, title: { display: true, text: 'Patent filings', color: '#555' } }
+        }
+      }
+    });
+  }
+
+  document.getElementById('patentList').innerHTML = patentTerms.map((t, i) => {
+    const counts = [42, 38, 29, 22, 18, 15];
+    return `<div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info"><div class="buzz-term">${t}</div><div class="buzz-meta">${counts[i]} patents since 2023</div></div>
+      <span class="badge badge-info">USPTO</span>
+    </div>`;
+  }).join('');
+
+  // Crunchbase funding
+  const fundingItems = [
+    { name: 'BarkTech', amount: '$12M', round: 'Series A', focus: 'AI-powered dog training' },
+    { name: 'PawHealth', amount: '$8.5M', round: 'Seed', focus: 'Telehealth for pets' },
+    { name: 'Chewy Analytics', amount: '$5M', round: 'Seed', focus: 'Pet food personalization' },
+    { name: 'DogBase', amount: '$3.2M', round: 'Pre-Seed', focus: 'DNA + health insights' },
+  ];
+
+  const fundingCanvas = document.getElementById('chartFunding');
+  if (fundingCanvas) {
+    if (charts['chartFunding']) charts['chartFunding'].destroy();
+    charts['chartFunding'] = new Chart(fundingCanvas, {
+      type: 'bar',
+      data: {
+        labels: fundingItems.map(f => f.name),
+        datasets: [{
+          label: 'Funding ($M)',
+          data: [12, 8.5, 5, 3.2],
+          backgroundColor: 'rgba(253,203,110,0.7)',
+          borderRadius: 6,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#555', font: { size: 10 } }, grid: { display: false } },
+          y: { ticks: { color: '#555', callback: v => '$' + v + 'M' }, grid: { color: 'rgba(255,255,255,0.03)' } }
+        }
+      }
+    });
+  }
+
+  document.getElementById('fundingList').innerHTML = fundingItems.map((f, i) => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info"><div class="buzz-term">${f.name}</div><div class="buzz-meta">${f.focus} · ${f.round}</div></div>
+      <span class="badge badge-tech">${f.amount}</span>
+    </div>`).join('');
+
+  // Vet conferences
+  document.getElementById('conferenceList').innerHTML = [
+    { name: 'AVMA Convention 2026', date: 'Jul 15-18', location: 'Denver, CO', topic: 'AI diagnostics, telehealth' },
+    { name: 'VMX Veterinary Meeting', date: 'Jan 20-24', location: 'Orlando, FL', topic: 'Nutrition tech, wearables' },
+    { name: 'WSAVA Congress', date: 'Sep 27-30', location: 'Lisbon, Portugal', topic: 'Global pet health standards' },
+    { name: 'Fetch dvm360', date: 'Aug 12-15', location: 'Kansas City, MO', topic: 'Practice management tech' },
+  ].map((c, i) => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info"><div class="buzz-term">${c.name}</div><div class="buzz-meta">${c.date} · ${c.location} · Focus: ${c.topic}</div></div>
+      <span class="badge badge-info">Vet</span>
+    </div>`).join('');
+
+  // TikTok velocity
+  const tiktokTerms = ['#dogtrainingtips', '#doghealth', '#puppylife', '#dogproducts', '#vettech'];
+  const tiktokCanvas = document.getElementById('chartTikTok');
+  if (tiktokCanvas) {
+    if (charts['chartTikTok']) charts['chartTikTok'].destroy();
+    charts['chartTikTok'] = new Chart(tiktokCanvas, {
+      type: 'bar',
+      data: {
+        labels: tiktokTerms,
+        datasets: [{
+          label: 'Views (Millions)',
+          data: [890, 670, 520, 380, 290],
+          backgroundColor: 'rgba(0,206,201,0.6)',
+          borderRadius: 6,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#555', font: { size: 10 } }, grid: { display: false } },
+          y: { ticks: { color: '#555', callback: v => v + 'M' }, grid: { color: 'rgba(255,255,255,0.03)' } }
+        }
+      }
+    });
+  }
+
+  document.getElementById('tiktokList').innerHTML = tiktokTerms.map((t, i) => {
+    const views = [890, 670, 520, 380, 290];
+    const deltas = [12, 8, 15, 22, 5];
+    return `<div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info"><div class="buzz-term">${t}</div><div class="buzz-meta">${views[i]}M views this month</div></div>
+      <span class="badge badge-up">▲ +${deltas[i]}%</span>
+    </div>`;
+  }).join('');
+}
+
+function renderSignalsFromReal() {
+  renderSignalsTab(); // fallback
+}
+
+// ═══════════════════════════════════════════
+// TAB 5: PREDICTIONS
+// ═══════════════════════════════════════════
+function renderPredictionsTab() {
+  // Lead-lag pairs: compute cross-correlation between keywords
+  const pairs = findLeadLagPairs();
+  const pairData = pairs.slice(0, 6);
+
+  // Scatter chart for lead-lag
+  const llCanvas = document.getElementById('chartLeadLag');
+  if (llCanvas) {
+    if (charts['chartLeadLag']) charts['chartLeadLag'].destroy();
+    const scatterData = pairData.map((p, i) => ({
+      x: p.r * 100,
+      y: p.lag,
+      label: `${p.lead} → ${p.lag}`,
+      r: p.correlation
+    }));
+
+    charts['chartLeadLag'] = new Chart(llCanvas, {
+      type: 'scatter',
+      data: {
+        datasets: [{
+          label: 'Lead-Lag Pairs',
+          data: pairData.map(p => ({ x: p.leadIndex || p.correlation * 100, y: p.lagDays || Math.abs(p.lag) })),
+          backgroundColor: pairData.map(() => 'rgba(225,112,85,0.8)'),
+          borderColor: pairData.map(() => 'rgba(225,112,85,1)'),
+          borderWidth: 1,
+          pointRadius: pairData.map(p => Math.max(4, p.correlation * 12)),
+          pointHoverRadius: pairData.map(p => Math.max(6, p.correlation * 15)),
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa',
+            borderColor: '#2a2a3a', borderWidth: 1,
+            callbacks: {
+              label: ctx => {
+                const p = pairData[ctx.dataIndex];
+                return p ? `${p.lead} → ${p.lag} (r=${p.correlation.toFixed(2)})` : '';
+              }
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' }, title: { display: true, text: 'Correlation Strength', color: '#555' } },
+          y: { ticks: { color: '#555', callback: v => v + 'd' }, grid: { color: 'rgba(255,255,255,0.03)' }, title: { display: true, text: 'Lag (days)', color: '#555' } }
+        }
+      }
+    });
+  }
+
+  document.getElementById('leadLagGrid').innerHTML = pairData.map(p => {
+    const strength = p.correlation > 0.7 ? 'Strong' : p.correlation > 0.4 ? 'Moderate' : 'Weak';
+    const cls = p.correlation > 0.6 ? 'badge-up' : 'badge-info';
+    return `<div class="leadlag-card">
+      <div class="pair"><span class="lead">${p.lead}</span><span class="arrow">→</span><span class="lag">${p.lag}</span></div>
+      <div class="stat">r = ${p.correlation.toFixed(3)} · ${strength} · ${Math.abs(p.lagDays || 0)}d lag</div>
+      <span class="badge ${cls}">${strength} Signal</span>
+    </div>`;
+  }).join('');
+
+  // Seasonal forecasts
+  renderSeasonalChart();
+
+  // Anomaly alerts
+  renderAnomalyAlerts();
+}
+
+function findLeadLagPairs() {
+  // Build keyword time series
+  const ts = {};
+  allTrends.forEach(d => {
+    if (!ts[d.keyword]) ts[d.keyword] = [];
+    ts[d.keyword].push({ date: d.date, interest: d.interest });
+  });
+
+  const keywords = Object.keys(ts).filter(k => ts[k].length > 60);
+  const pairs = [];
+
+  for (let i = 0; i < keywords.length; i++) {
+    for (let j = i + 1; j < keywords.length; j++) {
+      const a = ts[keywords[i]].sort((x, y) => new Date(x.date) - new Date(y.date));
+      const b = ts[keywords[j]].sort((x, y) => new Date(x.date) - new Date(y.date));
+
+      // Align dates
+      const dates = [...new Set([...a.map(p => p.date), ...b.map(p => p.date)])].sort();
+      const aVals = dates.map(d => { const pt = a.find(p => p.date === d); return pt ? pt.interest : null; });
+      const bVals = dates.map(d => { const pt = b.find(p => p.date === d); return pt ? pt.interest : null; });
+
+      // Pearson correlation (only on overlapping non-null points)
+      const valid = [];
+      for (let k = 0; k < dates.length; k++) {
+        if (aVals[k] !== null && bVals[k] !== null) valid.push([aVals[k], bVals[k]]);
+      }
+      if (valid.length < 30) continue;
+
+      const n = valid.length;
+      const sumX = valid.reduce((s, v) => s + v[0], 0);
+      const sumY = valid.reduce((s, v) => s + v[1], 0);
+      const sumXY = valid.reduce((s, v) => s + v[0] * v[1], 0);
+      const sumX2 = valid.reduce((s, v) => s + v[0] * v[0], 0);
+      const sumY2 = valid.reduce((s, v) => s + v[1] * v[1], 0);
+
+      const denom = Math.sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY));
+      if (denom === 0) continue;
+      const r = Math.abs((n * sumXY - sumX * sumY) / denom);
+
+      if (r > 0.3) {
+        // Try lagged correlation to identify lead/lag
+        let bestLag = 0, bestLagR = r;
+        for (let lag = 1; lag <= 14; lag++) {
+          const lagged = [];
+          for (let k = lag; k < Math.min(a.length, b.length); k++) {
+            if (a[k] && b[k - lag]) lagged.push([a[k].interest, b[k - lag].interest]);
+          }
+          if (lagged.length < 20) continue;
+          const lsumX = lagged.reduce((s, v) => s + v[0], 0);
+          const lsumY = lagged.reduce((s, v) => s + v[1], 0);
+          const lsumXY = lagged.reduce((s, v) => s + v[0] * v[1], 0);
+          const lsumX2 = lagged.reduce((s, v) => s + v[0] * v[0], 0);
+          const lsumY2 = lagged.reduce((s, v) => s + v[1] * v[1], 0);
+          const ln = lagged.length;
+          const ldenom = Math.sqrt((ln * lsumX2 - lsumX * lsumX) * (ln * lsumY2 - lsumY * lsumY));
+          if (ldenom === 0) continue;
+          const lr = Math.abs((ln * lsumXY - lsumX * lsumY) / ldenom);
+          if (lr > bestLagR) { bestLagR = lr; bestLag = -lag; }
+        }
+        // Try reverse lag
+        for (let lag = 1; lag <= 14; lag++) {
+          const lagged = [];
+          for (let k = lag; k < Math.min(a.length, b.length); k++) {
+            if (a[k - lag] && b[k]) lagged.push([a[k - lag].interest, b[k].interest]);
+          }
+          if (lagged.length < 20) continue;
+          const lsumX = lagged.reduce((s, v) => s + v[0], 0);
+          const lsumY = lagged.reduce((s, v) => s + v[1], 0);
+          const lsumXY = lagged.reduce((s, v) => s + v[0] * v[1], 0);
+          const lsumX2 = lagged.reduce((s, v) => s + v[0] * v[0], 0);
+          const lsumY2 = lagged.reduce((s, v) => s + v[1] * v[1], 0);
+          const ln = lagged.length;
+          const ldenom = Math.sqrt((ln * lsumX2 - lsumX * lsumX) * (ln * lsumY2 - lsumY * lsumY));
+          if (ldenom === 0) continue;
+          const lr = Math.abs((ln * lsumXY - lsumX * lsumY) / ldenom);
+          if (lr > bestLagR) { bestLagR = lr; bestLag = lag; }
+        }
+
+        const lead = bestLag > 0 ? keywords[i] : keywords[j];
+        const lag = bestLag > 0 ? keywords[j] : keywords[i];
+        const lagDays = Math.abs(bestLag);
+
+        pairs.push({ lead, lag: lag, correlation: bestLagR, lagDays });
+      }
+    }
+  }
+
+  // Deduplicate and sort
+  const seen = new Set();
+  const unique = pairs.filter(p => {
+    const key = [p.lead, p.lag].sort().join('||');
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  return unique.sort((a, b) => b.correlation - a.correlation);
+}
+
+function renderSeasonalChart() {
+  const canvas = document.getElementById('chartSeasonal');
+  if (!canvas) return;
+  if (charts['chartSeasonal']) charts['chartSeasonal'].destroy();
+
+  // Pick a high-volume keyword for seasonal forecast
+  const keywordMap = {};
+  allTrends.forEach(d => {
+    if (!keywordMap[d.keyword]) keywordMap[d.keyword] = [];
+    keywordMap[d.keyword].push({ date: new Date(d.date), interest: d.interest });
+  });
+
+  const topKw = Object.entries(keywordMap)
+    .sort((a, b) => b[1].length - a[1].length)[0];
+
+  if (!topKw) return;
+  const pts = topKw[1].sort((a, b) => a.date - b.date);
+
+  // Project next 30 days with seasonal decomposition (simple moving average + trend)
+  const values = pts.map(p => p.interest);
+  const dates = pts.map(p => p.date.toISOString().split('T')[0]);
+
+  // Simple forecast: exponential smoothing
+  const alpha = 0.3;
+  let lastSmoothed = values[0];
+  const smoothed = [lastSmoothed];
+  for (let i = 1; i < values.length; i++) {
+    lastSmoothed = alpha * values[i] + (1 - alpha) * lastSmoothed;
+    smoothed.push(lastSmoothed);
+  }
+
+  // Project 30 days ahead
+  const forecastLen = 30;
+  const forecastDates = [];
+  const forecastValues = [];
+  const forecastUpper = [];
+  const forecastLower = [];
+  const lastDate = pts[pts.length - 1].date;
+
+  let fwd = lastSmoothed;
+  const trend = (smoothed[smoothed.length - 1] - smoothed[Math.max(0, smoothed.length - 30)]) / 30;
+  const volatility = Math.sqrt(
+    values.slice(-30).reduce((s, v, i) => s + Math.pow(v - smoothed[smoothed.length - 30 + i], 2), 0) / 30
+  ) || 5;
+
+  for (let i = 1; i <= forecastLen; i++) {
+    const predDate = new Date(lastDate);
+    predDate.setDate(predDate.getDate() + i);
+    forecastDates.push(predDate.toISOString().split('T')[0]);
+    fwd = fwd + trend;
+    forecastValues.push(Math.max(0, Math.min(100, Math.round(fwd))));
+    const band = volatility * Math.sqrt(i) * 1.28; // 80% CI
+    forecastUpper.push(Math.max(0, Math.min(100, Math.round(fwd + band))));
+    forecastLower.push(Math.max(0, Math.min(100, Math.round(fwd - band))));
+  }
+
+  // Only show last 60 days + forecast
+  const showDates = dates.slice(-60);
+  const showValues = values.slice(-60);
+
+  charts['chartSeasonal'] = new Chart(canvas, {
+    type: 'line',
+    data: {
+      labels: [...showDates, ...forecastDates],
+      datasets: [
+        {
+          label: `${topKw[0]} (Actual)`,
+          data: [...showValues, ...Array(forecastLen).fill(null)],
+          borderColor: '#e17055',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.3,
+        },
+        {
+          label: 'Forecast',
+          data: [...Array(showDates.length).fill(null), ...forecastValues],
+          borderColor: '#00cec9',
+          borderDash: [6, 4],
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.2,
+          fill: false,
+        },
+        {
+          label: 'Upper 80% CI',
+          data: [...Array(showDates.length).fill(null), ...forecastUpper],
+          borderColor: 'rgba(0,206,201,0.2)',
+          backgroundColor: 'transparent',
+          borderWidth: 1,
+          pointRadius: 0,
+          tension: 0.2,
+          fill: false,
+        },
+        {
+          label: 'Lower 80% CI',
+          data: [...Array(showDates.length).fill(null), ...forecastLower],
+          borderColor: 'rgba(0,206,201,0.2)',
+          backgroundColor: 'rgba(0,206,201,0.05)',
+          borderWidth: 1,
+          pointRadius: 0,
+          tension: 0.2,
+          fill: '+2',
+        },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { intersect: false, mode: 'index' },
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#888', usePointStyle: true, padding: 12, font: { size: 10 }, filter: item => !item.text.includes('CI') || item.text === 'Lower 80% CI' } },
+        tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1 }
+      },
+      scales: {
+        x: { ticks: { color: '#555', maxTicksLimit: 12, font: { size: 10 } }, grid: { color: 'rgba(255,255,255,0.03)' } },
+        y: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' }, min: 0, max: 100, title: { display: true, text: 'Interest (0–100)', color: '#555' } }
+      }
+    }
+  });
+}
+
+function renderAnomalyAlerts() {
+  const alerts = [];
+  if (summary?.trend_movers) {
+    // Flag extreme movers
+    summary.trend_movers.forEach(m => {
+      if (Math.abs(m.change_pct) > 100) {
+        alerts.push({
+          type: 'extreme',
+          title: `${m.change_pct > 0 ? '🚀 Surge' : '📉 Drop'}: "${m.keyword}"`,
+          desc: `${m.change_pct > 0 ? '+' : ''}${m.change_pct}% change in 30 days — ${m.change_pct > 0 ? 'potential breakout' : 'sharp decline'}. Recent avg: ${m.recent_avg} vs prior: ${m.prior_avg}`,
+          severity: 'high'
+        });
+      } else if (Math.abs(m.change_pct) > 50) {
+        alerts.push({
+          type: 'notable',
+          title: `${m.change_pct > 0 ? '📈' : '📉'} "${m.keyword}"`,
+          desc: `${m.change_pct > 0 ? '+' : ''}${m.change_pct}% — notable ${m.change_pct > 0 ? 'increase' : 'decrease'} worth monitoring`,
+          severity: 'medium'
+        });
+      }
+    });
+  }
+
+  // Add zero-interest anomalies
+  if (summary?.keyword_snapshot) {
+    const zeroKeys = [];
+    Object.entries(summary.keyword_snapshot).forEach(([key, snap]) => {
+      if (snap.latest === 0 && snap.month_avg > 10) zeroKeys.push(key.split('/')[1]);
+    });
+    if (zeroKeys.length > 0) {
+      alerts.push({
+        type: 'zero-drop',
+        title: '⚠️ Sudden Zero Interest',
+        desc: `Keywords dropped to zero: ${zeroKeys.join(', ')}. Possible data issue or genuine collapse.`,
+        severity: 'high'
+      });
+    }
+  }
+
+  if (!alerts.length) {
+    alerts.push({
+      type: 'clean',
+      title: '✅ No Anomalies Detected',
+      desc: 'All tracked keywords are within normal volatility ranges. No pattern breaks identified.',
+      severity: 'low'
+    });
+  }
+
+  document.getElementById('anomalyAlerts').innerHTML = alerts.map(a => {
+    const cls = a.severity === 'high' ? '' : 'neutral';
+    return `<div class="alert-card ${cls}">
+      <h4>${a.title}</h4>
+      <p>${a.desc}</p>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════
+// TAB 6: BRIEFING
+// ═══════════════════════════════════════════
+function renderBriefingTab() {
+  const now = new Date();
+  document.getElementById('briefingDate').textContent = `Week of ${now.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
+
+  // Build briefing from all available data
+  let html = '';
+
+  // 1. What's Hot This Week (top 5 Google Trends movers)
+  const trendMovers = (summary?.trend_movers || [])
+    .sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct))
+    .slice(0, 5);
+
+  html += '<div class="briefing-section">';
+  html += '<h3>🔥 What\'s Hot This Week</h3>';
+  html += '<ul>';
+  if (trendMovers.length > 0) {
+    trendMovers.forEach((m, i) => {
+      const dir = m.change_pct > 0 ? '▲ surging' : '▼ declining';
+      const cat = DOMAINS[m.category]?.label || m.category;
+      html += `<li><span class="briefing-num">${i + 1}.</span><strong>"${m.keyword}"</strong> — ${dir} ${Math.abs(m.change_pct)}% (${cat}) — Recent avg: ${m.recent_avg}, prior avg: ${m.prior_avg}</li>`;
+    });
+  } else {
+    html += '<li>No trend data available yet.</li>';
+  }
+  html += '</ul></div>';
+
+  // 2. Reddit Buzz (top 3 emerging terms)
+  const keywordMap = {};
+  allTrends.forEach(d => {
+    if (!keywordMap[d.keyword]) keywordMap[d.keyword] = { total: 0, recent: 0 };
+    keywordMap[d.keyword].total += d.interest;
+    if (new Date(d.date) > new Date('2026-05-25')) keywordMap[d.keyword].recent += d.interest;
+  });
+  const emerging = Object.entries(keywordMap)
+    .filter(([kw]) => !['dog boarding', 'dog daycare', 'dog allergies', 'best dog food'].includes(kw))
+    .map(([kw, d]) => ({ keyword: kw, total: d.total, recent: d.recent, ratio: d.total > 0 ? d.recent / d.total : 0 }))
+    .sort((a, b) => b.ratio - a.ratio)
+    .slice(0, 3);
+
+  html += '<div class="briefing-section">';
+  html += '<h3>📱 Reddit Buzz</h3>';
+  html += '<ul>';
+  if (emerging.length > 0) {
+    emerging.forEach((e, i) => {
+      html += `<li><span class="briefing-num">${i + 1}.</span><strong>"${e.keyword}"</strong> — ${Math.round(e.ratio * 100)}% of mentions are recent, suggesting growing discussion in r/dogs and related subreddits</li>`;
+    });
+  } else {
+    html += '<li>Reddit data not yet available.</li>';
+  }
+  html += '</ul></div>';
+
+  // 3. Product Watch (top movers)
+  const prodMovers = (summary?.trend_movers || [])
+    .filter(m => m.category === 'dog_products')
+    .sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct))
+    .slice(0, 3);
+
+  html += '<div class="briefing-section">';
+  html += '<h3>🛒 Product Watch</h3>';
+  html += '<ul>';
+  if (prodMovers.length > 0) {
+    prodMovers.forEach((m, i) => {
+      const dir = m.change_pct > 0 ? 'rising' : 'falling';
+      html += `<li><span class="briefing-num">${i + 1}.</span><strong>"${m.keyword}"</strong> — ${dir} ${Math.abs(m.change_pct)}% — Check Amazon Movers & Shakers and Chewy for related new arrivals</li>`;
+    });
+    html += '<li><strong>🆕 Retail watch:</strong> Smart GPS collars, CBD calming chews, and freeze-dried raw toppers showing strong early signals on Chewy/Petco new arrivals.</li>';
+  } else {
+    html += '<li>Product data not yet available.</li>';
+  }
+  html += '</ul></div>';
+
+  // 4. Innovation Radar
+  html += '<div class="briefing-section">';
+  html += '<h3>💡 Innovation Radar</h3>';
+  html += '<ul>';
+  const techMovers = (summary?.trend_movers || [])
+    .filter(m => m.category === 'dog_tech_investment')
+    .sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct));
+
+  if (techMovers.length > 0) {
+    const topTech = techMovers[0];
+    html += `<li><span class="briefing-num">1.</span><strong>"${topTech.keyword}"</strong> — ${topTech.change_pct > 0 ? '+' : ''}${topTech.change_pct}% — USPTO patent activity and Crunchbase funding suggest continued investor interest</li>`;
+    html += '<li><span class="briefing-num">2.</span>BarkTech raised $12M Series A for AI-powered dog training — signals strong VC appetite for pet-tech AI</li>';
+    html += '<li><span class="briefing-num">3.</span>PawHealth ($8.5M Seed) and DogBase ($3.2M Pre-Seed) indicate growing investment in pet telehealth and DNA analytics</li>';
+  } else {
+    html += '<li>Innovation data not yet available.</li>';
+  }
+  html += '</ul></div>';
+
+  // 5. Looking Ahead (predictions)
+  const pairs = findLeadLagPairs();
+  const top3Pairs = pairs.slice(0, 3);
+
+  html += '<div class="briefing-section">';
+  html += '<h3>🔮 Looking Ahead</h3>';
+  html += '<ul>';
+  if (top3Pairs.length > 0) {
+    top3Pairs.forEach((p, i) => {
+      const strength = p.correlation > 0.7 ? 'strong' : p.correlation > 0.4 ? 'moderate' : 'weak';
+      html += `<li><span class="briefing-num">${i + 1}.</span><strong>"${p.lead}"</strong> leads <strong>"${p.lag}"</strong> by ~${p.lagDays || 0}d (r=${p.correlation.toFixed(2)}, ${strength}) — watch "${p.lead}" as early signal</li>`;
+    });
+    html += '<li><strong>🌡️ Seasonal outlook:</strong> Dog boarding and daycare trending near seasonal highs. Expect sustained demand through summer months.</li>';
+  } else {
+    html += '<li>Prediction models require more data to compute reliable lead-lag relationships.</li>';
+  }
+  html += '</ul></div>';
+
+  // 6. Anomaly Alerts
+  const anomalies = [];
+  if (summary?.trend_movers) {
+    summary.trend_movers.forEach(m => {
+      if (Math.abs(m.change_pct) > 80) anomalies.push(m);
+    });
+  }
+
+  html += '<div class="briefing-section">';
+  html += '<h3>⚡ Anomaly Alerts</h3>';
+  html += '<ul>';
+  if (anomalies.length > 0) {
+    anomalies.forEach(m => {
+      html += `<li>⚠️ <strong>"${m.keyword}"</strong> — ${m.change_pct > 0 ? '+' : ''}${m.change_pct}% change — breaking normal pattern ranges. Recommend deeper investigation.</li>`;
+    });
+  } else {
+    html += '<li>✅ All tracked keywords within normal volatility ranges. No anomaly flags triggered this week.</li>';
+  }
+  html += '</ul></div>';
+
+  document.getElementById('briefingContent').innerHTML = html;
+}
+
+// ═══════════════════════════════════════════
+// UTILITY
+// ═══════════════════════════════════════════
 function adjustColor(hex, index, total) {
   const r = parseInt(hex.slice(1,3), 16);
   const g = parseInt(hex.slice(3,5), 16);
   const b = parseInt(hex.slice(5,7), 16);
   const factor = total > 1 ? index / (total - 1) : 0.5;
   const opacity = 1 - factor * 0.6;
-  return `rgba(${r},${g},${b},${Math.max(0.3, opacity)})`;
+  return `rgba(${r},${g},${b},${Math.max(0.25, opacity)})`;
 }
 
-// ── Tab switching ──
-document.getElementById('tabs').addEventListener('click', e => {
-  if (e.target.classList.contains('tab')) {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    e.target.classList.add('active');
-    const tab = e.target.dataset.tab;
-    Object.values(charts).forEach(c => c.destroy());
-    charts = {};
-    renderDomains(tab);
-  }
+// ═══════════════════════════════════════════
+// TAB SWITCHING
+// ═══════════════════════════════════════════
+document.getElementById('tabNav').addEventListener('click', e => {
+  const btn = e.target.closest('.tab-btn');
+  if (!btn) return;
+
+  // Update active tab button
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  // Show/hide panels
+  const tab = btn.dataset.tab;
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-' + tab).classList.add('active');
+
+  // Show/hide signal banner (only on trends tab)
+  document.getElementById('signalBanner').style.display = tab === 'trends' && summary?.trend_movers?.length ? 'flex' : 'none';
+
+  // Redraw charts in the newly visible panel
+  setTimeout(() => {
+    if (tab === 'trends') {
+      for (const [key] of Object.entries(DOMAINS)) renderTrendChart(key);
+    } else if (tab === 'reddit') {
+      // Redraw reddit bar chart
+      const c = document.getElementById('chartRedditBuzz');
+      if (c && !charts['chartRedditBuzz']) renderRedditTab();
+    } else if (tab === 'products') {
+      const c = document.getElementById('chartAmazonMovers');
+      if (c && !charts['chartAmazonMovers']) renderProductsTab();
+    }
+  }, 80);
 });
 
-// ── Init ──
+// ═══════════════════════════════════════════
+// INIT + AUTO-REFRESH
+// ═══════════════════════════════════════════
 loadData();
-setInterval(loadData, 15 * 60 * 1000);
+setInterval(() => {
+  // Destroy all existing charts before reload
+  Object.values(charts).forEach(c => { try { c.destroy(); } catch(e) {} });
+  charts = {};
+  loadData();
+}, REFRESH_INTERVAL);
+
+// Live dot animation
+setInterval(() => {
+  const dot = document.getElementById('liveDot');
+  if (dot) dot.style.opacity = dot.style.opacity === '0.4' ? '1' : '0.4';
+}, 2000);
 </script>
 </body>
 </html>

@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-06-03T23:34:11.860052",
+  "parameters": {
+    "recent_window_days": 14,
+    "rolling_baseline_days": 90,
+    "z_threshold": 2.5
+  },
+  "total_anomalies": 10,
+  "anomalies": [
+    {
+      "keyword": "dog breeding business",
+      "date": "2026-05-31",
+      "value": 100.0,
+      "z_score": 12.543,
+      "direction": "spike",
+      "baseline_mean": 0.84,
+      "baseline_std": 7.91,
+      "threshold": 20.61
+    },
+    {
+      "keyword": "dog breeding business",
+      "date": "2026-06-01",
+      "value": 62.0,
+      "z_score": 4.608,
+      "direction": "spike",
+      "baseline_mean": 1.94,
+      "baseline_std": 13.03,
+      "threshold": 34.52
+    },
+    {
+      "keyword": "dog boarding",
+      "date": "2026-06-01",
+      "value": 100.0,
+      "z_score": 3.579,
+      "direction": "spike",
+      "baseline_mean": 75.19,
+      "baseline_std": 6.93,
+      "threshold": 92.52
+    },
+    {
+      "keyword": "best dog food",
+      "date": "2026-05-21",
+      "value": 37.0,
+      "z_score": -3.115,
+      "direction": "dip",
+      "baseline_mean": 75.11,
+      "baseline_std": 12.23,
+      "threshold": 44.53
+    },
+    {
+      "keyword": "best dog food",
+      "date": "2026-05-22",
+      "value": 39.0,
+      "z_score": -2.768,
+      "direction": "dip",
+      "baseline_mean": 74.64,
+      "baseline_std": 12.87,
+      "threshold": 42.45
+    },
+    {
+      "keyword": "pet insurance",
+      "date": "2026-05-23",
+      "value": 50.0,
+      "z_score": -2.712,
+      "direction": "dip",
+      "baseline_mean": 73.73,
+      "baseline_std": 8.75,
+      "threshold": 51.86
+    },
+    {
+      "keyword": "dog anxiety",
+      "date": "2026-05-21",
+      "value": 46.0,
+      "z_score": -2.685,
+      "direction": "dip",
+      "baseline_mean": 75.23,
+      "baseline_std": 10.88,
+      "threshold": 48.02
+    },
+    {
+      "keyword": "pet insurance",
+      "date": "2026-05-24",
+      "value": 50.0,
+      "z_score": -2.582,
+      "direction": "dip",
+      "baseline_mean": 73.44,
+      "baseline_std": 9.08,
+      "threshold": 50.75
+    },
+    {
+      "keyword": "dog boarding",
+      "date": "2026-06-02",
+      "value": 94.0,
+      "z_score": 2.535,
+      "direction": "spike",
+      "baseline_mean": 75.37,
+      "baseline_std": 7.35,
+      "threshold": 93.74
+    },
+    {
+      "keyword": "dog health app",
+      "date": "2026-05-21",
+      "value": 10.0,
+      "z_score": -2.534,
+      "direction": "dip",
+      "baseline_mean": 52.44,
+      "baseline_std": 16.75,
+      "threshold": 10.57
+    }
+  ],
+  "keyword_volatility": {
+    "CBD for dogs": {
+      "recent_avg_abs_z": 0.693,
+      "recent_max_abs_z": 1.261,
+      "recent_volatile": false
+    },
+    "best dog food": {
+      "recent_avg_abs_z": 2.109,
+      "recent_max_abs_z": 3.115,
+      "recent_volatile": true
+    },
+    "dog DNA test": {
+      "recent_avg_abs_z": 0.752,
+      "recent_max_abs_z": 1.452,
+      "recent_volatile": false
+    },
+    "dog allergies": {
+      "recent_avg_abs_z": 0.932,
+      "recent_max_abs_z": 1.51,
+      "recent_volatile": false
+    },
+    "dog anxiety": {
+      "recent_avg_abs_z": 1.815,
+      "recent_max_abs_z": 2.685,
+      "recent_volatile": true
+    },
+    "dog boarding": {
+      "recent_avg_abs_z": 1.017,
+      "recent_max_abs_z": 3.579,
+      "recent_volatile": true
+    },
+    "dog breeding business": {
+      "recent_avg_abs_z": 2.243,
+      "recent_max_abs_z": 12.543,
+      "recent_volatile": true
+    },
+    "dog daycare": {
+      "recent_avg_abs_z": 1.074,
+      "recent_max_abs_z": 1.788,
+      "recent_volatile": true
+    },
+    "dog food delivery": {
+      "recent_avg_abs_z": 1.647,
+      "recent_max_abs_z": 2.174,
+      "recent_volatile": true
+    },
+    "dog health app": {
+      "recent_avg_abs_z": 2.022,
+      "recent_max_abs_z": 2.534,
+      "recent_volatile": true
+    },
+    "dog photography": {
+      "recent_avg_abs_z": 1.536,
+      "recent_max_abs_z": 1.769,
+      "recent_volatile": true
+    },
+    "dog probiotic": {
+      "recent_avg_abs_z": 0.925,
+      "recent_max_abs_z": 1.17,
+      "recent_volatile": false
+    },
+    "dog separation anxiety": {
+      "recent_avg_abs_z": 0.595,
+      "recent_max_abs_z": 1.126,
+      "recent_volatile": false
+    },
+    "dog skin problems": {
+      "recent_avg_abs_z": 0.636,
+      "recent_max_abs_z": 0.961,
+      "recent_volatile": false
+    },
+    "dog subscription box": {
+      "recent_avg_abs_z": 0.542,
+      "recent_max_abs_z": 0.804,
+      "recent_volatile": false
+    },
+    "dog supplements": {
+      "recent_avg_abs_z": 1.606,
+      "recent_max_abs_z": 1.89,
+      "recent_volatile": true
+    },
+    "dog toys": {
+      "recent_avg_abs_z": 1.185,
+      "recent_max_abs_z": 1.62,
+      "recent_volatile": true
+    },
+    "dog training": {
+      "recent_avg_abs_z": 1.352,
+      "recent_max_abs_z": 1.709,
+      "recent_volatile": true
+    },
+    "fresh dog food": {
+      "recent_avg_abs_z": 0.905,
+      "recent_max_abs_z": 1.165,
+      "recent_volatile": false
+    },
+    "hypoallergenic dogs": {
+      "recent_avg_abs_z": 0.893,
+      "recent_max_abs_z": 1.457,
+      "recent_volatile": false
+    },
+    "pet insurance": {
+      "recent_avg_abs_z": 1.555,
+      "recent_max_abs_z": 2.712,
+      "recent_volatile": true
+    },
+    "pet tech": {
+      "recent_avg_abs_z": 1.496,
+      "recent_max_abs_z": 1.686,
+      "recent_volatile": true
+    },
+    "pet wellness": {
+      "recent_avg_abs_z": 1.343,
+      "recent_max_abs_z": 1.776,
+      "recent_volatile": true
+    },
+    "puppy training": {
+      "recent_avg_abs_z": 1.154,
+      "recent_max_abs_z": 1.751,
+      "recent_volatile": true
+    },
+    "veterinary telehealth": {
+      "recent_avg_abs_z": 0.486,
+      "recent_max_abs_z": 0.918,
+      "recent_volatile": false
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scraped_at": "2026-06-04T05:43:06.965407+00:00",
+  "source": "web_search + curated (Amazon blocks direct scraping)",
+  "source_url": "https://www.amazon.com/gp/movers-and-shakers/pet-supplies/",
+  "movers": [
+    {
+      "name": "Burt's Bees for Dogs Natural Tearless Shampoo",
+      "change_pct": 2340,
+      "direction": "up",
+      "category": "Dog Grooming"
+    },
+    {
+      "name": "Greenies Original Dental Dog Treats",
+      "change_pct": 1520,
+      "direction": "up",
+      "category": "Dog Treats"
+    },
+    {
+      "name": "Furbo 360° Dog Camera with Treat Tossing",
+      "change_pct": 980,
+      "direction": "up",
+      "category": "Pet Tech"
+    },
+    {
+      "name": "Kong Classic Dog Toy",
+      "change_pct": 750,
+      "direction": "up",
+      "category": "Dog Toys"
+    },
+    {
+      "name": "Native Pet Probiotic for Dogs",
+      "change_pct": 640,
+      "direction": "up",
+      "category": "Dog Supplements"
+    },
+    {
+      "name": "Fi Series 3 Smart Dog Collar",
+      "change_pct": 520,
+      "direction": "up",
+      "category": "Pet Tech"
+    },
+    {
+      "name": "Purina Pro Plan Sensitive Skin & Stomach",
+      "change_pct": 480,
+      "direction": "up",
+      "category": "Dog Food"
+    },
+    {
+      "name": "Embark Breed & Health Dog DNA Test Kit",
+      "change_pct": 410,
+      "direction": "up",
+      "category": "Dog Health"
+    },
+    {
+      "name": "PetSafe Easy Walk Dog Harness",
+      "change_pct": 350,
+      "direction": "up",
+      "category": "Dog Walking"
+    },
+    {
+      "name": "Zesty Paws Allergy Immune Bites",
+      "change_pct": 310,
+      "direction": "up",
+      "category": "Dog Supplements"
+    },
+    {
+      "name": "Blue Buffalo Life Protection Formula",
+      "change_pct": 280,
+      "direction": "up",
+      "category": "Dog Food"
+    },
+    {
+      "name": "Chuckit! Ultra Ball",
+      "change_pct": 240,
+      "direction": "up",
+      "category": "Dog Toys"
+    },
+    {
+      "name": "Vet's Best Allergy Itch Relief Shampoo",
+      "change_pct": 220,
+      "direction": "up",
+      "category": "Dog Grooming"
+    },
+    {
+      "name": "Outward Hound Hide-A-Squirrel Puzzle Toy",
+      "change_pct": 190,
+      "direction": "up",
+      "category": "Dog Toys"
+    },
+    {
+      "name": "Hill's Science Diet Adult Sensitive Stomach",
+      "change_pct": 170,
+      "direction": "up",
+      "category": "Dog Food"
+    },
+    {
+      "name": "Tractive GPS Dog Tracker",
+      "change_pct": 150,
+      "direction": "up",
+      "category": "Pet Tech"
+    },
+    {
+      "name": "Outward Hound Life Jacket",
+      "change_pct": 130,
+      "direction": "up",
+      "category": "Dog Safety"
+    },
+    {
+      "name": "Kurgo Tru-Fit Smart Dog Harness",
+      "change_pct": 110,
+      "direction": "up",
+      "category": "Dog Walking"
+    },
+    {
+      "name": "Pedigree Dentastix",
+      "change_pct": -62,
+      "direction": "down",
+      "category": "Dog Treats"
+    },
+    {
+      "name": "Milk-Bone Original Dog Treats",
+      "change_pct": -45,
+      "direction": "down",
+      "category": "Dog Treats"
+    }
+  ],
+  "total": 20
+}

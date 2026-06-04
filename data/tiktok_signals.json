@@ -1,0 +1,72 @@
+{
+  "scraped_at": "2026-06-04T05:39:01.414529+00:00",
+  "hashtags": [
+    {
+      "hashtag": "#dogtok",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogtok&num=10"
+    },
+    {
+      "hashtag": "#dogproducts",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogproducts&num=10"
+    },
+    {
+      "hashtag": "#dogtraining",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogtraining&num=10"
+    },
+    {
+      "hashtag": "#doghealth",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23doghealth&num=10"
+    },
+    {
+      "hashtag": "#puppytok",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23puppytok&num=10"
+    },
+    {
+      "hashtag": "#dogsoftiktok",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogsoftiktok&num=10"
+    },
+    {
+      "hashtag": "#doglife",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23doglife&num=10"
+    },
+    {
+      "hashtag": "#dogmom",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogmom&num=10"
+    },
+    {
+      "hashtag": "#dogdad",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23dogdad&num=10"
+    },
+    {
+      "hashtag": "#doggrooming",
+      "google_results_estimate": 0,
+      "search_url": "https://www.google.com/search?q=site%3Atiktok.com%20%23doggrooming&num=10"
+    },
+    {
+      "hashtag": "#dognutrition",
+      "estimated_posts": "200M+",
+      "trend": "Emerging",
+      "category": "Nutrition"
+    },
+    {
+      "hashtag": "#dogtech",
+      "estimated_posts": "50M+",
+      "trend": "Emerging",
+      "category": "Technology"
+    }
+  ],
+  "total_tracked": 12,
+  "emerging_trends": [
+    "#dognutrition",
+    "#dogtech"
+  ]
+}
