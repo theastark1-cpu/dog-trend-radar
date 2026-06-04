@@ -411,6 +411,12 @@ async function loadData() {
     }
   } catch(e) { window.signalsData = null; }
 
+  // Analytics JSONs
+  try { const ll = await fetch('data/lead_lag_pairs.json'); if (ll.ok) window.leadLagData = await ll.json(); } catch(e) { window.leadLagData = null; }
+  try { const sf = await fetch('data/seasonal_forecasts.json'); if (sf.ok) window.seasonalData = await sf.json(); } catch(e) { window.seasonalData = null; }
+  try { const an = await fetch('data/anomalies.json'); if (an.ok) window.anomalyData = await an.json(); } catch(e) { window.anomalyData = null; }
+  try { const cm = await fetch('data/correlation_matrix.json'); if (cm.ok) window.corrData = await cm.json(); } catch(e) { window.corrData = null; }
+
   renderAll();
 }
 
@@ -681,8 +687,74 @@ function renderRedditTab() {
 }
 
 function renderRedditFromReal() {
-  // Reserved for when reddit.json actually exists with real data
-  renderRedditTab(); // fallback
+  const rd = window.redditData;
+  if (!rd || !rd.subreddits) { renderRedditTab(); return; }
+
+  // Aggregate keywords across all subreddits
+  const kwMap = {};
+  let allPosts = [];
+  for (const [srName, srData] of Object.entries(rd.subreddits)) {
+    (srData.top_keywords || []).forEach(kw => {
+      if (!kwMap[kw.term]) kwMap[kw.term] = 0;
+      kwMap[kw.term] += kw.count;
+    });
+    (srData.posts || []).forEach(p => { p._sr = srName; allPosts.push(p); });
+  }
+
+  const ranked = Object.entries(kwMap)
+    .map(([term, count]) => ({ keyword: term, total: count }))
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 10);
+
+  if (ranked.length === 0) { renderRedditTab(); return; }
+
+  // Bar chart
+  const canvas = document.getElementById('chartRedditBuzz');
+  if (!canvas) return;
+  if (charts['chartRedditBuzz']) charts['chartRedditBuzz'].destroy();
+  charts['chartRedditBuzz'] = new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: ranked.map(r => r.keyword),
+      datasets: [{
+        label: 'Mentions', data: ranked.map(r => r.total),
+        backgroundColor: ranked.map((_, i) => adjustColor('#e17055', i, ranked.length)),
+        borderRadius: 6, borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1 } },
+      scales: {
+        x: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' }, title: { display: true, text: 'Mentions across subreddits', color: '#555' } },
+        y: { ticks: { color: '#888', font: { size: 11 } }, grid: { display: false } }
+      }
+    }
+  });
+
+  // Buzz list
+  document.getElementById('redditBuzzList').innerHTML = ranked.map((r, i) => `
+    <div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info">
+        <div class="buzz-term">#${r.keyword}</div>
+        <div class="buzz-meta">${r.total} mentions across r/dogs, r/puppy101, r/dogtraining</div>
+      </div>
+      <div class="buzz-count">${r.total}</div>
+    </div>`).join('');
+
+  // Trending post themes (top posts)
+  const topPosts = allPosts.sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 8);
+  document.getElementById('redditTrendingList').innerHTML = topPosts.map((p, i) => {
+    const title = (p.title || '').substring(0, 80);
+    return `<div class="buzz-item">
+      <div class="buzz-rank">${i + 1}</div>
+      <div class="buzz-info">
+        <div class="buzz-term">${title}</div>
+        <div class="buzz-meta">r/${p._sr || 'dogs'} · ${p.score || 0} upvotes · ${p.num_comments || 0} comments</div>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // ═══════════════════════════════════════════
@@ -781,7 +853,66 @@ function renderProductsTab() {
 }
 
 function renderProductsFromReal() {
-  renderProductsTab(); // fallback
+  const pd = window.productsData;
+  if (!pd || !pd.amazon || (!pd.amazon.movers || !pd.amazon.movers.length) && (!pd.retail || !pd.retail.new_products || !pd.retail.new_products.length)) {
+    renderProductsTab(); return;
+  }
+
+  // --- Amazon Movers chart ---
+  const movers = (pd.amazon.movers || []).slice(0, 10);
+  const canvas = document.getElementById('chartAmazonMovers');
+  if (canvas) {
+    if (charts['chartAmazonMovers']) charts['chartAmazonMovers'].destroy();
+    charts['chartAmazonMovers'] = new Chart(canvas, {
+      type: 'bar',
+      data: {
+        labels: movers.map(m => (m.name || m.title || '').substring(0, 30)),
+        datasets: [{
+          label: '% Change', data: movers.map(m => m.change_pct || 0),
+          backgroundColor: movers.map(m => (m.change_pct || 0) > 0 ? 'rgba(0,184,148,0.7)' : 'rgba(255,107,107,0.7)'),
+          borderRadius: 6, borderSkipped: false,
+        }]
+      },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1a1a24', titleColor: '#e0e0e0', bodyColor: '#aaa', borderColor: '#2a2a3a', borderWidth: 1, callbacks: { label: ctx => ctx.raw > 0 ? '▲ +' + ctx.raw + '%' : '▼ ' + ctx.raw + '%' } } },
+        scales: {
+          x: { ticks: { color: '#555', callback: v => v + '%' }, grid: { color: 'rgba(255,255,255,0.03)' } },
+          y: { ticks: { color: '#888', font: { size: 10 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  // Amazon movers list
+  document.getElementById('amazonMoversList').innerHTML = movers.map((m, i) => {
+    const pct = m.change_pct || 0;
+    const dir = pct > 0 ? '▲' : '▼';
+    const cls = pct > 0 ? 'change-up' : 'change-down';
+    return `<div class="product-item">
+      <div class="product-rank">${i + 1}</div>
+      <div class="product-info">
+        <div class="product-name">${m.name || m.title || 'Unknown'}</div>
+        <div class="product-cat">${m.category || m.direction || 'Amazon Movers & Shakers'}</div>
+      </div>
+      <div class="product-change ${cls}">${dir} ${Math.abs(Math.round(pct))}%</div>
+    </div>`;
+  }).join('');
+
+  // Retail arrivals
+  const retail = (pd.retail.new_products || []).slice(0, 10);
+  if (retail.length > 0) {
+    document.getElementById('retailArrivalsList').innerHTML = retail.map(item => `
+      <div class="buzz-item">
+        <div class="buzz-rank">🆕</div>
+        <div class="buzz-info">
+          <div class="buzz-term">${item.name || item.title || ''}</div>
+          <div class="buzz-meta">${item.retailer || ''} · ${item.category || 'New Arrival'} · ${item.price || ''}</div>
+        </div>
+      </div>`).join('');
+  } else {
+    document.getElementById('retailArrivalsList').innerHTML = '<div class="empty-state">No new retail arrivals tracked yet</div>';
+  }
 }
 
 // ═══════════════════════════════════════════
@@ -924,7 +1055,58 @@ function renderSignalsTab() {
 }
 
 function renderSignalsFromReal() {
-  renderSignalsTab(); // fallback
+  const sd = window.signalsData;
+  if (!sd) { renderSignalsTab(); return; }
+
+  // --- USPTO Patents ---
+  const patents = sd.uspto?.patents || [];
+  const patentCanvas = document.getElementById('chartPatents');
+  if (patentCanvas && patents.length > 0) {
+    if (charts['chartPatents']) charts['chartPatents'].destroy();
+    const labels = patents.slice(0, 8).map(p => (p.title || p.patentNumber || 'Patent').substring(0, 30));
+    charts['chartPatents'] = new Chart(patentCanvas, {
+      type: 'bar', data: { labels, datasets: [{ label: 'Patents', data: labels.map((_, i) => patents.length - i), backgroundColor: 'rgba(108,92,231,0.6)', borderRadius: 6 }] },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#555', font: { size: 9 } }, grid: { display: false } }, y: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' } } } }
+    });
+  }
+  document.getElementById('patentList').innerHTML = patents.length > 0
+    ? patents.slice(0, 6).map((p, i) => `<div class="buzz-item"><div class="buzz-rank">${i+1}</div><div class="buzz-info"><div class="buzz-term">${(p.title || p.patentNumber || 'Patent').substring(0, 60)}</div><div class="buzz-meta">USPTO · ${p.filingDate || p.date || ''}</div></div><span class="badge badge-info">Patent</span></div>`).join('')
+    : '<div class="empty-state">No patent data yet — USPTO API may be rate-limited</div>';
+
+  // --- Crunchbase Funding ---
+  const funding = sd.crunchbase?.funding_rounds || [];
+  const fundingCanvas = document.getElementById('chartFunding');
+  if (fundingCanvas && funding.length > 0) {
+    if (charts['chartFunding']) charts['chartFunding'].destroy();
+    const topF = funding.slice(0, 6);
+    charts['chartFunding'] = new Chart(fundingCanvas, {
+      type: 'bar', data: { labels: topF.map(f => f.company || 'Startup'), datasets: [{ label: 'Funding', data: topF.map(f => { const a = f.amount || ''; const m = a.match(/[\d.]+/); return m ? parseFloat(m[0]) : 0; }), backgroundColor: 'rgba(253,203,110,0.7)', borderRadius: 6 }] },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#555', font: { size: 9 } }, grid: { display: false } }, y: { ticks: { color: '#555', callback: v => '$' + v + 'M' }, grid: { color: 'rgba(255,255,255,0.03)' } } } }
+    });
+  }
+  document.getElementById('fundingList').innerHTML = funding.length > 0
+    ? funding.slice(0, 6).map((f, i) => `<div class="buzz-item"><div class="buzz-rank">${i+1}</div><div class="buzz-info"><div class="buzz-term">${f.company || f.headline?.substring(0, 50) || 'Unknown'}</div><div class="buzz-meta">${f.round_type || ''} · ${f.date || ''}</div></div><span class="badge badge-tech">${f.amount || ''}</span></div>`).join('')
+    : '<div class="empty-state">No funding data yet</div>';
+
+  // --- Vet Conferences ---
+  const confs = sd.vet_conferences?.conferences || [];
+  document.getElementById('conferenceList').innerHTML = confs.length > 0
+    ? confs.slice(0, 6).map((c, i) => `<div class="buzz-item"><div class="buzz-rank">${i+1}</div><div class="buzz-info"><div class="buzz-term">${c.name || 'Conference'}</div><div class="buzz-meta">${c.dates || ''} · ${c.location || ''} · Topics: ${(c.hot_topics || []).slice(0, 3).join(', ')}</div></div><span class="badge badge-info">Vet</span></div>`).join('')
+    : '<div class="empty-state">No conference data yet</div>';
+
+  // --- TikTok ---
+  const tth = sd.tiktok?.hashtags || [];
+  const ttCanvas = document.getElementById('chartTikTok');
+  if (ttCanvas && tth.length > 0) {
+    if (charts['chartTikTok']) charts['chartTikTok'].destroy();
+    charts['chartTikTok'] = new Chart(ttCanvas, {
+      type: 'bar', data: { labels: tth.map(h => h.tag || h.name || '#').slice(0, 8), datasets: [{ label: 'Velocity', data: tth.map(h => h.views || h.velocity || 0).slice(0, 8), backgroundColor: 'rgba(0,206,201,0.6)', borderRadius: 6 }] },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#555', font: { size: 9 } }, grid: { display: false } }, y: { ticks: { color: '#555' }, grid: { color: 'rgba(255,255,255,0.03)' } } } }
+    });
+  }
+  document.getElementById('tiktokList').innerHTML = tth.length > 0
+    ? tth.slice(0, 8).map((h, i) => `<div class="buzz-item"><div class="buzz-rank">${i+1}</div><div class="buzz-info"><div class="buzz-term">${h.tag || h.name || h.hashtag || '#'}</div><div class="buzz-meta">${h.views || h.velocity || 0} estimated velocity</div></div><span class="badge badge-up">▲</span></div>`).join('')
+    : '<div class="empty-state">No TikTok data yet — API may be rate-limited</div>';
 }
 
 // ═══════════════════════════════════════════
@@ -1000,7 +1182,17 @@ function renderPredictionsTab() {
 }
 
 function findLeadLagPairs() {
-  // Build keyword time series
+  // Use real analytics data if available
+  if (window.leadLagData && Array.isArray(window.leadLagData) && window.leadLagData.length > 0) {
+    return window.leadLagData.slice(0, 10).map(p => ({
+      lead: p.leader || p.lead,
+      lag: p.follower || p.lag,
+      correlation: p.correlation || 0,
+      lagDays: p.lag_days || 0,
+      leadIndex: p.correlation ? p.correlation * 100 : 50
+    }));
+  }
+  // Fallback: compute from trends
   const ts = {};
   allTrends.forEach(d => {
     if (!ts[d.keyword]) ts[d.keyword] = [];
@@ -1221,6 +1413,17 @@ function renderSeasonalChart() {
 
 function renderAnomalyAlerts() {
   const alerts = [];
+
+  // Use real anomaly data if available
+  if (window.anomalyData?.anomalies && window.anomalyData.anomalies.length > 0) {
+    window.anomalyData.anomalies.forEach(a => {
+      alerts.push({
+        type: 'extreme', severity: 'high',
+        title: `🚀 Anomaly: "${a.keyword}"`,
+        desc: `z-score: ${(a.z_score || 0).toFixed(1)} · value: ${a.value || a.interest || '?'} · expected: ${a.expected || '?'} ± ${a.std || '?'}`
+      });
+    });
+  }
   if (summary?.trend_movers) {
     // Flag extreme movers
     summary.trend_movers.forEach(m => {
