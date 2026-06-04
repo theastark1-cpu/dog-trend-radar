@@ -55,6 +55,27 @@ KEYWORDS = {
         "dog skin problems",       # Dermatology — #1 vet visit reason
         "dog anxiety",             # Calming chews, vests, CBD, medication
     ],
+    "dog_ailments": [
+        # Medical conditions owners search — top vet visit reasons + emergency symptoms
+        "dog ear infection",       # #1 non-routine vet visit — otitis externa ($400M treatment market)
+        "dog skin allergies",      # Atopic dermatitis — Apoquel/Cytopoint ($1.3B market)
+        "dog diarrhea",            # Emergency/urgent care driver — diet, parasites, pancreatitis
+        "dog vomiting",            # GI emergency — foreign body, pancreatitis, toxin
+        "dog hip dysplasia",       # Large breed — surgery, joint supplements, rehab
+        "dog arthritis",           # Senior dog #1 chronic condition — NSAIDs, Librela, Adequan
+        "dog pancreatitis",        # Rising diagnosis rates — fat intolerance, dietary management
+        "dog UTI",                 # Urinary tract infection — antibiotics, cranberry, pH balance
+        "dog cancer",              # #1 cause of death — oncology, immunotherapy, palliative care
+        "dog seizures",            # Epilepsy — phenobarbital, CBD, emergency management
+        "dog thyroid problems",    # Hypothyroidism — common missed diagnosis in middle-aged dogs
+        "dog kennel cough",        # Infectious respiratory — Bordetella, daycare/boarding concern
+        "dog hot spots",           # Acute moist dermatitis — seasonal surge, grooming, allergies
+        "dog eye infection",       # Conjunctivitis, cherry eye, dry eye — common urgent care
+        "dog heartworm",           # Preventive care — ProHeart, Heartgard, treatment costs
+        "dog limping",             # Lameness — ACL tear, luxating patella, panosteitis
+        "dog bloating",            # GDV — life-threatening emergency, large breed concern
+        "dog licking paws",        # Allergy/behavioral signal — yeast, anxiety, boredom
+    ],
     "dog_tech_investment": [
         # Tech, startups, investment signals
         "pet tech",                # Startup ecosystem signal

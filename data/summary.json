@@ -1,271 +1,465 @@
 {
-  "scraped_at": "2026-06-03T09:44:39.116693",
+  "scraped_at": "2026-06-04T07:32:51.086095+00:00",
   "trend_movers": [
     {
       "keyword": "dog skin problems",
       "category": "dog_health",
-      "change_pct": 245.1,
-      "recent_avg": 5.9,
+      "change_pct": 257.0,
+      "recent_avg": 6.1,
       "prior_avg": 1.7,
       "latest": 0
     },
     {
+      "keyword": "dog vomiting",
+      "category": "dog_ailments",
+      "change_pct": 52.5,
+      "recent_avg": 61.8,
+      "prior_avg": 40.5,
+      "latest": 54
+    },
+    {
+      "keyword": "dog bloating",
+      "category": "dog_ailments",
+      "change_pct": 50.6,
+      "recent_avg": 32.0,
+      "prior_avg": 21.3,
+      "latest": 35
+    },
+    {
       "keyword": "dog photography",
       "category": "dog_services",
-      "change_pct": -43.2,
-      "recent_avg": 43.6,
-      "prior_avg": 76.7,
+      "change_pct": -43.8,
+      "recent_avg": 42.9,
+      "prior_avg": 76.3,
       "latest": 12
+    },
+    {
+      "keyword": "veterinary telehealth",
+      "category": "dog_tech_investment",
+      "change_pct": 42.9,
+      "recent_avg": 4.6,
+      "prior_avg": 3.2,
+      "latest": 0
     },
     {
       "keyword": "pet tech",
       "category": "dog_tech_investment",
-      "change_pct": -41.7,
-      "recent_avg": 42.4,
-      "prior_avg": 72.6,
+      "change_pct": -41.0,
+      "recent_avg": 42.3,
+      "prior_avg": 71.7,
       "latest": 13
     },
     {
       "keyword": "dog probiotic",
       "category": "dog_health",
-      "change_pct": -40.9,
-      "recent_avg": 37.5,
-      "prior_avg": 63.5,
+      "change_pct": -39.2,
+      "recent_avg": 37.9,
+      "prior_avg": 62.3,
       "latest": 21
-    },
-    {
-      "keyword": "veterinary telehealth",
-      "category": "dog_tech_investment",
-      "change_pct": 38.1,
-      "recent_avg": 4.5,
-      "prior_avg": 3.2,
-      "latest": 0
-    },
-    {
-      "keyword": "dog subscription box",
-      "category": "dog_products",
-      "change_pct": -37.1,
-      "recent_avg": 36.6,
-      "prior_avg": 58.2,
-      "latest": 20
     },
     {
       "keyword": "dog health app",
       "category": "dog_tech_investment",
-      "change_pct": -35.0,
-      "recent_avg": 36.1,
-      "prior_avg": 55.6,
+      "change_pct": -36.7,
+      "recent_avg": 35.4,
+      "prior_avg": 55.9,
       "latest": 10
     },
     {
       "keyword": "dog food delivery",
       "category": "dog_products",
-      "change_pct": -34.7,
-      "recent_avg": 42.7,
-      "prior_avg": 65.4,
+      "change_pct": -35.9,
+      "recent_avg": 42.2,
+      "prior_avg": 65.8,
       "latest": 17
+    },
+    {
+      "keyword": "dog limping",
+      "category": "dog_ailments",
+      "change_pct": 35.3,
+      "recent_avg": 49.7,
+      "prior_avg": 36.7,
+      "latest": 32
+    },
+    {
+      "keyword": "dog subscription box",
+      "category": "dog_products",
+      "change_pct": -34.9,
+      "recent_avg": 37.9,
+      "prior_avg": 58.2,
+      "latest": 20
     },
     {
       "keyword": "dog supplements",
       "category": "dog_products",
-      "change_pct": -34.2,
-      "recent_avg": 49.5,
-      "prior_avg": 75.1,
+      "change_pct": -33.6,
+      "recent_avg": 49.4,
+      "prior_avg": 74.4,
       "latest": 25
     },
     {
       "keyword": "fresh dog food",
       "category": "dog_products",
-      "change_pct": -32.2,
-      "recent_avg": 42.8,
-      "prior_avg": 63.1,
+      "change_pct": -30.3,
+      "recent_avg": 43.2,
+      "prior_avg": 61.9,
       "latest": 25
     },
     {
       "keyword": "dog toys",
       "category": "dog_products",
-      "change_pct": -28.3,
-      "recent_avg": 52.9,
-      "prior_avg": 73.9,
+      "change_pct": -27.7,
+      "recent_avg": 52.8,
+      "prior_avg": 73.0,
       "latest": 32
+    },
+    {
+      "keyword": "dog UTI",
+      "category": "dog_ailments",
+      "change_pct": -27.6,
+      "recent_avg": 23.7,
+      "prior_avg": 32.8,
+      "latest": 54
     },
     {
       "keyword": "dog training",
       "category": "dog_services",
-      "change_pct": -26.0,
-      "recent_avg": 60.1,
-      "prior_avg": 81.3,
+      "change_pct": -25.7,
+      "recent_avg": 60.0,
+      "prior_avg": 80.8,
       "latest": 40
+    },
+    {
+      "keyword": "dog kennel cough",
+      "category": "dog_ailments",
+      "change_pct": 23.3,
+      "recent_avg": 39.4,
+      "prior_avg": 32.0,
+      "latest": 49
+    },
+    {
+      "keyword": "dog skin allergies",
+      "category": "dog_ailments",
+      "change_pct": 21.3,
+      "recent_avg": 50.4,
+      "prior_avg": 41.6,
+      "latest": 49
     },
     {
       "keyword": "best dog food",
       "category": "dog_health",
-      "change_pct": -21.5,
-      "recent_avg": 63.1,
-      "prior_avg": 80.3,
+      "change_pct": -21.2,
+      "recent_avg": 62.8,
+      "prior_avg": 79.7,
       "latest": 38
+    },
+    {
+      "keyword": "dog ear infection",
+      "category": "dog_ailments",
+      "change_pct": -20.8,
+      "recent_avg": 51.4,
+      "prior_avg": 64.9,
+      "latest": 100
     },
     {
       "keyword": "pet wellness",
       "category": "dog_tech_investment",
-      "change_pct": -20.4,
-      "recent_avg": 54.1,
-      "prior_avg": 67.9,
+      "change_pct": -20.8,
+      "recent_avg": 53.9,
+      "prior_avg": 68.1,
       "latest": 39
+    },
+    {
+      "keyword": "dog cancer",
+      "category": "dog_ailments",
+      "change_pct": -20.1,
+      "recent_avg": 31.5,
+      "prior_avg": 39.4,
+      "latest": 36
+    },
+    {
+      "keyword": "dog thyroid problems",
+      "category": "dog_ailments",
+      "change_pct": 18.4,
+      "recent_avg": 25.8,
+      "prior_avg": 21.8,
+      "latest": 25
     },
     {
       "keyword": "dog anxiety",
       "category": "dog_health",
-      "change_pct": -16.6,
-      "recent_avg": 67.8,
-      "prior_avg": 81.3,
+      "change_pct": -16.7,
+      "recent_avg": 67.5,
+      "prior_avg": 81.0,
       "latest": 45
     },
     {
       "keyword": "dog DNA test",
       "category": "dog_products",
-      "change_pct": -16.3,
-      "recent_avg": 44.7,
-      "prior_avg": 53.5,
+      "change_pct": -14.1,
+      "recent_avg": 45.3,
+      "prior_avg": 52.8,
       "latest": 32
     },
     {
-      "keyword": "puppy training",
-      "category": "dog_health",
-      "change_pct": -13.4,
-      "recent_avg": 66.2,
-      "prior_avg": 76.4,
-      "latest": 64
+      "keyword": "dog diarrhea",
+      "category": "dog_ailments",
+      "change_pct": 13.3,
+      "recent_avg": 70.2,
+      "prior_avg": 61.9,
+      "latest": 74
     },
     {
       "keyword": "dog boarding",
       "category": "dog_services",
       "change_pct": 13.2,
-      "recent_avg": 81.0,
-      "prior_avg": 71.6,
+      "recent_avg": 81.1,
+      "prior_avg": 71.7,
       "latest": 77
+    },
+    {
+      "keyword": "dog licking paws",
+      "category": "dog_ailments",
+      "change_pct": -13.0,
+      "recent_avg": 49.3,
+      "prior_avg": 56.7,
+      "latest": 50
+    },
+    {
+      "keyword": "dog arthritis",
+      "category": "dog_ailments",
+      "change_pct": -12.9,
+      "recent_avg": 44.7,
+      "prior_avg": 51.3,
+      "latest": 57
+    },
+    {
+      "keyword": "puppy training",
+      "category": "dog_health",
+      "change_pct": -12.6,
+      "recent_avg": 66.3,
+      "prior_avg": 75.9,
+      "latest": 64
+    },
+    {
+      "keyword": "dog heartworm",
+      "category": "dog_ailments",
+      "change_pct": 10.8,
+      "recent_avg": 22.9,
+      "prior_avg": 20.6,
+      "latest": 42
     }
   ],
   "keyword_snapshot": {
     "dog_products/pet insurance": {
       "latest": 52,
-      "week_avg": 60.9,
-      "month_avg": 70.9
+      "week_avg": 60.5,
+      "month_avg": 70.5
     },
     "dog_products/dog food delivery": {
       "latest": 17,
-      "week_avg": 21.6,
-      "month_avg": 42.7
+      "week_avg": 22.2,
+      "month_avg": 42.2
     },
     "dog_products/fresh dog food": {
       "latest": 25,
       "week_avg": 23.3,
-      "month_avg": 42.8
+      "month_avg": 43.2
     },
     "dog_products/dog DNA test": {
       "latest": 32,
-      "week_avg": 35.3,
-      "month_avg": 44.7
+      "week_avg": 35.2,
+      "month_avg": 45.3
     },
     "dog_products/dog subscription box": {
       "latest": 20,
-      "week_avg": 17.4,
-      "month_avg": 36.6
+      "week_avg": 17.2,
+      "month_avg": 37.9
     },
     "dog_products/dog supplements": {
       "latest": 25,
       "week_avg": 28.3,
-      "month_avg": 49.5
+      "month_avg": 49.4
     },
     "dog_products/CBD for dogs": {
       "latest": 44,
-      "week_avg": 51.7,
+      "week_avg": 52.2,
       "month_avg": 66.0
     },
     "dog_products/dog toys": {
       "latest": 32,
-      "week_avg": 40.1,
-      "month_avg": 52.9
+      "week_avg": 40.3,
+      "month_avg": 52.8
     },
     "dog_services/dog daycare": {
       "latest": 70,
-      "week_avg": 71.4,
+      "week_avg": 71.3,
       "month_avg": 73.8
     },
     "dog_services/dog boarding": {
       "latest": 77,
       "week_avg": 83.3,
-      "month_avg": 81.0
+      "month_avg": 81.1
     },
     "dog_services/dog training": {
       "latest": 40,
       "week_avg": 45.0,
-      "month_avg": 60.1
+      "month_avg": 60.0
     },
     "dog_services/dog photography": {
       "latest": 12,
-      "week_avg": 14.7,
-      "month_avg": 43.6
+      "week_avg": 14.8,
+      "month_avg": 42.9
     },
     "dog_health/best dog food": {
       "latest": 38,
-      "week_avg": 42.9,
-      "month_avg": 63.1
+      "week_avg": 43.3,
+      "month_avg": 62.8
     },
     "dog_health/dog allergies": {
       "latest": 72,
-      "week_avg": 70.3,
-      "month_avg": 75.7
+      "week_avg": 71.2,
+      "month_avg": 75.4
     },
     "dog_health/puppy training": {
       "latest": 64,
-      "week_avg": 56.7,
-      "month_avg": 66.2
+      "week_avg": 57.2,
+      "month_avg": 66.3
     },
     "dog_health/dog separation anxiety": {
       "latest": 39,
-      "week_avg": 47.9,
-      "month_avg": 53.7
+      "week_avg": 48.0,
+      "month_avg": 53.8
     },
     "dog_health/hypoallergenic dogs": {
       "latest": 57,
-      "week_avg": 58.9,
-      "month_avg": 62.9
+      "week_avg": 60.0,
+      "month_avg": 63.1
     },
     "dog_health/dog probiotic": {
       "latest": 21,
-      "week_avg": 20.4,
-      "month_avg": 37.5
+      "week_avg": 20.0,
+      "month_avg": 37.9
     },
     "dog_health/dog skin problems": {
       "latest": 0,
-      "week_avg": 10.0,
-      "month_avg": 5.9
+      "week_avg": 9.7,
+      "month_avg": 6.1
     },
     "dog_health/dog anxiety": {
       "latest": 45,
-      "week_avg": 50.4,
-      "month_avg": 67.8
+      "week_avg": 50.7,
+      "month_avg": 67.5
+    },
+    "dog_ailments/dog ear infection": {
+      "latest": 100,
+      "week_avg": 76.0,
+      "month_avg": 51.4
+    },
+    "dog_ailments/dog skin allergies": {
+      "latest": 49,
+      "week_avg": 45.7,
+      "month_avg": 50.4
+    },
+    "dog_ailments/dog diarrhea": {
+      "latest": 74,
+      "week_avg": 73.6,
+      "month_avg": 70.2
+    },
+    "dog_ailments/dog vomiting": {
+      "latest": 54,
+      "week_avg": 44.1,
+      "month_avg": 61.8
+    },
+    "dog_ailments/dog hip dysplasia": {
+      "latest": 66,
+      "week_avg": 59.4,
+      "month_avg": 53.5
+    },
+    "dog_ailments/dog arthritis": {
+      "latest": 57,
+      "week_avg": 46.4,
+      "month_avg": 44.7
+    },
+    "dog_ailments/dog pancreatitis": {
+      "latest": 50,
+      "week_avg": 52.0,
+      "month_avg": 50.8
+    },
+    "dog_ailments/dog UTI": {
+      "latest": 54,
+      "week_avg": 40.6,
+      "month_avg": 23.7
+    },
+    "dog_ailments/dog cancer": {
+      "latest": 36,
+      "week_avg": 25.7,
+      "month_avg": 31.5
+    },
+    "dog_ailments/dog seizures": {
+      "latest": 32,
+      "week_avg": 30.3,
+      "month_avg": 33.7
+    },
+    "dog_ailments/dog thyroid problems": {
+      "latest": 25,
+      "week_avg": 27.6,
+      "month_avg": 25.8
+    },
+    "dog_ailments/dog kennel cough": {
+      "latest": 49,
+      "week_avg": 37.7,
+      "month_avg": 39.4
+    },
+    "dog_ailments/dog hot spots": {
+      "latest": 22,
+      "week_avg": 20.3,
+      "month_avg": 35.9
+    },
+    "dog_ailments/dog eye infection": {
+      "latest": 30,
+      "week_avg": 25.3,
+      "month_avg": 29.1
+    },
+    "dog_ailments/dog heartworm": {
+      "latest": 42,
+      "week_avg": 32.4,
+      "month_avg": 22.9
+    },
+    "dog_ailments/dog limping": {
+      "latest": 32,
+      "week_avg": 47.0,
+      "month_avg": 49.7
+    },
+    "dog_ailments/dog bloating": {
+      "latest": 35,
+      "week_avg": 36.7,
+      "month_avg": 32.0
+    },
+    "dog_ailments/dog licking paws": {
+      "latest": 50,
+      "week_avg": 41.0,
+      "month_avg": 49.3
     },
     "dog_tech_investment/pet tech": {
       "latest": 13,
-      "week_avg": 13.9,
-      "month_avg": 42.4
+      "week_avg": 13.8,
+      "month_avg": 42.3
     },
     "dog_tech_investment/veterinary telehealth": {
       "latest": 0,
-      "week_avg": 7.0,
-      "month_avg": 4.5
+      "week_avg": 6.2,
+      "month_avg": 4.6
     },
     "dog_tech_investment/dog health app": {
       "latest": 10,
-      "week_avg": 10.1,
-      "month_avg": 36.1
+      "week_avg": 10.0,
+      "month_avg": 35.4
     },
     "dog_tech_investment/pet wellness": {
       "latest": 39,
-      "week_avg": 35.1,
-      "month_avg": 54.1
+      "week_avg": 35.2,
+      "month_avg": 53.9
     }
   }
 }
