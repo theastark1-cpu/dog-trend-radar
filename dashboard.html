@@ -215,28 +215,9 @@ h1 span { color: var(--accent); }
 /* Prediction band note */
 .note { font-size: 11px; color: var(--muted); font-style: italic; padding: 4px 0; }
 </style>
-
-<!-- Password Gate -->
-<style>
-#gate { display:flex; align-items:center; justify-content:center; min-height:100vh; flex-direction:column; gap:1rem; background:var(--bg); }
-#gate h1 { font-size:2rem; color:var(--accent); }
-#gate input { background:var(--surface); border:1px solid var(--border); color:var(--text); padding:0.75rem 1.5rem; border-radius:8px; font-size:1rem; width:280px; text-align:center; }
-#gate input:focus { outline:none; border-color:var(--accent); }
-#gate button { background:var(--accent); color:#fff; border:none; padding:0.75rem 2rem; border-radius:8px; font-size:1rem; cursor:pointer; font-weight:600; }
-#gate button:hover { opacity:0.9; }
-#gate .error { color:var(--down); font-size:0.875rem; display:none; }
-#app { display:none; }
-</style>
-
 </head>
 <body>
-<!-- Password Gate -->
-<div id="gate">
-  <h1>🔐 Dog Trend Radar</h1>
-  <input type="password" id="pw" placeholder="Enter password" onkeydown="if(event.key==='Enter')unlock()">
-  <button onclick="unlock()">Unlock</button>
-  <div class="error" id="err">Wrong password</div>
-</div>
+<!-- Dashboard -->
 
 <div id="app">
 <div class="container">
@@ -1700,27 +1681,6 @@ setInterval(() => {
 </script>
 </div><!-- /#app -->
 
-<!-- Password Gate Script -->
-<script>
-const PASSWORD='dogwatch2026';
-function unlock() {
-  const pw = document.getElementById('pw').value;
-  if (pw === PASSWORD) {
-    sessionStorage.setItem('dtrauth','1');
-    document.getElementById('gate').style.display = 'none';
-    document.getElementById('app').style.display = 'block';
-  } else {
-    document.getElementById('err').style.display = 'block';
-    setTimeout(function(){ document.getElementById('err').style.display = 'none'; }, 2000);
-  }
-}
-(function() {
-  if (sessionStorage.getItem('dtrauth') === '1') {
-    document.getElementById('gate').style.display = 'none';
-    document.getElementById('app').style.display = 'block';
-  }
-})();
-</script>
 
 </body>
 </html>
